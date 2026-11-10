@@ -28,6 +28,8 @@ This repo contains the resulting solution, which appears to work well.
 
 Please note, I haven't validated the algorithm beyond examining the output.
 
+I wrote this README, but the majority of the code was written by AI.
+
 ## Features
 
 <img width="50%" src="https://github.com/user-attachments/assets/93ebcf43-2dde-4c47-8a27-5504abd8509a" />

@@ -42,14 +42,14 @@ This repo contains the resulting solution, after some cleanups by me.
 
 This script reads the JSON format used by the [maxroll](https://maxroll.gg/d4/planner/) online Paragon planner tool.
 
-Create a new build, and select all the boards, nodes and glyphs you want to use.
+Create a new planner, select all the paragon boards, nodes and glyphs you want to use.
 
 - No need to worry about normal nodes, rotation or arrangement - this script will figure out how to connect them.
 - If you already have a complete build with normal nodes selected, that's fine too - this script can optimize it.
-- Click the "Variant" menu, then the export icon. That will copy the JSON to the clipboard.
+- Click the `Export / Import JSON` button.
 - Save that JSON to a file, and pass the resulting file to this tool and examine the result.
 
-If you like it, use `-o optimized.json`, that output can be imported back into the planner tool.
+If you like the result, use `-o optimized.json`, that output can be imported back into the planner tool.
 
 ### Quick Start
 

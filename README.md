@@ -2,7 +2,7 @@
 
 [![Try the Web Version](https://img.shields.io/badge/Try_the_Web_Version-%E2%86%92-d89b3c?style=for-the-badge)](https://taviso.github.io/diablo/#build=Minion_Endgame_Warlock)
 
-*Or read below for a description of how it works and command-line options.*
+*Read below for detailed description and command-line options.*
 
 ---
 

@@ -112,7 +112,9 @@ class HintContext:
         return self.board.required_terminals()
 
     def to_screen(self, coord: tuple[int, int]) -> tuple[int, int]:
-        return self.board.unrotated_to_screen(coord[0], coord[1])
+        """Map an unrotated `(row, col)` board coordinate to rotated screen-space `(x, y)` = `(col, row)`."""
+        sr, sc = self.board.unrotated_to_screen(coord[0], coord[1])
+        return (sc, sr)
 
     def selected_neighbors(
         self, coord: tuple[int, int], nodes_set: set[tuple[int, int]] | None = None
@@ -1669,7 +1671,7 @@ def format_board_hints(board_hints: list[Hint], color: bool = True) -> str:
         return ""
     RESET = "\033[0m" if color else ""
     C_HEADER = "\033[1;38;2;255;215;100m" if color else ""
-    lines = [f"   {C_HEADER}Hints (row, col):{RESET}"]
+    lines = [f"   {C_HEADER}Hints (x, y):{RESET}"]
     for h in sorted(board_hints, key=lambda x: (-x.points_delta, x.category)):
         lines.append(_format_hint_bullet(h, color, indent="     "))
     return "\n".join(lines)
@@ -1680,7 +1682,7 @@ def print_hints(hints: list[Hint], color: bool = True, file=sys.stderr):
     C_HEADER = "\033[1;38;2;255;215;100m" if color else ""
     C_BOARD = "\033[1;38;2;130;210;255m" if color else ""
 
-    print(f"\n{C_HEADER}╭─ Paragon Build Optimization Hints (Screen Coordinates row, col) ─╮{RESET}", file=file)
+    print(f"\n{C_HEADER}╭─ Paragon Build Optimization Hints (Screen Coordinates x, y) ─╮{RESET}", file=file)
     print("  Note: Hints evaluate alternative local edits; point savings can overlap — re-run --hints after editing.", file=file)
     if not hints:
         print("  No inefficient targets or high-cost spurs detected.", file=file)
@@ -1930,7 +1932,7 @@ def enforce_budget(
                 if s_rel > 0:
                     parts.append(f"rerouted {n_rel} non-Glyph plain stat path node{'s' if n_rel != 1 else ''}")
             if trimmed_in_radius[id(b)]:
-                t_coords = [b.unrotated_to_screen(c[0], c[1]) for c in trimmed_in_radius[id(b)]]
+                t_coords = [ctx_by_id[id(b)].to_screen(c) for c in trimmed_in_radius[id(b)]]
                 coord_preview = ", ".join(str(c) for c in t_coords[:4])
                 if len(t_coords) > 4:
                     coord_preview += f", ... (+{len(t_coords) - 4} more)"

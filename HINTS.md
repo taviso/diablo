@@ -8,9 +8,9 @@ finished boards to suggest small tweaks that could save points or improve stats:
 $ ./paragon_optimize.py --hints your_d4_build.json
 ```
 
-All `(row, col)` coordinates in hint messages use the **rotated in-game view**
-shown in the terminal visualizer, and each board's hints are printed directly
-under its grid diagram.
+All `(x, y)` (`col, row`) coordinates in hint messages use the **rotated in-game view**
+shown in the terminal visualizer (`x` across the top `0..20`, `y` down the left `0..20`),
+and each board's hints are printed directly under its grid diagram.
 
 ---
 

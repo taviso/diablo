@@ -211,20 +211,20 @@ class TestParagonOptimizer(unittest.TestCase):
         for h in swap_hints:
             ctx = contexts[h.board_index]
             b = ctx.board
-            target_sc = h.screen_coords[0]
-            u = b.screen_to_unrotated(target_sc[0], target_sc[1])
+            sx, sy = h.screen_coords[0]
+            u = b.screen_to_unrotated(sy, sx)
             pts_saved, removed, added = ctx.marginal_ablation({u}, force_exact=not b.in_glyph_radius(u))
             self.assertGreaterEqual(pts_saved, 2)
             new_selected = (b.selected_nodes - removed) | added
 
             part = h.message.split("swap for 1-pt adjacent")[1].split("to save")[0]
             coord_str = part.split("at (")[1].split(")")[0]
-            sr, sc_c = [int(x.strip()) for x in coord_str.split(",")]
-            unrot_cand = b.screen_to_unrotated(sr, sc_c)
+            sx_c, sy_c = [int(x.strip()) for x in coord_str.split(",")]
+            unrot_cand = b.screen_to_unrotated(sy_c, sx_c)
             self.assertNotIn(unrot_cand, new_selected)
             self.assertTrue(
                 any(nb in new_selected for nb in neighbors4(unrot_cand)),
-                f"Swap candidate {(sr, sc_c)} is not adjacent to ablated tree on board #{h.board_index}.",
+                f"Swap candidate {(sx_c, sy_c)} is not adjacent to ablated tree on board #{h.board_index}.",
             )
 
     def test_finding_2_secondary_glyph_overinvestment_qualification(self):

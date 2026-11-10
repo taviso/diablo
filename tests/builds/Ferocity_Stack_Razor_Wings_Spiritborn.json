@@ -1,0 +1,1417 @@
+{
+  "id": "yb5im70u",
+  "date": "2026-10-30 13:33:59",
+  "name": "Ferocity Stack Razor Wings Spiritborn",
+  "class": "Spiritborn",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 5,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 12,
+          "5": 7,
+          "7": 8,
+          "13": 6,
+          "14": 5,
+          "15": 4,
+          "16": 11,
+          "17": 10,
+          "18": 9,
+          "20": 1,
+          "21": 3,
+          "22": 15,
+          "23": 13,
+          "24": 2,
+          "25": 14,
+          "26": 16
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "47": 1,
+                "49": 1,
+                "61": 0,
+                "66": 1,
+                "67": 10,
+                "73": 15,
+                "75": 1,
+                "76": 1,
+                "312": 1,
+                "341": 1,
+                "353": 1,
+                "361": 0,
+                "392": 0,
+                "475": 0,
+                "480": 0,
+                "481": 15,
+                "482": 0,
+                "517": 1,
+                "519": 15,
+                "550": 1,
+                "557": 1,
+                "565": 1,
+                "567": 1,
+                "568": 0,
+                "608": 0,
+                "662": 1,
+                "674": 0,
+                "675": 1,
+                "677": 1,
+                "680": 0,
+                "681": 0,
+                "692": 1,
+                "694": 1,
+                "695": 0,
+                "698": 1,
+                "701": 1,
+                "706": 1,
+                "707": 1,
+                "718": 1,
+                "719": 1,
+                "723": 1,
+                "725": 1,
+                "726": 0,
+                "741": 1,
+                "743": 1,
+                "748": 0,
+                "749": 0,
+                "753": 0,
+                "756": 0
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Spiritborn_Eagle_Potency1",
+          "Spiritborn_Jaguar_Potency",
+          "Spiritborn_Eagle_Ultimate",
+          "Spiritborn_Jaguar_Focus",
+          "Spiritborn_Centipede_Defensive",
+          "Spiritborn_Jaguar_Defensive"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Spirit_0",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "71": 1,
+                    "72": 1,
+                    "74": 1,
+                    "92": 1,
+                    "93": 1,
+                    "95": 1,
+                    "111": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "117": 1,
+                    "132": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "140": 1,
+                    "141": 1,
+                    "153": 1,
+                    "157": 1,
+                    "159": 1,
+                    "160": 1,
+                    "161": 1,
+                    "177": 1,
+                    "178": 1,
+                    "179": 1,
+                    "180": 1,
+                    "198": 1,
+                    "201": 1,
+                    "218": 1,
+                    "219": 1,
+                    "222": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_047_Intelligence_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Spirit_07",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "52": 1,
+                    "73": 1,
+                    "94": 1,
+                    "95": 1,
+                    "96": 1,
+                    "116": 1,
+                    "117": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "134": 1,
+                    "137": 1,
+                    "138": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "153": 1,
+                    "155": 1,
+                    "156": 1,
+                    "157": 1,
+                    "158": 1,
+                    "171": 1,
+                    "178": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "192": 1,
+                    "199": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "210": 1,
+                    "211": 1,
+                    "212": 1,
+                    "213": 1,
+                    "215": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "234": 1,
+                    "235": 1,
+                    "236": 1,
+                    "237": 1,
+                    "239": 1,
+                    "240": 1,
+                    "244": 1,
+                    "257": 1,
+                    "260": 1,
+                    "265": 1,
+                    "266": 1,
+                    "276": 1,
+                    "277": 1,
+                    "278": 1,
+                    "279": 1,
+                    "280": 1,
+                    "287": 1,
+                    "295": 1,
+                    "296": 1,
+                    "299": 1,
+                    "303": 1,
+                    "307": 1,
+                    "308": 1,
+                    "316": 1,
+                    "317": 1,
+                    "318": 1,
+                    "320": 1,
+                    "322": 1,
+                    "323": 1,
+                    "324": 1,
+                    "337": 1,
+                    "338": 1,
+                    "339": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "360": 1,
+                    "361": 1,
+                    "362": 1,
+                    "364": 1,
+                    "381": 1,
+                    "383": 1,
+                    "384": 1,
+                    "404": 1,
+                    "425": 1
+                  },
+                  "rotation": 3,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_050_Dexterity_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Spirit_01",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "36": 1,
+                    "52": 1,
+                    "53": 1,
+                    "54": 1,
+                    "55": 1,
+                    "56": 1,
+                    "57": 1,
+                    "73": 1,
+                    "76": 1,
+                    "77": 1,
+                    "78": 1,
+                    "81": 1,
+                    "94": 1,
+                    "99": 1,
+                    "102": 1,
+                    "115": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "123": 1,
+                    "124": 1,
+                    "141": 1,
+                    "144": 1,
+                    "145": 1,
+                    "149": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "153": 1,
+                    "161": 1,
+                    "162": 1,
+                    "164": 1,
+                    "165": 1,
+                    "166": 1,
+                    "169": 1,
+                    "170": 1,
+                    "173": 1,
+                    "174": 1,
+                    "175": 1,
+                    "179": 1,
+                    "180": 1,
+                    "181": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "187": 1,
+                    "190": 1,
+                    "196": 1,
+                    "197": 1,
+                    "198": 1,
+                    "199": 1,
+                    "200": 1,
+                    "204": 1,
+                    "208": 1,
+                    "210": 1,
+                    "211": 1,
+                    "218": 1,
+                    "221": 1,
+                    "225": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "239": 1,
+                    "258": 1,
+                    "259": 1,
+                    "279": 1,
+                    "299": 1,
+                    "300": 1,
+                    "320": 1,
+                    "339": 1,
+                    "340": 1,
+                    "341": 1,
+                    "360": 1,
+                    "380": 1,
+                    "381": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_063_Intelligence_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Spirit_05",
+                  "nodes": {
+                    "80": 1,
+                    "98": 1,
+                    "100": 1,
+                    "101": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "138": 1,
+                    "139": 1,
+                    "140": 1,
+                    "142": 1,
+                    "159": 1,
+                    "178": 1,
+                    "179": 1,
+                    "180": 1,
+                    "199": 1,
+                    "214": 1,
+                    "215": 1,
+                    "220": 1,
+                    "235": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "256": 1,
+                    "257": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "276": 1,
+                    "280": 1,
+                    "281": 1,
+                    "296": 1,
+                    "297": 1,
+                    "300": 1,
+                    "301": 1,
+                    "316": 1,
+                    "317": 1,
+                    "320": 1,
+                    "322": 1,
+                    "323": 1,
+                    "337": 1,
+                    "338": 1,
+                    "339": 1,
+                    "340": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "360": 1,
+                    "361": 1,
+                    "364": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "381": 1,
+                    "382": 1,
+                    "383": 1,
+                    "384": 1,
+                    "388": 1,
+                    "404": 1,
+                    "409": 1,
+                    "425": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -2
+                  },
+                  "glyph": "Rare_100_Dexterity_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Spirit_08",
+                  "nodes": {
+                    "10": 1,
+                    "27": 1,
+                    "28": 1,
+                    "29": 1,
+                    "30": 1,
+                    "31": 1,
+                    "45": 1,
+                    "46": 1,
+                    "47": 1,
+                    "48": 1,
+                    "68": 1,
+                    "69": 1,
+                    "70": 1,
+                    "71": 1,
+                    "87": 1,
+                    "89": 1,
+                    "91": 1,
+                    "92": 1,
+                    "107": 1,
+                    "108": 1,
+                    "109": 1,
+                    "110": 1,
+                    "111": 1,
+                    "113": 1,
+                    "114": 1,
+                    "131": 1,
+                    "134": 1,
+                    "152": 1,
+                    "153": 1,
+                    "174": 1,
+                    "195": 1,
+                    "196": 1,
+                    "197": 1,
+                    "198": 1,
+                    "219": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "246": 1,
+                    "247": 1,
+                    "262": 1,
+                    "263": 1,
+                    "264": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "288": 1,
+                    "309": 1,
+                    "310": 1,
+                    "331": 1,
+                    "352": 1,
+                    "353": 1,
+                    "374": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": 0
+                  },
+                  "glyph": "Rare_094_Intelligence_Side",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "animalSpirits": [
+          "spiritborn_jaguar_moon_passive",
+          "spiritborn_gorilla_sun_passive"
+        ],
+        "mercenary": {
+          "id": "MercenaryClass_BountyHunter",
+          "tree": {
+            "555": 1,
+            "557": 1,
+            "558": 0,
+            "560": 1,
+            "563": 1
+          },
+          "support": "MercenaryClass_CursedChild",
+          "supportSkills": [
+            "Mercenary_CursedChild_Wither",
+            "trigger_skill"
+          ]
+        }
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2561106,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2566639,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "2": {
+        "id": "Talisman_Charm_Set_Spirit_03_05",
+        "power": 900,
+        "name": "Storm Serpent",
+        "explicits": [
+          {
+            "nid": 2619826,
+            "greater": true,
+            "values": [
+              4
+            ]
+          }
+        ]
+      },
+      "3": {
+        "id": "Talisman_Charm_Set_Spirit_03_05",
+        "power": 900,
+        "name": "Dread Dawn",
+        "explicits": [
+          {
+            "nid": 2619826,
+            "greater": true,
+            "values": [
+              4
+            ]
+          }
+        ]
+      },
+      "4": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Hailstone Scar",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 1829562,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1975355,
+            "values": [
+              40
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2561106,
+          "values": [
+            3
+          ]
+        }
+      },
+      "5": {
+        "id": "Pants_Legendary_Generic_053",
+        "power": 900,
+        "name": "Silent Rise",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829562,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 1829620,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "greater": true,
+            "values": [
+              6
+            ],
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1184010,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2561106,
+          "values": [
+            3
+          ]
+        },
+        "sockets": [
+          "Gem_Emerald_09",
+          "Gem_Emerald_09"
+        ]
+      },
+      "6": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Blood Mayhem",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602180,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602155,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862263,
+            "values": [
+              0.22499999999999998
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1972587,
+            "values": [
+              0.35
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2561106,
+          "values": [
+            3
+          ]
+        }
+      },
+      "7": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Prism Spine",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829562,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 1829618,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "greater": true,
+            "values": [
+              6
+            ],
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1225581,
+            "values": [
+              50
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2561106,
+          "values": [
+            3
+          ]
+        },
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_Spiritborn_ConcussiveStomp"
+        ]
+      },
+      "8": {
+        "id": "X1_2HGlaive_Legendary_Spiritborn_001",
+        "power": 900,
+        "name": "Stellar Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829586,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602155,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 2620575,
+            "values": [
+              431
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1978628,
+            "values": [
+              24
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2561106,
+          "values": [
+            6
+          ]
+        },
+        "sockets": [
+          "Gem_Ruby_09",
+          "Gem_Ruby_09"
+        ]
+      },
+      "9": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Lurking Rise",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602155,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602180,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "greater": true,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1822347,
+            "values": [
+              0.75,
+              0.44999999999999996
+            ]
+          },
+          {
+            "nid": 2620643,
+            "values": [
+              0.045
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2701048,
+          "values": [
+            1
+          ]
+        },
+        "sockets": [
+          "Gem_Amethyst_09"
+        ]
+      },
+      "10": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Brimstone Destroyer",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829562,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.24500000000000002
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.075
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1858284,
+            "values": [
+              0.6000000000000001
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2701048,
+          "values": [
+            1
+          ]
+        },
+        "sockets": [
+          "Gem_Sapphire_09"
+        ]
+      },
+      "11": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Obscure Way",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829562,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.24500000000000002
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.075
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2567355,
+            "values": [
+              0.09
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2701044,
+          "values": [
+            1
+          ]
+        },
+        "sockets": [
+          "Gem_Skull_09"
+        ]
+      },
+      "12": {
+        "id": "Helm_Unique_Spiritborn_009_x1",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1987548,
+            "values": [
+              0.325
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.14
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2517794,
+            "values": [
+              0.1875
+            ]
+          },
+          {
+            "nid": 1829562,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Spiritborn_Vortex"
+        ]
+      },
+      "13": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Generic_102",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1719182,
+            "values": [
+              130
+            ]
+          },
+          {
+            "nid": 2619826,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "14": {
+        "id": "Talisman_Charm_Set_Spirit_05_05",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2619826,
+            "greater": true,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "name": "Corruption Wrath"
+      },
+      "15": {
+        "id": "Talisman_Charm_Set_Spirit_05_05",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2619826,
+            "greater": true,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "name": "Bloody Arbiter"
+      },
+      "16": {
+        "id": "Talisman_Charm_Set_Spirit_05_05",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2619826,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ],
+        "name": "Ghoul Anvil"
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {
+      "shared": {
+        "enemy_vulnerable": true,
+        "enemy_knockback": false,
+        "enemy_knockdown": true,
+        "enemy_poisoned": true,
+        "enemy_fear": true,
+        "enemy_weakened": true
+      },
+      "Spiritborn_Plains_Passive": {
+        "params": [
+          "max"
+        ]
+      },
+      "Spiritborn_Centipede_Focus": {
+        "active": true
+      },
+      "Spiritborn_Centipede_Defensive": {
+        "active": true
+      },
+      "Spiritborn_Jaguar_Ultimate": {
+        "active": true
+      },
+      "Overpower_Power": {
+        "params": [
+          "min"
+        ]
+      },
+      "Spiritborn_Gorilla_Passive": {
+        "params": [
+          "max"
+        ]
+      },
+      "legendary_spiritborn_027_x1": {
+        "active": true
+      },
+      "legendary_generic_127": {
+        "active": true
+      },
+      "legendary_generic_036": {
+        "params": [
+          30
+        ]
+      },
+      "legendary_spiritborn_052": {
+        "params": [
+          15
+        ]
+      },
+      "legendary_spiritborn_002_x1": {
+        "flags": [
+          true
+        ]
+      },
+      "Talisman_SetPower_Spirit03_01": {
+        "params": [
+          5
+        ]
+      },
+      "Talisman_SetPower_Spirit04_01": {
+        "flags": [
+          true
+        ]
+      },
+      "Talisman_SetPower_Spirit04_02": {
+        "flags": [
+          true
+        ]
+      },
+      "Talisman_SetPower_Spirit04_03": {
+        "flags": [
+          true
+        ]
+      },
+      "ParagonGlyph_050": {
+        "params": [
+          4
+        ]
+      },
+      "Paragon_Spiritborn_Legendary_006": {
+        "params": [
+          10
+        ]
+      },
+      "ParagonGlyph_063": {
+        "params": [
+          15
+        ]
+      },
+      "ParagonGlyph_094": {
+        "active": true
+      },
+      "Paragon_Spiritborn_Legendary_001": {
+        "active": true
+      },
+      "ParagonGlyph_095": {
+        "params": [
+          10
+        ]
+      },
+      "NPC_Mercenary_BountyHunter_passiveA4": {
+        "active": true
+      },
+      "Spiritborn_Gorilla_Defensive2": {},
+      "legendary_spiritborn_015_x1": {
+        "flags": [
+          false
+        ]
+      },
+      "Spiritborn_Jaguar_Potency": {},
+      "Quarterstaff_Unique_Spiritborn_001": {
+        "params": [
+          5
+        ]
+      },
+      "Spiritborn_Gorilla_Defensive1": {
+        "active": false
+      },
+      "Amulet_Unique_Generic_102": {
+        "flags": [
+          true
+        ]
+      },
+      "Amulet_Unique_Spiritborn_100": {
+        "params": [
+          0
+        ]
+      },
+      "Amulet_Unique_Spiritborn_102": {
+        "flags": [
+          true
+        ],
+        "params": [
+          3
+        ]
+      },
+      "Spiritborn_Eagle_Ultimate": {
+        "active": true
+      },
+      "Spiritborn_Feather_Pickup": {
+        "active": true
+      },
+      "legendary_spiritborn_021_x1b": {
+        "flags": [
+          true
+        ]
+      },
+      "Talisman_SetPower_Spirit05_02": {
+        "flags": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "Talisman_SetPower_Spirit05_03": {
+        "flags": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "Paragon_Spiritborn_Legendary_008": {
+        "active": false
+      },
+      "NPC_Mercenary_BountyHunter_passiveA2": {
+        "active": true
+      },
+      "Spiritborn_Eagle_Potency1": {
+        "params": [
+          null,
+          30
+        ]
+      }
+    },
+    "pinnedStats": {
+      "Spiritborn_Jaguar_Ultimate": [],
+      "Spiritborn_Jaguar_Potency": [],
+      "Spiritborn_Eagle_Potency1": [
+        "Damage"
+      ]
+    },
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 16
+  },
+  "userId": 1041895,
+  "public": true,
+  "folder": 0,
+  "accessed": 1793367263,
+  "mainset": "1871807",
+  "category": "",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"1871807:38\",\"1871761:26\",\"1663204:70\",\"1862773:42\",\"1871801:25\",\"1871819:69\"]}",
+  "search_metadata": {
+    "skills": [
+      "Razor Wings",
+      "Rushing Claw",
+      "The Seeker",
+      "Ravager",
+      "Scourge",
+      "Counterattack"
+    ],
+    "items": [
+      "Harmony of Ebewaka",
+      "Exploiter's Runic Mail",
+      "Keen Glaive of Plains Power",
+      "Runic Gloves of Fleet Wings",
+      "Runic Leggings of Debilitating Toxins",
+      "Runic Cleats of Apprehension",
+      "Soulwatch Hoop of Supremacy",
+      "Soulwatch Hoop of Redirected Force",
+      "Reaper's Ocelot's Eye",
+      "Seal of the Diamond Mind",
+      "Blood-Mad Idol"
+    ],
+    "specializations": [
+      "Jaguar",
+      "Gorilla"
+    ]
+  },
+  "season": "16",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1041895,
+    "username": "crouton",
+    "active": 1
+  }
+}

@@ -1,0 +1,2376 @@
+{
+  "id": "zn2fa306",
+  "date": "2026-11-05 23:58:02",
+  "name": "DoT WW Build",
+  "class": "Barbarian",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 2,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 24,
+          "5": 2,
+          "8": 5,
+          "9": 22,
+          "11": 10,
+          "12": 12,
+          "13": 3,
+          "14": 13,
+          "15": 23,
+          "16": 8,
+          "17": 7,
+          "18": 9,
+          "20": 15,
+          "21": 16,
+          "22": 18,
+          "23": 20,
+          "24": 21,
+          "25": 17,
+          "26": 19
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "396": 15,
+                "397": 1,
+                "399": 1,
+                "407": 1,
+                "422": 1,
+                "471": 15,
+                "474": 4,
+                "482": 15,
+                "484": 15,
+                "485": 1,
+                "660": 1,
+                "662": 1,
+                "703": 1,
+                "705": 1,
+                "706": 0,
+                "734": 0,
+                "735": 1,
+                "737": 1,
+                "738": 1,
+                "740": 1,
+                "742": 1,
+                "745": 1,
+                "747": 1,
+                "793": 1,
+                "796": 1,
+                "798": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Barbarian_IronSkin",
+          "Barbarian_Whirlwind",
+          "Barbarian_RallyingCry",
+          "Barbarian_WarCry",
+          "Barbarian_ChallengingShout",
+          "Barbarian_WrathoftheBerserker"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Barb_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "74": 1,
+                    "95": 1,
+                    "116": 1,
+                    "117": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "159": 1,
+                    "180": 1,
+                    "201": 1,
+                    "222": 1,
+                    "243": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_029_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_02",
+                  "nodes": {
+                    "210": 1,
+                    "230": 1,
+                    "264": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_030_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_03",
+                  "nodes": {
+                    "210": 1,
+                    "222": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_025_Strength_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_06",
+                  "nodes": {
+                    "230": 1,
+                    "262": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_022_Strength_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_01",
+                  "nodes": {
+                    "120": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 1,
+                    "y": 0
+                  },
+                  "glyph": "Rare_036_Willpower_Side",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "arsenal": {},
+        "expertise": {
+          "Barbarian_WeaponExpertise_1HSword": 10
+        },
+        "technique": "Barbarian_WeaponExpertise_2HPolearm"
+      },
+      {
+        "name": "Variant 1 Copy",
+        "class": 2,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 1,
+          "5": 26,
+          "8": 27,
+          "9": 4,
+          "11": 29,
+          "12": 30,
+          "13": 31,
+          "14": 32,
+          "15": 33,
+          "16": 34,
+          "17": 35,
+          "18": 36,
+          "20": 37,
+          "21": 38,
+          "22": 39,
+          "23": 40,
+          "24": 41,
+          "25": 42,
+          "26": 43
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "396": 15,
+                "397": 1,
+                "399": 1,
+                "407": 1,
+                "422": 1,
+                "471": 15,
+                "474": 4,
+                "482": 15,
+                "484": 15,
+                "485": 1,
+                "660": 1,
+                "662": 1,
+                "703": 1,
+                "705": 1,
+                "706": 0,
+                "734": 0,
+                "735": 1,
+                "737": 1,
+                "738": 1,
+                "740": 1,
+                "742": 1,
+                "745": 1,
+                "747": 1,
+                "793": 1,
+                "796": 1,
+                "798": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Barbarian_IronSkin",
+          "Barbarian_Whirlwind",
+          "Barbarian_RallyingCry",
+          "Barbarian_WarCry",
+          "Barbarian_ChallengingShout",
+          "Barbarian_WrathoftheBerserker"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Barb_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "74": 1,
+                    "95": 1,
+                    "116": 1,
+                    "117": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "159": 1,
+                    "180": 1,
+                    "201": 1,
+                    "222": 1,
+                    "243": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_029_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_02",
+                  "nodes": {
+                    "210": 1,
+                    "230": 1,
+                    "264": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_030_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_03",
+                  "nodes": {
+                    "210": 1,
+                    "222": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_025_Strength_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_06",
+                  "nodes": {
+                    "230": 1,
+                    "262": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_022_Strength_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_01",
+                  "nodes": {
+                    "120": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 1,
+                    "y": 0
+                  },
+                  "glyph": "Rare_036_Willpower_Side",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "arsenal": {},
+        "expertise": {
+          "Barbarian_WeaponExpertise_1HSword": 10
+        },
+        "technique": "Barbarian_WeaponExpertise_2HPolearm"
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Unique_Generic_005",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          },
+          {
+            "nid": 2662414,
+            "values": [
+              65,
+              0.65
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              25
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              0.525
+            ],
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04",
+          "S15_SoulSplinter_NaKrul_04"
+        ]
+      },
+      "2": {
+        "id": "Chest_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1199202,
+            "values": [
+              78
+            ]
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Necromancer_IronMaiden"
+        ]
+      },
+      "3": {
+        "id": "Gloves_Unique_Barb_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2577891,
+            "values": [
+              1.1700000000000002
+            ]
+          },
+          {
+            "nid": 1861920,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "4": {
+        "id": "Runeword_Insight_Polearm",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2678981,
+            "values": [
+              0.5425
+            ]
+          },
+          {
+            "nid": 2661983,
+            "values": [
+              1.058
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.9299999999999999
+            ]
+          },
+          {
+            "nid": 2604528,
+            "values": [
+              558
+            ]
+          },
+          {
+            "nid": 2686526,
+            "values": [
+              3.1
+            ]
+          },
+          {
+            "nid": 2678950,
+            "values": [
+              46.5
+            ]
+          },
+          {
+            "nid": 2516946,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.09000000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08",
+          "Gem_Diamond_08"
+        ]
+      },
+      "5": {
+        "id": "Runeword_Infinity_Mace2H",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 2679489,
+            "values": [
+              0.4
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 2677866,
+            "values": [
+              28.6,
+              26
+            ]
+          },
+          {
+            "nid": 2678366,
+            "values": [
+              0.4375
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2666102,
+            "values": [
+              2.5
+            ]
+          },
+          {
+            "nid": 2686437,
+            "values": [
+              0.6875
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2620587,
+            "values": [
+              479
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08",
+          "Gem_Diamond_08"
+        ]
+      },
+      "6": {
+        "id": "Rarespawn_Reward_Ring_WoodWraith",
+        "power": 900,
+        "name": "Heroic Torturer",
+        "explicits": [
+          {
+            "nid": 1193845,
+            "values": [
+              0.05
+            ]
+          },
+          {
+            "nid": 577075,
+            "values": [
+              0.175
+            ]
+          },
+          {
+            "nid": 577185,
+            "values": [
+              0.235
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ]
+      },
+      "7": {
+        "id": "Rarespawn_Reward_Ring_WoodWraith",
+        "power": 900,
+        "name": "Havoc Anvil",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1193845,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.24500000000000002
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578706,
+            "values": [
+              0.6
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04"
+        ]
+      },
+      "8": {
+        "id": "Rarespawn_Reward_Ring_WoodWraith",
+        "power": 900,
+        "name": "Blood Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1193845,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.24500000000000002
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574579,
+            "values": [
+              9
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Lilith_04"
+        ]
+      },
+      "9": {
+        "id": "S14_Amulet_Unique_Generic_100",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2646307,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 1829664,
+            "values": [
+              0.1875
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "10": {
+        "id": "Runeword_Grief_1HSword",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 609811,
+            "values": [
+              1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2675623,
+            "values": [
+              0.4
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2676552,
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "nid": 2676555,
+            "values": [
+              1.25
+            ]
+          },
+          {
+            "nid": 2686541,
+            "values": [
+              0.52
+            ]
+          },
+          {
+            "nid": 2686425,
+            "values": [
+              2
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.037500000000000006
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08"
+        ]
+      },
+      "11": {
+        "id": "Runeword_HolyThunder",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2683362,
+            "values": [
+              0.35
+            ]
+          },
+          {
+            "nid": 2678614,
+            "values": [
+              0.35
+            ]
+          },
+          {
+            "nid": 2679492,
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "nid": 2679482,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ]
+      },
+      "12": {
+        "id": "S12_1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 2063482,
+            "values": [
+              0.5
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.006500000000000001
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2043002,
+            "values": [
+              37
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.037500000000000006
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08"
+        ]
+      },
+      "13": {
+        "id": "Pants_Unique_Generic_102",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1559366,
+            "values": [
+              26
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              7
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_CastRepeatSkill",
+          "Rune_Effect_CritBuff"
+        ]
+      },
+      "14": {
+        "id": "S05_BSK_Boots_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1921747,
+            "values": [
+              4.55
+            ]
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.5
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ]
+      },
+      "15": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568397,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          }
+        ]
+      },
+      "16": {
+        "id": "Talisman_Charm_Set_Barb_02_02",
+        "power": 900,
+        "name": "Silent Flesh",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "17": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Ghoul Hate",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2593587,
+            "values": [
+              3500
+            ]
+          },
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          }
+        ]
+      },
+      "18": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Raven Blast",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "19": {
+        "id": "S15_Charm_Unique_HellfireTorch",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684322,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2684336,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "20": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Barb_105_x2",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2582128,
+            "values": [
+              1.1700000000000002
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2593587,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "21": {
+        "id": "Talisman_Charm_Unique_2HPolearm_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2663876,
+            "values": [
+              32.5,
+              0.325,
+              0.65
+            ]
+          },
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "22": {
+        "id": "S14_2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2646301,
+            "values": []
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2.1
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08",
+          "Gem_Diamond_08"
+        ]
+      },
+      "23": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Master's Favor",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          },
+          {
+            "nid": 1861961,
+            "values": [
+              5
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ],
+            "upgrade": 0
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2620618,
+            "values": [
+              20
+            ]
+          }
+        ]
+      },
+      "24": {
+        "id": "Helm_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1489569,
+            "values": [
+              6.5,
+              65
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08",
+          "Gem_Ruby_08"
+        ]
+      },
+      "25": {
+        "id": "Helm_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1489569,
+            "values": [
+              6.5,
+              65
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08",
+          "Gem_Ruby_08"
+        ]
+      },
+      "26": {
+        "id": "Chest_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1199202,
+            "values": [
+              78
+            ]
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Necromancer_IronMaiden"
+        ]
+      },
+      "27": {
+        "id": "Runeword_Infinity_Mace2H",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 2679489,
+            "values": [
+              0.4
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 2677866,
+            "values": [
+              28.6,
+              26
+            ]
+          },
+          {
+            "nid": 2678366,
+            "values": [
+              0.4375
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2666102,
+            "values": [
+              2.5
+            ]
+          },
+          {
+            "nid": 2686437,
+            "values": [
+              0.6875
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2620587,
+            "values": [
+              479
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08",
+          "Gem_Diamond_08"
+        ]
+      },
+      "28": {
+        "id": "S14_2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2646301,
+            "values": []
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2.1
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08",
+          "Gem_Diamond_08"
+        ]
+      },
+      "29": {
+        "id": "Runeword_Grief_1HSword",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 609811,
+            "values": [
+              1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2675623,
+            "values": [
+              0.4
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2676552,
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "nid": 2676555,
+            "values": [
+              1.25
+            ]
+          },
+          {
+            "nid": 2686541,
+            "values": [
+              0.52
+            ]
+          },
+          {
+            "nid": 2686425,
+            "values": [
+              2
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.037500000000000006
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08"
+        ]
+      },
+      "30": {
+        "id": "S12_1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 2063482,
+            "values": [
+              0.5
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.006500000000000001
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2043002,
+            "values": [
+              37
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2617580,
+            "values": [
+              0.037500000000000006
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_08"
+        ]
+      },
+      "31": {
+        "id": "Gloves_Unique_Barb_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2577891,
+            "values": [
+              1.1700000000000002
+            ]
+          },
+          {
+            "nid": 1861920,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "32": {
+        "id": "Pants_Unique_Generic_102",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1559366,
+            "values": [
+              26
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              7
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              3450
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_CastRepeatSkill",
+          "Rune_Effect_Barbarian_WarCry"
+        ]
+      },
+      "33": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Master's Favor",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              3500
+            ]
+          },
+          {
+            "nid": 1861961,
+            "values": [
+              5
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ],
+            "upgrade": 0
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2620618,
+            "values": [
+              20
+            ]
+          }
+        ]
+      },
+      "34": {
+        "id": "Rarespawn_Reward_Ring_WoodWraith",
+        "power": 900,
+        "name": "Blood Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1193845,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.24500000000000002
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574579,
+            "values": [
+              9
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Lilith_04"
+        ]
+      },
+      "35": {
+        "id": "Rarespawn_Reward_Ring_WoodWraith",
+        "power": 900,
+        "name": "Havoc Anvil",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1193845,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.24500000000000002
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578706,
+            "values": [
+              0.6
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04"
+        ]
+      },
+      "36": {
+        "id": "S14_Amulet_Unique_Generic_100",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2646307,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 1829664,
+            "values": [
+              0.1875
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "37": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568397,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          }
+        ]
+      },
+      "38": {
+        "id": "Talisman_Charm_Set_Barb_02_02",
+        "power": 900,
+        "name": "Silent Flesh",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "39": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Raven Blast",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "40": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Barb_105_x2",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2582128,
+            "values": [
+              1.1700000000000002
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2593587,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "41": {
+        "id": "Talisman_Charm_Unique_2HPolearm_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2663876,
+            "values": [
+              32.5,
+              0.325,
+              0.65
+            ]
+          },
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "42": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Ghoul Hate",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2593587,
+            "values": [
+              3500
+            ]
+          },
+          {
+            "nid": 2619840,
+            "values": [
+              25
+            ]
+          }
+        ]
+      },
+      "43": {
+        "id": "S15_Charm_Unique_HellfireTorch",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684322,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2684336,
+            "values": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15
+  },
+  "userId": 1122439,
+  "public": true,
+  "folder": 0,
+  "accessed": 0,
+  "mainset": "206435",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"512222:82\",\"206435:100\",\"211938:146\",\"184600:82\",\"375484:152\",\"211871:84\"],\"technique\":687667}",
+  "search_metadata": {
+    "skills": [
+      "Iron Skin",
+      "Whirlwind",
+      "Rallying Cry",
+      "War Cry",
+      "Challenging Shout",
+      "Wrath of the Berserker"
+    ],
+    "items": [
+      "Tuskhelm of Joritz the Mighty",
+      "Rage of Harrogath",
+      "Infinity",
+      "Shattered Vow",
+      "Grief",
+      "Ramaladni's Magnum Opus (Crucible)",
+      "Gohr's Devastating Grips",
+      "Tibault's Will",
+      "Runic Cleats of Anger Management",
+      "Writhing Ring of Splintered Wood",
+      "Ring of Splintered Wood of Berserk Ripping",
+      "Melted Heart of Selig",
+      "Seal of the Diamond Mind",
+      "The Open Eye of Gorgorra",
+      "Arioc's Needle",
+      "Hellfire Torch"
+    ],
+    "specializations": [
+      "Polearm Expertise"
+    ]
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1122439,
+    "username": "chillis",
+    "active": 1
+  }
+}

@@ -1,0 +1,1281 @@
+{
+  "id": "78ilc0hr",
+  "date": "2024-06-26 21:02:53",
+  "name": "Lightning Storm Endgame Druid",
+  "class": "Druid",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Set 1",
+        "class": 1,
+        "level": 100,
+        "worldTier": 4,
+        "items": {
+          "4": 7,
+          "5": 1,
+          "6": 5,
+          "7": 4,
+          "13": 15,
+          "14": 12,
+          "15": 10,
+          "16": 8,
+          "17": 9,
+          "18": 3
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "366": 1,
+                "378": 1,
+                "385": 1,
+                "400": 1,
+                "403": 1,
+                "405": 1,
+                "413": 5,
+                "416": 5,
+                "421": 1,
+                "422": 3,
+                "424": 3,
+                "427": 1,
+                "429": 3,
+                "430": 3,
+                "438": 3,
+                "439": 3,
+                "440": 1,
+                "457": 1,
+                "460": 4,
+                "472": 2,
+                "473": 1,
+                "476": 1,
+                "477": 1,
+                "478": 1,
+                "484": 1,
+                "499": 1,
+                "501": 1,
+                "504": 1,
+                "505": 1,
+                "506": 1,
+                "507": 1,
+                "525": 3
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Druid_LightningStorm",
+          "Druid_BloodHowl",
+          "Druid_CycloneArmor",
+          "Druid_EarthenBulwark",
+          null,
+          "Druid_DebilitatingRoar"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Druid_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "74": 1,
+                    "92": 1,
+                    "93": 1,
+                    "95": 1,
+                    "113": 1,
+                    "116": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "157": 1,
+                    "177": 1,
+                    "178": 1,
+                    "179": 1,
+                    "198": 1,
+                    "200": 1,
+                    "218": 1,
+                    "219": 1,
+                    "221": 1,
+                    "222": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "260": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_012_Intelligence_Side",
+                  "glyphLevel": 21
+                },
+                {
+                  "id": "Paragon_Druid_07",
+                  "nodes": {
+                    "210": 1,
+                    "211": 1,
+                    "212": 1,
+                    "213": 1,
+                    "234": 1,
+                    "235": 1,
+                    "236": 1,
+                    "257": 1,
+                    "278": 1,
+                    "296": 1,
+                    "299": 1,
+                    "317": 1,
+                    "318": 1,
+                    "319": 1,
+                    "320": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "361": 1,
+                    "362": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "383": 1,
+                    "384": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_040_Willpower_Main",
+                  "glyphLevel": 21
+                },
+                {
+                  "id": "Paragon_Druid_01",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "52": 1,
+                    "73": 1,
+                    "77": 1,
+                    "94": 1,
+                    "98": 1,
+                    "115": 1,
+                    "116": 1,
+                    "117": 1,
+                    "118": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "123": 1,
+                    "124": 1,
+                    "138": 1,
+                    "144": 1,
+                    "152": 1,
+                    "153": 1,
+                    "159": 1,
+                    "165": 1,
+                    "173": 1,
+                    "174": 1,
+                    "180": 1,
+                    "186": 1,
+                    "195": 1,
+                    "196": 1,
+                    "197": 1,
+                    "198": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "207": 1,
+                    "218": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "237": 1,
+                    "238": 1,
+                    "239": 1,
+                    "258": 1,
+                    "278": 1,
+                    "279": 1,
+                    "299": 1,
+                    "320": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_047_Dexterity_Side",
+                  "glyphLevel": 21
+                },
+                {
+                  "id": "Paragon_Druid_02",
+                  "nodes": {
+                    "201": 1,
+                    "210": 1,
+                    "211": 1,
+                    "212": 1,
+                    "213": 1,
+                    "222": 1,
+                    "223": 1,
+                    "224": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "234": 1,
+                    "243": 1,
+                    "255": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "261": 1,
+                    "262": 1,
+                    "264": 1,
+                    "276": 1,
+                    "277": 1,
+                    "278": 1,
+                    "279": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "297": 1,
+                    "304": 1,
+                    "325": 1,
+                    "346": 1,
+                    "367": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": -1,
+                    "y": 0
+                  },
+                  "glyph": "Rare_087_Willpower_Main",
+                  "glyphLevel": 21
+                },
+                {
+                  "id": "Paragon_Druid_05",
+                  "nodes": {
+                    "277": 1,
+                    "278": 1,
+                    "298": 1,
+                    "316": 1,
+                    "317": 1,
+                    "319": 1,
+                    "320": 1,
+                    "338": 1,
+                    "339": 1,
+                    "340": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "361": 1,
+                    "363": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "382": 1,
+                    "383": 1,
+                    "384": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 2,
+                  "position": {
+                    "x": -1,
+                    "y": 1
+                  },
+                  "glyph": "Rare_014_Dexterity_Side",
+                  "glyphLevel": 21
+                },
+                {
+                  "id": "Paragon_Druid_06",
+                  "nodes": {
+                    "162": 1,
+                    "163": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "204": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "243": 1,
+                    "244": 1,
+                    "246": 1,
+                    "262": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "282": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1,
+                    "305": 1,
+                    "325": 1,
+                    "326": 1,
+                    "347": 1,
+                    "367": 1,
+                    "368": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 3,
+                  "position": {
+                    "x": -2,
+                    "y": 0
+                  },
+                  "glyph": "Rare_046_Intelligence_Side",
+                  "glyphLevel": 21
+                },
+                {
+                  "id": "Paragon_Druid_08",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "52": 1,
+                    "73": 1,
+                    "74": 1,
+                    "89": 1,
+                    "95": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "113": 1,
+                    "114": 1,
+                    "115": 1,
+                    "116": 1,
+                    "117": 1,
+                    "131": 1,
+                    "133": 1,
+                    "138": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "158": 1,
+                    "159": 1,
+                    "173": 1,
+                    "180": 1,
+                    "181": 1
+                  },
+                  "rotation": 2,
+                  "position": {
+                    "x": -2,
+                    "y": -1
+                  },
+                  "glyph": "Rare_044_Willpower_Main",
+                  "glyphLevel": 21
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "world": {
+          "altarStr": 68,
+          "altarInt": 68,
+          "altarWill": 68,
+          "altarDex": 68,
+          "altarParagon": 4,
+          "renown": [
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          ]
+        },
+        "season": 4,
+        "spiritBoons": [
+          "Druid_Passive_Eagle_03",
+          "Druid_Passive_Wolf_01",
+          "Druid_Passive_Snake_03",
+          "Druid_Passive_Deer_03",
+          "Druid_Passive_Eagle_02"
+        ]
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 925,
+        "name": "Soul Downfall",
+        "sockets": [
+          "Gem_Ruby_05",
+          "Gem_Ruby_05"
+        ],
+        "upgrade": 12,
+        "explicits": [
+          {
+            "nid": 1928747,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              0.507
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              175.5
+            ],
+            "greater": true
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862261,
+            "values": [
+              0.18125
+            ]
+          },
+          {
+            "nid": 1862301,
+            "values": [
+              0.2175
+            ]
+          }
+        ]
+      },
+      "2": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1674602,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1674604,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "name": "Bone Gambit",
+        "sockets": [
+          null
+        ]
+      },
+      "3": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 760524,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "name": "Corpse Guardian",
+        "sockets": [
+          "Gem_Diamond_05"
+        ],
+        "legendaryPower": {
+          "nid": 578786,
+          "values": [
+            2.1
+          ]
+        },
+        "explicits": [
+          {
+            "nid": 1829560,
+            "values": [
+              0.15006392433952953
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1928728,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1928708,
+            "values": [
+              7
+            ],
+            "greater": true,
+            "upgrade": 3
+          }
+        ],
+        "upgrade": 12,
+        "tempered": [
+          {
+            "nid": 1884604,
+            "values": [
+              0.14167524407879306
+            ]
+          },
+          {
+            "nid": 1862376,
+            "values": [
+              1.2325
+            ]
+          }
+        ]
+      },
+      "4": {
+        "id": "1HSword_Unique_Generic_001",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1234158,
+            "values": [
+              0.175
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 578846,
+            "values": [
+              6,
+              25
+            ]
+          },
+          {
+            "nid": 1639491,
+            "values": [
+              0.38025
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1639493,
+            "values": [
+              0.34125
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1639495,
+            "values": [
+              2062.9878633
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1320724,
+            "values": [
+              0.7616021656666028
+            ],
+            "greater": true,
+            "upgrade": 2
+          }
+        ],
+        "sockets": [
+          "Gem_Emerald_05"
+        ],
+        "upgrade": 12
+      },
+      "5": {
+        "id": "1HTotem_Legendary_Druid_001",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1234170,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "name": "Havoc Slayer",
+        "sockets": [
+          "Gem_Emerald_05"
+        ],
+        "legendaryPower": {
+          "nid": 884984,
+          "values": [
+            0.8999999999999999
+          ]
+        },
+        "explicits": [
+          {
+            "nid": 1829560,
+            "values": [
+              0.18476995510936223
+            ],
+            "greater": true,
+            "upgrade": 2
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              175.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              0.5720000000000001
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "upgrade": 12,
+        "tempered": [
+          {
+            "nid": 1884635,
+            "values": [
+              0.61625
+            ]
+          },
+          {
+            "nid": 1884878,
+            "values": [
+              0.087
+            ]
+          }
+        ]
+      },
+      "6": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 925,
+        "name": "Gale Embrace",
+        "legendaryPower": {
+          "nid": 578816,
+          "values": [
+            45
+          ]
+        },
+        "upgrade": 8,
+        "explicits": [
+          {
+            "nid": 1829556,
+            "values": [
+              0.162
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              162
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              0.468
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "7": {
+        "id": "Helm_Unique_Generic_002",
+        "power": 925,
+        "explicits": [
+          {
+            "nid": 609821,
+            "values": [
+              20
+            ]
+          },
+          {
+            "nid": 1227911,
+            "values": [
+              2979.8713580999997
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1639572,
+            "values": [
+              0.1628886623489929
+            ],
+            "greater": true,
+            "upgrade": 2
+          },
+          {
+            "nid": 1639541,
+            "values": [
+              0.24731212531061098
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1639574,
+            "values": [
+              54.6
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05"
+        ],
+        "upgrade": 12
+      },
+      "8": {
+        "id": "Ring_Unique_Druid_003",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1674602,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1674608,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 989676,
+            "values": [
+              1378.9212000000002
+            ]
+          },
+          {
+            "nid": 1669483,
+            "values": [
+              0.546
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1193845,
+            "values": [
+              0.0975
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1669490,
+            "values": [
+              5
+            ],
+            "greater": true,
+            "upgrade": 3
+          },
+          {
+            "nid": 1694637,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_05"
+        ],
+        "upgrade": 12
+      },
+      "9": {
+        "id": "Ring_Unique_Generic_102",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1674602,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1674604,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1559737,
+            "values": [
+              11
+            ]
+          },
+          {
+            "nid": 1664606,
+            "values": [
+              54.6
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1664604,
+            "values": [
+              0.546
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1193773,
+            "values": [
+              0.11699999999999999
+            ],
+            "greater": true
+          },
+          {
+            "nid": 577021,
+            "values": [
+              0.1628886623489929
+            ],
+            "greater": true,
+            "upgrade": 2
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_05"
+        ],
+        "upgrade": 12
+      },
+      "10": {
+        "id": "S05_BSK_Boots_Unique_Generic_001",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1014510,
+            "values": [
+              1.5
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1921747,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.324
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.17450964585985007
+            ],
+            "greater": true,
+            "upgrade": 2
+          },
+          {
+            "nid": 2053433,
+            "values": [
+              0.63
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2052119,
+            "values": [
+              1.35
+            ],
+            "greater": true
+          }
+        ],
+        "upgrade": 8
+      },
+      "11": {
+        "id": "Pants_Unique_Generic_102",
+        "power": 925,
+        "explicits": [
+          {
+            "nid": 1559366,
+            "values": [
+              20
+            ]
+          },
+          {
+            "nid": 1084130,
+            "values": [
+              5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 577149,
+            "values": [
+              0.29311878956533144
+            ],
+            "greater": true,
+            "upgrade": 2
+          },
+          {
+            "nid": 1320722,
+            "values": [
+              0.315
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1669605,
+            "values": [
+              23.400000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ],
+        "upgrade": 8
+      },
+      "12": {
+        "id": "Pants_Legendary_Generic_053",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1085043,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "name": "Night Coup",
+        "sockets": [
+          "Gem_Ruby_05",
+          "Gem_Ruby_05"
+        ],
+        "explicits": [
+          {
+            "nid": 1829554,
+            "values": [
+              3150
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              0.468
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              162
+            ],
+            "greater": true
+          }
+        ],
+        "upgrade": 8,
+        "tempered": [],
+        "legendaryPower": {
+          "nid": 578791,
+          "values": []
+        }
+      },
+      "13": {
+        "id": "1HDagger_Legendary_Generic_005",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1234156,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "name": "Soul Impact",
+        "sockets": [
+          null
+        ],
+        "tempered": [
+          {
+            "nid": 1884878,
+            "values": [
+              0.087
+            ]
+          },
+          {
+            "nid": 1884635,
+            "values": [
+              0.61625
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1829574,
+            "values": [
+              175.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              0.507
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1925873,
+            "values": [
+              0.273
+            ],
+            "greater": true
+          }
+        ],
+        "upgrade": 12,
+        "legendaryPower": {
+          "nid": 578779,
+          "values": [
+            25
+          ]
+        }
+      },
+      "14": {
+        "id": "Helm_Legendary_Generic_053",
+        "power": 925,
+        "name": "Loath Rise",
+        "sockets": [
+          null
+        ],
+        "upgrade": 8,
+        "explicits": [
+          {
+            "nid": 1829560,
+            "values": [
+              0.17450964585985007
+            ],
+            "greater": true,
+            "upgrade": 2
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              162
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              0.468
+            ],
+            "greater": true
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1882041,
+            "values": [
+              0.12800245492246298
+            ]
+          }
+        ],
+        "legendaryPower": {
+          "nid": 578791,
+          "values": []
+        }
+      },
+      "15": {
+        "id": "Gloves_Unique_Druid_100",
+        "power": 925,
+        "explicits": [
+          {
+            "nid": 1715765,
+            "values": [
+              20
+            ]
+          },
+          {
+            "nid": 1787807,
+            "values": [
+              0.32175
+            ],
+            "greater": true
+          },
+          {
+            "nid": 757051,
+            "values": [
+              8
+            ],
+            "greater": true,
+            "upgrade": 3
+          },
+          {
+            "nid": 577051,
+            "values": [
+              0.156
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1092182,
+            "values": [
+              3
+            ],
+            "greater": true
+          }
+        ],
+        "upgrade": 12
+      },
+      "16": {
+        "id": "Ring_Legendary_Generic_014",
+        "power": 925,
+        "implicits": [
+          {
+            "nid": 1674602,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1674604,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "name": "Glyph Omen",
+        "sockets": [
+          null
+        ]
+      },
+      "17": {
+        "id": "Helm_Unique_Druid_100",
+        "power": 925,
+        "explicits": [
+          {
+            "nid": 578819,
+            "values": [
+              25
+            ]
+          },
+          {
+            "nid": 1290940,
+            "values": [
+              0.34125
+            ],
+            "greater": true
+          },
+          {
+            "nid": 577177,
+            "values": [
+              0.4095
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1084592,
+            "values": [
+              25.349999999999998
+            ],
+            "greater": true
+          },
+          {
+            "nid": 577087,
+            "values": [
+              0.78
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          null
+        ],
+        "upgrade": 12
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0
+  },
+  "public": true,
+  "folder": 0,
+  "accessed": 1790204025,
+  "mainset": "548399",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"548399:5\",\"566517:3\",\"280119:3\",\"333421:3\",\"336238:3\"]}",
+  "search_metadata": null,
+  "season": "4",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 218506,
+    "username": "insnebob",
+    "active": 3
+  }
+}

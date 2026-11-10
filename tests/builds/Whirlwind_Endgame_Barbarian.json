@@ -1,0 +1,1015 @@
+{
+  "id": "n89r0fnh",
+  "date": "2023-06-14 22:06:31",
+  "name": "Whirlwind Endgame Barbarian",
+  "class": "Barbarian",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Set 1",
+        "class": 2,
+        "level": 100,
+        "worldTier": 4,
+        "items": {
+          "4": 1,
+          "5": 2,
+          "8": 7,
+          "9": 10,
+          "11": 8,
+          "12": 9,
+          "13": 4,
+          "14": 5,
+          "15": 6,
+          "16": 12,
+          "17": 13,
+          "18": 11
+        },
+        "skillTree": {
+          "387": 0,
+          "389": 1,
+          "391": 3,
+          "393": 3,
+          "395": 3,
+          "396": 5,
+          "398": 1,
+          "400": 1,
+          "407": 1,
+          "433": 1,
+          "438": 3,
+          "439": 1,
+          "446": 1,
+          "448": 3,
+          "449": 3,
+          "458": 1,
+          "459": 1,
+          "460": 2,
+          "461": 3,
+          "466": 1,
+          "468": 1,
+          "471": 1,
+          "474": 1,
+          "482": 5,
+          "484": 5,
+          "485": 1,
+          "487": 1,
+          "494": 1,
+          "498": 1,
+          "502": 1,
+          "504": 1,
+          "505": 1
+        },
+        "skillBar": [
+          "Barbarian_IronSkin",
+          "Barbarian_Whirlwind",
+          "Barbarian_RallyingCry",
+          "Barbarian_WarCry",
+          "Barbarian_ChallengingShout",
+          "Barbarian_WrathoftheBerserker"
+        ],
+        "paragon": [
+          {
+            "id": "Paragon_Barb_00",
+            "nodes": {
+              "10": 1,
+              "30": 1,
+              "31": 1,
+              "51": 1,
+              "72": 1,
+              "92": 1,
+              "93": 1,
+              "95": 1,
+              "113": 1,
+              "116": 1,
+              "134": 1,
+              "136": 1,
+              "137": 1,
+              "155": 1,
+              "156": 1,
+              "157": 1,
+              "178": 1,
+              "179": 1,
+              "200": 1,
+              "221": 1,
+              "242": 1,
+              "243": 1,
+              "264": 1,
+              "283": 1,
+              "284": 1,
+              "285": 1
+            },
+            "rotation": 0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "glyph": "Rare_016_Dexterity_Side",
+            "glyphLevel": 21
+          },
+          {
+            "id": "Paragon_Barb_02",
+            "nodes": {
+              "110": 1,
+              "111": 1,
+              "131": 1,
+              "152": 1,
+              "170": 1,
+              "171": 1,
+              "172": 1,
+              "173": 1,
+              "174": 1,
+              "175": 1,
+              "176": 1,
+              "180": 1,
+              "191": 1,
+              "195": 1,
+              "197": 1,
+              "198": 1,
+              "201": 1,
+              "210": 1,
+              "211": 1,
+              "212": 1,
+              "216": 1,
+              "222": 1,
+              "223": 1,
+              "237": 1,
+              "243": 1,
+              "258": 1,
+              "259": 1,
+              "260": 1,
+              "261": 1,
+              "262": 1,
+              "264": 1,
+              "283": 1,
+              "284": 1,
+              "285": 1,
+              "304": 1,
+              "325": 1,
+              "346": 1,
+              "367": 1,
+              "388": 1,
+              "409": 1,
+              "430": 1
+            },
+            "rotation": 0,
+            "position": {
+              "x": 0,
+              "y": -1
+            },
+            "glyph": "Rare_028_Strength_Main",
+            "glyphLevel": 21
+          },
+          {
+            "id": "Paragon_Barb_08",
+            "nodes": {
+              "10": 1,
+              "27": 1,
+              "28": 1,
+              "29": 1,
+              "30": 1,
+              "31": 1,
+              "48": 1,
+              "69": 1,
+              "70": 1,
+              "90": 1,
+              "91": 1,
+              "92": 1,
+              "107": 1,
+              "110": 1,
+              "111": 1,
+              "113": 1,
+              "114": 1,
+              "115": 1,
+              "116": 1,
+              "117": 1,
+              "127": 1,
+              "128": 1,
+              "129": 1,
+              "130": 1,
+              "131": 1,
+              "138": 1,
+              "148": 1,
+              "150": 1,
+              "151": 1,
+              "158": 1,
+              "159": 1,
+              "169": 1,
+              "172": 1,
+              "179": 1,
+              "180": 1,
+              "190": 1,
+              "210": 1,
+              "211": 1
+            },
+            "rotation": 1,
+            "position": {
+              "x": -1,
+              "y": -1
+            },
+            "glyph": "Rare_036_Willpower_Side",
+            "glyphLevel": 21
+          },
+          {
+            "id": "Paragon_Barb_07",
+            "nodes": {
+              "131": 1,
+              "132": 1,
+              "133": 1,
+              "134": 1,
+              "151": 1,
+              "152": 1,
+              "153": 1,
+              "155": 1,
+              "156": 1,
+              "157": 1,
+              "172": 1,
+              "178": 1,
+              "192": 1,
+              "193": 1,
+              "199": 1,
+              "210": 1,
+              "211": 1,
+              "212": 1,
+              "213": 1,
+              "219": 1,
+              "220": 1,
+              "234": 1,
+              "235": 1,
+              "239": 1,
+              "240": 1,
+              "256": 1,
+              "260": 1,
+              "277": 1,
+              "278": 1,
+              "299": 1,
+              "316": 1,
+              "317": 1,
+              "318": 1,
+              "319": 1,
+              "320": 1,
+              "321": 1,
+              "338": 1,
+              "342": 1,
+              "343": 1,
+              "344": 1,
+              "365": 1,
+              "386": 1,
+              "387": 1,
+              "408": 1,
+              "409": 1,
+              "430": 1
+            },
+            "rotation": 0,
+            "position": {
+              "x": -1,
+              "y": -2
+            },
+            "glyph": "Rare_030_Dexterity_Side",
+            "glyphLevel": 21
+          },
+          {
+            "id": "Paragon_Barb_06",
+            "nodes": {
+              "151": 1,
+              "152": 1,
+              "171": 1,
+              "172": 1,
+              "173": 1,
+              "174": 1,
+              "175": 1,
+              "192": 1,
+              "196": 1,
+              "197": 1,
+              "198": 1,
+              "199": 1,
+              "210": 1,
+              "211": 1,
+              "212": 1,
+              "213": 1,
+              "218": 1,
+              "239": 1,
+              "240": 1,
+              "241": 1,
+              "243": 1,
+              "244": 1,
+              "262": 1,
+              "263": 1,
+              "265": 1,
+              "266": 1,
+              "284": 1,
+              "285": 1,
+              "286": 1,
+              "305": 1,
+              "325": 1,
+              "326": 1,
+              "347": 1,
+              "368": 1,
+              "389": 1,
+              "409": 1,
+              "410": 1,
+              "430": 1
+            },
+            "rotation": 2,
+            "position": {
+              "x": -2,
+              "y": -2
+            },
+            "glyph": "Rare_011_Willpower_Side",
+            "glyphLevel": 21
+          },
+          {
+            "id": "Paragon_Barb_04",
+            "nodes": {
+              "137": 1,
+              "138": 1,
+              "154": 1,
+              "155": 1,
+              "159": 1,
+              "160": 1,
+              "174": 1,
+              "175": 1,
+              "176": 1,
+              "177": 1,
+              "178": 1,
+              "179": 1,
+              "180": 1,
+              "181": 1,
+              "182": 1,
+              "183": 1,
+              "196": 1,
+              "202": 1,
+              "204": 1,
+              "205": 1,
+              "221": 1,
+              "222": 1,
+              "223": 1,
+              "226": 1,
+              "227": 1,
+              "228": 1,
+              "229": 1,
+              "230": 1,
+              "249": 1,
+              "268": 1,
+              "269": 1,
+              "270": 1,
+              "289": 1,
+              "290": 1,
+              "310": 1,
+              "311": 1
+            },
+            "rotation": 1,
+            "position": {
+              "x": -2,
+              "y": -3
+            },
+            "glyph": "Rare_014_Dexterity_Side",
+            "glyphLevel": 21
+          }
+        ],
+        "world": {
+          "altarStr": 68,
+          "altarInt": 68,
+          "altarWill": 68,
+          "altarDex": 68,
+          "altarParagon": 4,
+          "renown": [
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          ]
+        },
+        "weaponSlot": 8,
+        "arsenal": {},
+        "expertise": {
+          "Barbarian_WeaponExpertise_2HAxe": 10,
+          "Barbarian_WeaponExpertise_1HSword": 0,
+          "Barbarian_WeaponExpertise_2HSword": 0
+        },
+        "technique": "Barbarian_WeaponExpertise_2HAxe"
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Legendary_Generic_053",
+        "power": 820,
+        "name": "Raven Exile",
+        "sockets": [
+          "Gem_Sapphire_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_barb_050",
+          "values": []
+        },
+        "explicits": [
+          {
+            "id": "MaxFury",
+            "values": [
+              27
+            ]
+          },
+          {
+            "id": "Health",
+            "values": [
+              1309.833564
+            ]
+          },
+          {
+            "id": "CoreStats_All",
+            "values": [
+              27
+            ]
+          },
+          {
+            "id": "CD_Reduction",
+            "values": [
+              0.14618503175453756
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "2": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 820,
+        "name": "Ghoul Bounty",
+        "sockets": [
+          "Gem_Sapphire_05",
+          "Gem_Sapphire_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_barb_011",
+          "values": [
+            40,
+            1
+          ]
+        },
+        "explicits": [
+          {
+            "id": "Health",
+            "values": [
+              1309.833564
+            ]
+          },
+          {
+            "id": "FortifyDamageReduction",
+            "values": [
+              0.20246880938736944
+            ]
+          },
+          {
+            "id": "DamageReductionClose",
+            "values": [
+              0.2369909076557476
+            ]
+          },
+          {
+            "id": "DamageReduction_Bleeding",
+            "values": [
+              0.20246880938736944
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "3": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 820,
+        "name": "Proven Rival"
+      },
+      "4": {
+        "id": "Gloves_Unique_Barb_001",
+        "power": 820,
+        "explicits": [
+          {
+            "id": "Gloves_Unique_Barb_001",
+            "values": [
+              26
+            ]
+          },
+          {
+            "id": "AttackSpeed",
+            "values": [
+              0.15000000000000002
+            ]
+          },
+          {
+            "id": "Luck",
+            "values": [
+              0.165
+            ]
+          },
+          {
+            "id": "Damage_Type_Bonus_NonPhysical_Greater",
+            "values": [
+              0.315
+            ]
+          },
+          {
+            "id": "SkillRankBonus_Barb_Core_5_Slot01",
+            "values": [
+              4
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "5": {
+        "id": "Pants_Legendary_Generic_053",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "PotionBarrier",
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "name": "Proven Downfall",
+        "sockets": [
+          "Gem_Sapphire_05",
+          "Gem_Sapphire_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_generic_036",
+          "values": [
+            0.5
+          ]
+        },
+        "explicits": [
+          {
+            "id": "DamageReductionClose",
+            "values": [
+              0.165
+            ]
+          },
+          {
+            "id": "FortifyDamageReduction",
+            "values": [
+              0.14
+            ]
+          },
+          {
+            "id": "DamageReduction_Bleeding",
+            "values": [
+              0.14
+            ]
+          },
+          {
+            "id": "Health",
+            "values": [
+              776.2915680000001
+            ]
+          }
+        ]
+      },
+      "6": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "Evade_Dodge",
+            "values": [
+              0.75
+            ]
+          }
+        ],
+        "name": "Defiant Salvation",
+        "legendaryPower": {
+          "id": "legendary_generic_100",
+          "values": [
+            25
+          ]
+        },
+        "explicits": [
+          {
+            "id": "CoreStats_All",
+            "values": [
+              27
+            ]
+          },
+          {
+            "id": "Movement_Speed",
+            "values": [
+              0.26249999999999996
+            ]
+          },
+          {
+            "id": "Berserk_Duration",
+            "values": [
+              0.315
+            ]
+          },
+          {
+            "id": "Resource_Cost_Reduction_Barbarian_Lesser",
+            "values": [
+              0.10314047922765524
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "7": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "INHERENT_OverpowerDamage",
+            "values": [
+              0.9450000000000001
+            ]
+          }
+        ],
+        "name": "Stone Inception",
+        "sockets": [
+          "Gem_Emerald_05",
+          "Gem_Emerald_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_barb_025",
+          "values": [
+            16,
+            3
+          ]
+        },
+        "explicits": [
+          {
+            "id": "Damage_to_Vulnerable",
+            "values": [
+              0.705
+            ]
+          },
+          {
+            "id": "CritDamage",
+            "values": [
+              0.63
+            ]
+          },
+          {
+            "id": "Damage_Spenders",
+            "values": [
+              0.585
+            ]
+          },
+          {
+            "id": "CoreStats_All_Weapon",
+            "values": [
+              84
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "8": {
+        "id": "1HSword_Rare_Barb_Crafted_39",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "INHERENT_CritDamage",
+            "values": [
+              0.26249999999999996
+            ]
+          }
+        ],
+        "name": "Battle Blade",
+        "sockets": [
+          "Gem_Emerald_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_barb_001",
+          "values": [
+            0.3
+          ]
+        },
+        "explicits": [
+          {
+            "id": "Damage_to_Vulnerable",
+            "values": [
+              0.3525
+            ]
+          },
+          {
+            "id": "CritDamage",
+            "values": [
+              0.315
+            ]
+          },
+          {
+            "id": "Damage_Spenders",
+            "values": [
+              0.2925
+            ]
+          },
+          {
+            "id": "CoreStat_Strength_Weapon",
+            "values": [
+              94.5
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "9": {
+        "id": "1HSword_Rare_Barb_Crafted_39",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "INHERENT_CritDamage",
+            "values": [
+              0.26249999999999996
+            ]
+          }
+        ],
+        "name": "Discord Legion",
+        "sockets": [
+          "Gem_Emerald_05"
+        ],
+        "explicits": [
+          {
+            "id": "Damage_to_Vulnerable",
+            "values": [
+              0.3525
+            ]
+          },
+          {
+            "id": "CritDamage",
+            "values": [
+              0.315
+            ]
+          },
+          {
+            "id": "Damage_Spenders",
+            "values": [
+              0.2925
+            ]
+          },
+          {
+            "id": "CoreStat_Strength_Weapon",
+            "values": [
+              94.5
+            ]
+          }
+        ],
+        "upgrade": 5,
+        "legendaryPower": {
+          "id": "legendary_generic_027",
+          "values": [
+            25
+          ]
+        }
+      },
+      "10": {
+        "id": "2HSword_Legendary_Generic_001",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "INHERENT_CritDamage",
+            "values": [
+              0.5249999999999999
+            ]
+          }
+        ],
+        "name": "Proven Way",
+        "sockets": [
+          "Gem_Emerald_05",
+          "Gem_Emerald_05"
+        ],
+        "legendaryPower": {
+          "id": "Legendary_Barb_110",
+          "values": [
+            4,
+            15
+          ]
+        },
+        "upgrade": 5,
+        "explicits": [
+          {
+            "id": "CritDamage",
+            "values": [
+              0.63
+            ]
+          },
+          {
+            "id": "Damage_to_Vulnerable",
+            "values": [
+              0.705
+            ]
+          },
+          {
+            "id": "Damage_Spenders",
+            "values": [
+              0.585
+            ]
+          },
+          {
+            "id": "CoreStats_All_Weapon",
+            "values": [
+              84
+            ]
+          }
+        ]
+      },
+      "11": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "Resistance_Jewelry_All",
+            "values": [
+              0.2647811916606051
+            ]
+          }
+        ],
+        "name": "Rune Attrition",
+        "sockets": [
+          "Gem_Skull_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_generic_063",
+          "values": [
+            30
+          ]
+        },
+        "explicits": [
+          {
+            "id": "CD_Reduction",
+            "values": [
+              0.14618503175453756
+            ]
+          },
+          {
+            "id": "DamageReductionClose",
+            "values": [
+              0.2369909076557476
+            ]
+          },
+          {
+            "id": "FortifyDamageReduction",
+            "values": [
+              0.20246880938736944
+            ]
+          },
+          {
+            "id": "Movement_Speed",
+            "values": [
+              0.26249999999999996
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "12": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "Resistance_Jewelry_Dual_FireCold",
+            "values": [
+              0.350480947161671,
+              0.350480947161671
+            ]
+          }
+        ],
+        "name": "Hailstone Dawn",
+        "sockets": [
+          "Gem_Skull_05"
+        ],
+        "legendaryPower": {
+          "id": "legendary_barb_007",
+          "values": [
+            4
+          ]
+        },
+        "explicits": [
+          {
+            "id": "CritDamage",
+            "values": [
+              0.315
+            ]
+          },
+          {
+            "id": "CritChanceJewelry",
+            "values": [
+              0.07500000000000001
+            ]
+          },
+          {
+            "id": "ResourceGain",
+            "values": [
+              0.18529658735693677
+            ]
+          },
+          {
+            "id": "Health",
+            "values": [
+              1309.833564
+            ]
+          }
+        ],
+        "upgrade": 5
+      },
+      "13": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 820,
+        "implicits": [
+          {
+            "id": "Resistance_Jewelry_Dual_FireCold",
+            "values": [
+              0.350480947161671,
+              0.350480947161671
+            ]
+          }
+        ],
+        "name": "Rumbling Clash",
+        "sockets": [
+          "Gem_Skull_03"
+        ],
+        "legendaryPower": {
+          "id": "legendary_barb_057",
+          "values": [
+            1.9
+          ]
+        },
+        "explicits": [
+          {
+            "id": "CritDamage",
+            "values": [
+              0.315
+            ]
+          },
+          {
+            "id": "CritChanceJewelry",
+            "values": [
+              0.07500000000000001
+            ]
+          },
+          {
+            "id": "Health",
+            "values": [
+              1309.833564
+            ]
+          },
+          {
+            "id": "ResourceGain",
+            "values": [
+              0.18529658735693677
+            ]
+          }
+        ],
+        "upgrade": 5
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0
+  },
+  "public": true,
+  "folder": 0,
+  "accessed": 1789935234,
+  "mainset": "206435",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"512222\",\"206435:3\",\"211938:3\",\"184600:5\",\"375484:3\",\"211871:3\"],\"technique\":687648,\"twitch\":\"twitch.tv/crouching_tuna\"}",
+  "search_metadata": null,
+  "season": "1",
+  "shared": false,
+  "type": null,
+  "tags": null,
+  "user": {
+    "id": 178569,
+    "username": "Crouching_Tuna",
+    "active": 3
+  }
+}

@@ -1,0 +1,1273 @@
+{
+  "id": "ge5hic0u",
+  "date": "2026-10-30 23:33:34",
+  "name": "Zenith Paladin",
+  "class": "Paladin",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 6,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 1,
+          "5": 2,
+          "6": 10,
+          "7": 9,
+          "13": 3,
+          "14": 4,
+          "15": 5,
+          "16": 8,
+          "17": 7,
+          "18": 6,
+          "20": 11,
+          "21": 12,
+          "22": 15,
+          "23": 16,
+          "24": 17,
+          "25": 13,
+          "26": 14
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "1659": 1,
+                "1663": 1,
+                "1664": 1,
+                "1679": 15,
+                "1782": 1,
+                "1786": 1,
+                "1787": 1,
+                "1802": 1,
+                "1805": 1,
+                "1807": 1,
+                "1833": 1,
+                "1835": 1,
+                "1836": 1,
+                "1853": 1,
+                "1854": 15,
+                "1860": 15,
+                "1869": 1,
+                "1871": 1,
+                "1887": 1,
+                "1889": 1,
+                "1890": 0,
+                "1923": 1,
+                "1926": 1,
+                "1931": 15,
+                "1942": 4
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Paladin_Trinity",
+          "Paladin_Advance_lunge",
+          "Paladin_Defensive_Aura",
+          "Paladin_Offensive_Aura",
+          "Paladin_Sacrifice",
+          "Paladin_Condemn"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Paladin_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "71": 1,
+                    "72": 1,
+                    "74": 1,
+                    "91": 1,
+                    "92": 1,
+                    "93": 1,
+                    "95": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "117": 1,
+                    "118": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "155": 1,
+                    "156": 1,
+                    "157": 1,
+                    "158": 1,
+                    "159": 1,
+                    "176": 1,
+                    "178": 1,
+                    "180": 1,
+                    "197": 1,
+                    "201": 1,
+                    "218": 1,
+                    "221": 1,
+                    "222": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_055_Willpower_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Paladin_02",
+                  "nodes": {
+                    "56": 1,
+                    "76": 1,
+                    "77": 1,
+                    "78": 1,
+                    "90": 1,
+                    "97": 1,
+                    "98": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "118": 1,
+                    "131": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "152": 1,
+                    "155": 1,
+                    "159": 1,
+                    "170": 1,
+                    "171": 1,
+                    "172": 1,
+                    "173": 1,
+                    "176": 1,
+                    "177": 1,
+                    "180": 1,
+                    "191": 1,
+                    "198": 1,
+                    "200": 1,
+                    "201": 1,
+                    "202": 1,
+                    "210": 1,
+                    "211": 1,
+                    "212": 1,
+                    "222": 1,
+                    "224": 1,
+                    "241": 1,
+                    "243": 1,
+                    "244": 1,
+                    "245": 1,
+                    "262": 1,
+                    "263": 1,
+                    "264": 1,
+                    "266": 1,
+                    "267": 1,
+                    "268": 1,
+                    "285": 1,
+                    "305": 1,
+                    "306": 1,
+                    "327": 1,
+                    "328": 1,
+                    "347": 1,
+                    "348": 1,
+                    "367": 1,
+                    "368": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_016_Intelligence_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Paladin_04",
+                  "nodes": {
+                    "117": 1,
+                    "137": 1,
+                    "138": 1,
+                    "154": 1,
+                    "155": 1,
+                    "159": 1,
+                    "160": 1,
+                    "174": 1,
+                    "175": 1,
+                    "176": 1,
+                    "177": 1,
+                    "178": 1,
+                    "179": 1,
+                    "180": 1,
+                    "181": 1,
+                    "195": 1,
+                    "196": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "217": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "241": 1,
+                    "242": 1,
+                    "248": 1,
+                    "263": 1,
+                    "269": 1,
+                    "283": 1,
+                    "284": 1,
+                    "290": 1,
+                    "302": 1,
+                    "303": 1,
+                    "304": 1,
+                    "310": 1,
+                    "311": 1,
+                    "312": 1,
+                    "321": 1,
+                    "323": 1,
+                    "325": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "363": 1,
+                    "364": 1,
+                    "365": 1,
+                    "386": 1,
+                    "387": 1,
+                    "408": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 3,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_050_Willpower_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Paladin_01",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "33": 1,
+                    "34": 1,
+                    "35": 1,
+                    "36": 1,
+                    "37": 1,
+                    "57": 1,
+                    "78": 1,
+                    "79": 1,
+                    "99": 1,
+                    "103": 1,
+                    "117": 1,
+                    "118": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "123": 1,
+                    "124": 1,
+                    "138": 1,
+                    "144": 1,
+                    "145": 1,
+                    "159": 1,
+                    "166": 1,
+                    "179": 1,
+                    "180": 1,
+                    "187": 1,
+                    "197": 1,
+                    "198": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "208": 1,
+                    "218": 1,
+                    "221": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "239": 1,
+                    "258": 1,
+                    "259": 1,
+                    "279": 1,
+                    "299": 1,
+                    "300": 1,
+                    "320": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": -1,
+                    "y": -2
+                  },
+                  "glyph": "Rare_109_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Paladin_03",
+                  "nodes": {
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "154": 1,
+                    "157": 1,
+                    "175": 1,
+                    "178": 1,
+                    "179": 1,
+                    "196": 1,
+                    "200": 1,
+                    "216": 1,
+                    "217": 1,
+                    "221": 1,
+                    "222": 1,
+                    "229": 1,
+                    "230": 1,
+                    "242": 1,
+                    "246": 1,
+                    "247": 1,
+                    "248": 1,
+                    "249": 1,
+                    "250": 1,
+                    "262": 1,
+                    "263": 1,
+                    "266": 1,
+                    "267": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1,
+                    "287": 1,
+                    "308": 1,
+                    "329": 1,
+                    "350": 1,
+                    "371": 1,
+                    "372": 1,
+                    "392": 1
+                  },
+                  "rotation": 2,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "glyph": "Rare_049_Strength_Main",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "oath": "Paladin_Oath_Zealot",
+        "mercenary": {
+          "id": "MercenaryClass_ShieldBearer",
+          "tree": {
+            "481": 1,
+            "489": 1,
+            "552": 1,
+            "556": 1
+          },
+          "support": "MercenaryClass_BerserkerCrone",
+          "supportSkills": [
+            null,
+            "trigger_skill"
+          ]
+        }
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Legendary_Generic_053",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Ghoul Sin",
+        "sockets": [
+          "Gem_Ruby_09",
+          "Gem_Ruby_09"
+        ],
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2520249,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              3000
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2591176,
+            "values": [
+              60,
+              15,
+              2033.3874999999998
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2605373,
+          "values": [
+            0.1
+          ]
+        }
+      },
+      "2": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Rumbling Spine",
+        "sockets": [
+          "Rune_Condition_CastRepeatSkill",
+          "Rune_Effect_CritBuff"
+        ],
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2520249,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497211,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              3000
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2617264,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2605373,
+          "values": [
+            0.1
+          ]
+        }
+      },
+      "3": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Dire Lash",
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          },
+          {
+            "nid": 2602182,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445850,
+            "values": [
+              1.2
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2605366,
+          "values": [
+            0.1
+          ]
+        }
+      },
+      "4": {
+        "id": "Pants_Unique_Paladin_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2479862,
+            "values": [
+              0.325
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              2537.5
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2439595,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2520249,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ],
+        "tempered": [
+          {
+            "nid": 2484589,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "5": {
+        "id": "Boots_Unique_Paladin_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2439588,
+            "values": [
+              1.56
+            ]
+          },
+          {
+            "nid": 2439595,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              2537.5
+            ],
+            "greater": false,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "6": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Blood Salvation",
+        "sockets": [
+          "Gem_Skull_09"
+        ],
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          },
+          {
+            "nid": 2602182,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1858284,
+            "values": [
+              0.9000000000000001
+            ]
+          },
+          {
+            "nid": 2542976,
+            "values": [
+              300
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2701080,
+          "values": [
+            1
+          ]
+        }
+      },
+      "7": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Glyph Ire",
+        "sockets": [
+          "Gem_Skull_09"
+        ],
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.4375
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 2558672,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445856,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2701080,
+          "values": [
+            1
+          ]
+        }
+      },
+      "8": {
+        "id": "Ring_Unique_Generic_108",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2672415,
+            "values": [
+              0.325
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829584,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.4375
+            ],
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_09"
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "9": {
+        "id": "X2_1HFlail_Legendary_Generic_uniq07",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Power Break",
+        "sockets": [
+          "Gem_Skull_09"
+        ],
+        "explicits": [
+          {
+            "nid": 2620583,
+            "values": [
+              179
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.4375
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2558672,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1860795,
+            "values": [
+              100
+            ]
+          }
+        ],
+        "horadric": {
+          "nid": 2605366,
+          "values": [
+            0.1
+          ]
+        }
+      },
+      "10": {
+        "id": "1HShield_Unique_Paladin_004",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 2472894,
+            "values": [
+              0.4
+            ]
+          },
+          {
+            "nid": 1036913,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 609811,
+            "values": [
+              1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 2472782,
+            "values": [
+              0.65
+            ]
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          },
+          {
+            "nid": 1928803,
+            "values": [
+              0.3
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_09"
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "11": {
+        "id": "Talisman_Seal_MythicUnique_02",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2443335,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2605366,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2605370,
+            "values": [
+              0.05
+            ]
+          }
+        ]
+      },
+      "12": {
+        "id": "Talisman_Charm_Set_Pala_02_05",
+        "power": 900,
+        "name": "Evoker's Attrition",
+        "explicits": [
+          {
+            "nid": 2619804,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "13": {
+        "id": "Talisman_Charm_Set_Pala_02_04",
+        "power": 900,
+        "name": "Night Downfall",
+        "explicits": [
+          {
+            "nid": 2619804,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "14": {
+        "id": "Talisman_Charm_Set_Pala_02_03",
+        "power": 900,
+        "name": "Agony Star",
+        "explicits": [
+          {
+            "nid": 2619804,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "15": {
+        "id": "Talisman_Charm_Unique_2HMace_Unique_Generic_001",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578836,
+            "values": [
+              130,
+              1.3
+            ]
+          },
+          {
+            "nid": 2619804,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "16": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Generic_102",
+        "power": 900,
+        "upgrade": 0,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1719182,
+            "values": [
+              130
+            ]
+          },
+          {
+            "nid": 2619804,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "17": {
+        "id": "Talisman_Charm_Unique_Gloves_Unique_Generic_002",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              390,
+              1
+            ]
+          },
+          {
+            "nid": 2619804,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {
+      "shared": {
+        "enemy_vulnerable": true,
+        "fortify": 100
+      },
+      "Paladin_Defensive_Aura": {
+        "flags": [
+          true
+        ]
+      },
+      "Paladin_Offensive_Aura": {
+        "params": [
+          "max"
+        ]
+      },
+      "Paladin_Sacrifice": {
+        "active": true
+      },
+      "Paladin_Condemn": {
+        "flags": [
+          true
+        ]
+      },
+      "Paladin_Fervor": {
+        "params": [
+          "max"
+        ]
+      },
+      "Amulet_Unique_Generic_102": {
+        "flags": [
+          true
+        ]
+      },
+      "Power_Rune_Effect_CritBuff": {
+        "params": [
+          5
+        ]
+      },
+      "legendary_generic_120": {
+        "params": [
+          5
+        ]
+      },
+      "legendary_spiritborn_021_x1b": {
+        "flags": [
+          true
+        ]
+      },
+      "Talisman_SetPower_Pala02_01": {
+        "params": [
+          25
+        ]
+      },
+      "ParagonGlyph_055": {
+        "params": [
+          15
+        ]
+      },
+      "ParagonGlyph_050": {
+        "params": [
+          4
+        ]
+      },
+      "Paladin_Advance_lunge": {
+        "flags": [
+          true
+        ]
+      }
+    },
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 16
+  },
+  "userId": 1121704,
+  "public": true,
+  "folder": 0,
+  "accessed": 1793403230,
+  "mainset": "2302974",
+  "category": "",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"2302974:98\",\"2329865:25\",\"2187578:41\",\"2187741:81\",\"2303677:98\",\"2226109:98\"],\"oath\":2273665}",
+  "search_metadata": {
+    "skills": [
+      "Zenith",
+      "Advance",
+      "Defiance Aura",
+      "Fanaticism Aura",
+      "Rally",
+      "Condemn"
+    ],
+    "items": [
+      "Runic Skullcap of Spiked Armor",
+      "Bulwark's Runic Mail",
+      "Herald of Zakarum",
+      "Spiked Flail of the Moonrise",
+      "Runic Gloves of the Zealot's Covenant",
+      "Arcadia",
+      "March of the Stalwart Soul",
+      "Stone of Jordan",
+      "Soulwatch Hoop of Jacques' Fervor",
+      "Ocelot's Eye of Redirected Force",
+      "Seal of the Golden Epiphany",
+      "The Furnace",
+      "Blood-Mad Idol",
+      "Fists of Fate"
+    ],
+    "specializations": [
+      "Zealot"
+    ]
+  },
+  "season": "16",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1121704,
+    "username": "steaksamich.",
+    "active": 1
+  }
+}

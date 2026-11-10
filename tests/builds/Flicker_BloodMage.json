@@ -1,0 +1,1189 @@
+{
+  "id": "1dbg830j",
+  "date": "2026-11-03 05:47:04",
+  "name": "Flicker BloodMage",
+  "class": "Necromancer",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Flicker BM",
+        "class": 4,
+        "level": 70,
+        "worldTier": 5,
+        "items": {
+          "4": 1,
+          "5": 2,
+          "7": 6,
+          "13": 3,
+          "14": 4,
+          "15": 5,
+          "16": 16,
+          "17": 15,
+          "18": 7,
+          "20": 8,
+          "21": 14,
+          "22": 12,
+          "23": 10,
+          "24": 9,
+          "25": 11,
+          "26": 13
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "6": 1,
+                "10": 6,
+                "43": 5,
+                "53": 5,
+                "61": 15,
+                "583": 1,
+                "585": 1,
+                "588": 1,
+                "674": 1,
+                "676": 1,
+                "679": 1,
+                "681": 15,
+                "688": 1,
+                "691": 1,
+                "692": 1,
+                "698": 1,
+                "699": 1,
+                "702": 1,
+                "708": 1,
+                "711": 1,
+                "713": 1,
+                "729": 1,
+                "730": 1,
+                "734": 1,
+                "987": 15,
+                "993": 1,
+                "996": 1,
+                "1000": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          null,
+          "Necromancer_BonePrison",
+          "Necromancer_SkeletonMage",
+          "Necromancer_BloodWave",
+          "Necromancer_Decrepify",
+          "Necromancer_BloodMist"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Necro_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "71": 1,
+                    "72": 1,
+                    "74": 1,
+                    "75": 1,
+                    "92": 1,
+                    "93": 1,
+                    "95": 1,
+                    "96": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "117": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "156": 1,
+                    "159": 1,
+                    "177": 1,
+                    "180": 1,
+                    "198": 1,
+                    "201": 1,
+                    "218": 1,
+                    "219": 1,
+                    "222": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "260": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_038_Intelligence_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Necro_07",
+                  "nodes": {
+                    "96": 1,
+                    "116": 1,
+                    "117": 1,
+                    "130": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "134": 1,
+                    "137": 1,
+                    "138": 1,
+                    "152": 1,
+                    "153": 1,
+                    "155": 1,
+                    "156": 1,
+                    "157": 1,
+                    "158": 1,
+                    "178": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "199": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "235": 1,
+                    "236": 1,
+                    "239": 1,
+                    "240": 1,
+                    "244": 1,
+                    "245": 1,
+                    "246": 1,
+                    "247": 1,
+                    "257": 1,
+                    "258": 1,
+                    "260": 1,
+                    "266": 1,
+                    "277": 1,
+                    "278": 1,
+                    "287": 1,
+                    "295": 1,
+                    "296": 1,
+                    "299": 1,
+                    "301": 1,
+                    "307": 1,
+                    "308": 1,
+                    "315": 1,
+                    "316": 1,
+                    "317": 1,
+                    "318": 1,
+                    "319": 1,
+                    "320": 1,
+                    "322": 1,
+                    "328": 1,
+                    "329": 1,
+                    "338": 1,
+                    "339": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "347": 1,
+                    "348": 1,
+                    "349": 1,
+                    "350": 1,
+                    "361": 1,
+                    "362": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "368": 1,
+                    "383": 1,
+                    "384": 1,
+                    "388": 1,
+                    "403": 1,
+                    "404": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_066_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Necro_06",
+                  "nodes": {
+                    "48": 1,
+                    "56": 1,
+                    "57": 1,
+                    "68": 1,
+                    "69": 1,
+                    "77": 1,
+                    "78": 1,
+                    "89": 1,
+                    "90": 1,
+                    "98": 1,
+                    "99": 1,
+                    "108": 1,
+                    "109": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "118": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "129": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "143": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "162": 1,
+                    "163": 1,
+                    "164": 1,
+                    "172": 1,
+                    "173": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "204": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "239": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "246": 1,
+                    "258": 1,
+                    "259": 1,
+                    "262": 1,
+                    "263": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "279": 1,
+                    "280": 1,
+                    "281": 1,
+                    "282": 1,
+                    "283": 1,
+                    "284": 1,
+                    "286": 1,
+                    "287": 1,
+                    "305": 1,
+                    "326": 1,
+                    "347": 1,
+                    "367": 1,
+                    "368": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 3,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_062_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Necro_04",
+                  "nodes": {
+                    "133": 1,
+                    "136": 1,
+                    "154": 1,
+                    "157": 1,
+                    "159": 1,
+                    "173": 1,
+                    "174": 1,
+                    "175": 1,
+                    "176": 1,
+                    "177": 1,
+                    "178": 1,
+                    "179": 1,
+                    "180": 1,
+                    "181": 1,
+                    "182": 1,
+                    "183": 1,
+                    "196": 1,
+                    "200": 1,
+                    "202": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "223": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "240": 1,
+                    "242": 1,
+                    "248": 1,
+                    "256": 1,
+                    "263": 1,
+                    "268": 1,
+                    "269": 1,
+                    "276": 1,
+                    "277": 1,
+                    "278": 1,
+                    "279": 1,
+                    "280": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1,
+                    "287": 1,
+                    "288": 1,
+                    "289": 1,
+                    "290": 1,
+                    "296": 1,
+                    "297": 1,
+                    "298": 1,
+                    "301": 1,
+                    "302": 1,
+                    "303": 1,
+                    "304": 1,
+                    "306": 1,
+                    "310": 1,
+                    "311": 1,
+                    "312": 1,
+                    "321": 1,
+                    "323": 1,
+                    "325": 1,
+                    "327": 1,
+                    "329": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "348": 1,
+                    "349": 1,
+                    "350": 1,
+                    "351": 1,
+                    "363": 1,
+                    "364": 1,
+                    "365": 1,
+                    "370": 1,
+                    "371": 1,
+                    "386": 1,
+                    "387": 1,
+                    "408": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -2
+                  },
+                  "glyph": "Rare_Int_Generic",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Necro_10",
+                  "nodes": {
+                    "91": 1,
+                    "92": 1,
+                    "96": 1,
+                    "97": 1,
+                    "112": 1,
+                    "113": 1,
+                    "117": 1,
+                    "118": 1,
+                    "132": 1,
+                    "133": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "140": 1,
+                    "153": 1,
+                    "154": 1,
+                    "155": 1,
+                    "156": 1,
+                    "157": 1,
+                    "169": 1,
+                    "170": 1,
+                    "171": 1,
+                    "172": 1,
+                    "173": 1,
+                    "174": 1,
+                    "176": 1,
+                    "190": 1,
+                    "193": 1,
+                    "194": 1,
+                    "197": 1,
+                    "210": 1,
+                    "211": 1,
+                    "214": 1,
+                    "215": 1,
+                    "218": 1,
+                    "219": 1,
+                    "220": 1,
+                    "235": 1,
+                    "236": 1,
+                    "241": 1,
+                    "262": 1,
+                    "283": 1,
+                    "300": 1,
+                    "301": 1,
+                    "304": 1,
+                    "307": 1,
+                    "308": 1,
+                    "321": 1,
+                    "322": 1,
+                    "323": 1,
+                    "324": 1,
+                    "325": 1,
+                    "326": 1,
+                    "327": 1,
+                    "328": 1,
+                    "329": 1,
+                    "342": 1,
+                    "343": 1,
+                    "349": 1,
+                    "350": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "glyph": "Rare_070_Intelligence_Main",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {
+          "equipment": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Welcome to my Flicker Blood Mage build for D4...I know its weird but here we are...we have a dark mage in D4 not a warlock. With the addition of Enigma has opened it up for all classes to feel like a teleporting sorcerer. This build was into T12 content with only 1 eliminator glyph installed at level 60. That's right, once you have the unique's in place with the right stats and tempers, you can go straight to endgame farming! I was surprised at the sheer power of the build from setup into endgame grinding and has become my favorite build of the season. Many of you watching me play POE2 know how much I like the blood mage and too have this in D4 is an absolute dream for me <3 <3 You need any help with this...gear farming, setup, or just want to say hi, you can find me live almost every night at 11pm EST at twitch.tv/redrankmuppet ...Gameplay loop is pretty simple...we hold down bloodwave while teleporting around...while teleporting around we collect blood orbs created by bloodwave that stack our overpower charges giving us big damage with overpower stacks. Overpower stacks max is increased by our boots and ammy putting us upwards of 12 overpower stacks! Harder enemies we hit with decrepify and we stand inside our bone prison. Yes, WE stand in the prison...this gives us huge essence regen kicking up over 500 essence per SECOND and massive attack speed turning us into a blood wave gatling gun!!! ",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        "minionUpgrades": [
+          "Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice",
+          "Necromancer_SkeletonMage_Shadow_Passive_UpgradeB",
+          "Necromancer_Golem_Iron_Passive_Sacrifice"
+        ],
+        "minionSpec": [
+          0,
+          0,
+          2
+        ]
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Unique_Generic_005",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 583206,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2662414,
+            "values": [
+              50,
+              0.5
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              3000
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_BlackSoulStone_04",
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "2": {
+        "id": "Runeword_Enigma",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2676293,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2676294,
+            "values": [
+              0.5625
+            ]
+          },
+          {
+            "nid": 2686419,
+            "values": [
+              0.21
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2676297,
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 2676305,
+            "values": []
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_CastRepeatSkill",
+          "Rune_Effect_CritBuff"
+        ]
+      },
+      "3": {
+        "id": "S05_BSK_Gloves_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1882770,
+            "values": [
+              20
+            ]
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          },
+          {
+            "nid": 2483378,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "4": {
+        "id": "Pants_Unique_Necro_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2110237,
+            "values": [
+              10,
+              3
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 1829566,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              3000
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Bomb",
+          "Rune_Effect_Necromancer_IronMaiden"
+        ]
+      },
+      "5": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Order Sin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.5
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1223790,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "6": {
+        "id": "Runeword_Insight_Scythe2H",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2678981,
+            "values": [
+              0.4375
+            ]
+          },
+          {
+            "nid": 2661983,
+            "values": [
+              0.5750000000000001
+            ]
+          },
+          {
+            "nid": 2620589,
+            "values": [
+              575
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 2604528,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2686526,
+            "values": [
+              3.5
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2678993,
+            "values": [
+              37.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_09",
+          "Gem_Skull_09"
+        ]
+      },
+      "7": {
+        "id": "Amulet_Unique_Necro_100_x2",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2589357,
+            "values": [
+              150
+            ]
+          },
+          {
+            "nid": 2624405,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2571274,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 615173,
+            "values": [
+              22.5
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Azmodan_04"
+        ]
+      },
+      "8": {
+        "id": "S15_Charm_Unique_Annihilus",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684371,
+            "values": [
+              10
+            ]
+          },
+          {
+            "nid": 2684356,
+            "values": [
+              0.1
+            ]
+          }
+        ]
+      },
+      "9": {
+        "id": "Talisman_Charm_Set_Necro_03_05",
+        "power": 900,
+        "name": "Bramble Retribution"
+      },
+      "10": {
+        "id": "Talisman_Charm_Set_Necro_03_02",
+        "power": 900,
+        "name": "Pain Retribution"
+      },
+      "11": {
+        "id": "Talisman_Charm_Set_Necro_03_04",
+        "power": 900,
+        "name": "Rift Vow"
+      },
+      "12": {
+        "id": "Talisman_Charm_Set_Necro_03_03",
+        "power": 900,
+        "name": "Bitter Ward"
+      },
+      "13": {
+        "id": "S15_Charm_Unique_HellfireTorch",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684322,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2684336,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "14": {
+        "id": "Talisman_Charm_Unique_S05_BSK_Amulet_Unique_Generic_001",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1924261,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "15": {
+        "id": "S14_Ring_Unique_Generic_104",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2630062,
+            "values": [
+              10
+            ]
+          },
+          {
+            "nid": 1829584,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.4375
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04"
+        ]
+      },
+      "16": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Silent Wrath",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829584,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.5
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 614914,
+            "values": [
+              90
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Sapphire_09"
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15,
+    "strAndWeak": {
+      "strengths": [
+        "Fast clear",
+        "easy to gear",
+        "does not require mythics for T12",
+        "tanky"
+      ],
+      "weaknesses": [
+        "addictive to play"
+      ]
+    }
+  },
+  "userId": 1115783,
+  "public": true,
+  "folder": 1,
+  "accessed": 1793684691,
+  "mainset": "",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"493453:52\",\"440313:82\",\"658216:44\",\"915150:82\",\"493422:41\"],\"authorTwitch\":\"https://www.twitch.tv/redrankmuppet\"}",
+  "search_metadata": {
+    "skills": [
+      "Bone Prison",
+      "Skeleton Mage",
+      "Blood Wave",
+      "Decrepify",
+      "Blood Mist"
+    ],
+    "items": [
+      "Leoric's Crown",
+      "Enigma",
+      "Insight",
+      "Endurant Faith",
+      "Kessime's Legacy",
+      "Tidal Runic Cleats",
+      "Soulwatch Hoop of Thickened Blood",
+      "Ring of Starless Skies",
+      "Red Blessing",
+      "Annihilus",
+      "Locran's Talisman",
+      "Hellfire Torch"
+    ],
+    "specializations": [
+      "Skirmisher Sacrifice",
+      "Iron Sacrifice"
+    ]
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1115783,
+    "username": "RRMuppet",
+    "active": 1
+  }
+}

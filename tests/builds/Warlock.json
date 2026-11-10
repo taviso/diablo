@@ -1,0 +1,190 @@
+{
+  "id": "yo5l9606",
+  "date": "2026-11-09 23:17:03",
+  "name": "Warlock",
+  "class": "Warlock",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 7,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 2,
+          "5": 3
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {}
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Warlock_00",
+                  "nodes": {},
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {}
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "S14_Helm_Unique_Generic_002",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2646317,
+            "values": [
+              6
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ]
+      },
+      "2": {
+        "id": "S14_Helm_Unique_Generic_002",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2646317,
+            "values": [
+              6
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ]
+      },
+      "3": {
+        "id": "Runeword_Enigma",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2676293,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2676294,
+            "values": [
+              0.45
+            ]
+          },
+          {
+            "nid": 2686419,
+            "values": [
+              0.12
+            ]
+          },
+          {
+            "nid": 2676297,
+            "values": [
+              0.4
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1225
+            ]
+          },
+          {
+            "nid": 2676305,
+            "values": []
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15
+  },
+  "userId": 1122827,
+  "public": true,
+  "folder": 0,
+  "accessed": 0,
+  "mainset": "",
+  "category": "",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[]}",
+  "search_metadata": {
+    "skills": [],
+    "items": [
+      "Cimiero Arlecchino",
+      "Enigma"
+    ],
+    "specializations": []
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1122827,
+    "username": "AshranThorensen",
+    "active": 1
+  }
+}

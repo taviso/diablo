@@ -1,0 +1,175 @@
+{
+  "id": "5i6m0onc",
+  "date": "2023-10-15 01:46:45",
+  "name": "Endgame Barbarian",
+  "class": "Barbarian",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Set 1",
+        "class": 2,
+        "level": 100,
+        "worldTier": 4,
+        "items": {
+          "18": 1
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "389": 3,
+                "390": 3,
+                "395": 3,
+                "396": 5,
+                "398": 1,
+                "399": 1,
+                "403": 1,
+                "413": 1,
+                "436": 1,
+                "449": 3,
+                "451": 1,
+                "454": 3,
+                "460": 3,
+                "461": 1,
+                "474": 5,
+                "475": 5,
+                "477": 5,
+                "480": 5,
+                "489": 2,
+                "491": 1,
+                "498": 1,
+                "501": 1,
+                "505": 1,
+                "507": 1,
+                "512": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Barbarian_Rupture",
+          "Barbarian_Whirlwind",
+          "Barbarian_GroundStomp",
+          "Barbarian_Kick",
+          "Barbarian_WarCry",
+          "Barbarian_Bash"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Barb_00",
+                  "nodes": {},
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "world": {
+          "altarStr": 68,
+          "altarInt": 68,
+          "altarWill": 68,
+          "altarDex": 68,
+          "altarParagon": 4,
+          "renown": [
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          ]
+        },
+        "arsenal": {},
+        "expertise": {},
+        "technique": "Barbarian_WeaponExpertise_2HAxe"
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 820,
+        "implicits": [
+          {
+            "nid": 760524,
+            "values": [
+              0.1854
+            ]
+          }
+        ],
+        "name": "Empyrian Destroyer",
+        "sockets": [
+          null
+        ],
+        "legendaryPower": {
+          "nid": 578703,
+          "values": [
+            60
+          ]
+        }
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0
+  },
+  "userId": 56972,
+  "public": true,
+  "folder": 0,
+  "accessed": 1789715678,
+  "mainset": "",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"215027:3\",\"206435:3\",\"186358:5\",\"199516:1\",\"184600:3\",\"200765:6\"],\"technique\":687648}",
+  "search_metadata": null,
+  "season": "0",
+  "shared": false,
+  "type": null,
+  "tags": null,
+  "user": {
+    "id": 56972,
+    "username": "dredscythe",
+    "active": 3
+  }
+}

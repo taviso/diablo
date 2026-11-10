@@ -1,0 +1,1256 @@
+{
+  "id": "ar62cw0u",
+  "date": "2026-10-31 18:57:53",
+  "name": "Endgame Warlock",
+  "class": "Warlock",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Doom abyss",
+        "class": 7,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 1,
+          "5": 2,
+          "7": 6,
+          "13": 3,
+          "14": 4,
+          "15": 5,
+          "16": 9,
+          "17": 8,
+          "18": 7,
+          "20": 10,
+          "21": 12,
+          "22": 14,
+          "23": 16,
+          "24": 11,
+          "25": 13,
+          "26": 15
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "607": 1,
+                "610": 1,
+                "620": 1,
+                "622": 1,
+                "650": 1,
+                "652": 1,
+                "667": 1,
+                "669": 1,
+                "739": 1,
+                "758": 1,
+                "761": 1,
+                "814": 1,
+                "819": 15,
+                "821": 1,
+                "829": 1,
+                "838": 15,
+                "856": 1,
+                "859": 1,
+                "891": 1,
+                "897": 1,
+                "914": 1,
+                "916": 1,
+                "920": 1,
+                "921": 1,
+                "935": 1,
+                "938": 1,
+                "941": 14,
+                "943": 15
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Warlock_Command_Ritualist_Demon",
+          "Warlock_HexCast",
+          "Warlock_SigilOfFlames",
+          "Warlock_BrimstoneOrb",
+          "Warlock_SigilOfShadows",
+          "Warlock_ArchDemon"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Warlock_00",
+                  "nodes": {
+                    "10": 1,
+                    "30": 1,
+                    "31": 1,
+                    "51": 1,
+                    "72": 1,
+                    "93": 1,
+                    "95": 1,
+                    "112": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "133": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "154": 1,
+                    "156": 1,
+                    "157": 1,
+                    "159": 1,
+                    "175": 1,
+                    "176": 1,
+                    "177": 1,
+                    "180": 1,
+                    "197": 1,
+                    "201": 1,
+                    "218": 1,
+                    "219": 1,
+                    "222": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "260": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_117_Strength_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Warlock_05",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "33": 1,
+                    "54": 1,
+                    "75": 1,
+                    "80": 1,
+                    "96": 1,
+                    "97": 1,
+                    "98": 1,
+                    "100": 1,
+                    "101": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "140": 1,
+                    "142": 1,
+                    "153": 1,
+                    "154": 1,
+                    "155": 1,
+                    "157": 1,
+                    "161": 1,
+                    "175": 1,
+                    "178": 1,
+                    "180": 1,
+                    "181": 1,
+                    "182": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "210": 1,
+                    "211": 1,
+                    "212": 1,
+                    "213": 1,
+                    "214": 1,
+                    "215": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "224": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "235": 1,
+                    "240": 1,
+                    "241": 1,
+                    "245": 1,
+                    "255": 1,
+                    "256": 1,
+                    "257": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "261": 1,
+                    "265": 1,
+                    "266": 1,
+                    "276": 1,
+                    "280": 1,
+                    "281": 1,
+                    "286": 1,
+                    "287": 1,
+                    "296": 1,
+                    "297": 1,
+                    "300": 1,
+                    "301": 1,
+                    "316": 1,
+                    "317": 1,
+                    "320": 1,
+                    "322": 1,
+                    "323": 1,
+                    "337": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "360": 1,
+                    "363": 1,
+                    "364": 1,
+                    "365": 1,
+                    "366": 1,
+                    "381": 1,
+                    "382": 1,
+                    "383": 1,
+                    "384": 1,
+                    "387": 1,
+                    "408": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_126_Strength_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Warlock_08",
+                  "nodes": {
+                    "69": 1,
+                    "70": 1,
+                    "91": 1,
+                    "92": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "113": 1,
+                    "129": 1,
+                    "131": 1,
+                    "138": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "158": 1,
+                    "159": 1,
+                    "172": 1,
+                    "173": 1,
+                    "179": 1,
+                    "180": 1,
+                    "181": 1,
+                    "194": 1,
+                    "200": 1,
+                    "215": 1,
+                    "221": 1,
+                    "222": 1,
+                    "236": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "243": 1,
+                    "246": 1,
+                    "247": 1,
+                    "257": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "262": 1,
+                    "263": 1,
+                    "264": 1,
+                    "266": 1,
+                    "267": 1,
+                    "281": 1,
+                    "285": 1,
+                    "288": 1,
+                    "306": 1,
+                    "308": 1,
+                    "309": 1,
+                    "326": 1,
+                    "327": 1,
+                    "328": 1,
+                    "329": 1,
+                    "348": 1,
+                    "350": 1,
+                    "351": 1,
+                    "352": 1,
+                    "353": 1,
+                    "369": 1,
+                    "374": 1,
+                    "390": 1,
+                    "409": 1,
+                    "410": 1,
+                    "411": 1,
+                    "430": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_119_Strength_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Warlock_07",
+                  "nodes": {
+                    "116": 1,
+                    "117": 1,
+                    "130": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "134": 1,
+                    "137": 1,
+                    "138": 1,
+                    "152": 1,
+                    "153": 1,
+                    "155": 1,
+                    "156": 1,
+                    "157": 1,
+                    "158": 1,
+                    "178": 1,
+                    "182": 1,
+                    "184": 1,
+                    "199": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "205": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "239": 1,
+                    "240": 1,
+                    "244": 1,
+                    "245": 1,
+                    "260": 1,
+                    "266": 1,
+                    "287": 1,
+                    "307": 1,
+                    "308": 1,
+                    "317": 1,
+                    "318": 1,
+                    "319": 1,
+                    "320": 1,
+                    "328": 1,
+                    "329": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "348": 1,
+                    "349": 1,
+                    "350": 1,
+                    "361": 1,
+                    "362": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "368": 1,
+                    "369": 1,
+                    "382": 1,
+                    "383": 1,
+                    "384": 1,
+                    "403": 1,
+                    "404": 1,
+                    "405": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "glyph": "Rare_114_Intelligence_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Warlock_06",
+                  "nodes": {
+                    "47": 1,
+                    "68": 1,
+                    "69": 1,
+                    "78": 1,
+                    "89": 1,
+                    "90": 1,
+                    "99": 1,
+                    "108": 1,
+                    "109": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "116": 1,
+                    "117": 1,
+                    "118": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "129": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "143": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "162": 1,
+                    "163": 1,
+                    "164": 1,
+                    "172": 1,
+                    "173": 1,
+                    "174": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "185": 1,
+                    "206": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "246": 1,
+                    "259": 1,
+                    "262": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_123_Willpower_Main",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "warlockShard": "Warlock_ClassMechanic_Ritualist",
+        "warlockFragment": "Warlock_ClassMechanic_Ritualist_C"
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Unique_Warlock_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1834105,
+            "values": [
+              40
+            ],
+            "uniquePriority": 0,
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              181.5
+            ],
+            "uniquePriority": 1,
+            "greater": true
+          },
+          {
+            "nid": 2534762,
+            "values": [
+              4
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2559920,
+            "values": [
+              2.275,
+              2.275,
+              2.6
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "sockets": [
+          "Gem_Sapphire_09",
+          "Gem_Sapphire_09"
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "2": {
+        "id": "Chest_Unique_Warlock_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1834105,
+            "values": [
+              40
+            ],
+            "uniquePriority": 0,
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              181.5
+            ],
+            "uniquePriority": 1,
+            "greater": true
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2559908,
+            "values": [
+              1.1700000000000002,
+              1.1700000000000002
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_Rune_Condition_Eth",
+          "Rune_Effect_Warlock_ChainPrison"
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "3": {
+        "id": "S05_BSK_Gloves_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2602164,
+            "values": [
+              0.75
+            ],
+            "uniquePriority": 0,
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.42000000000000004
+            ],
+            "uniquePriority": 1,
+            "greater": true
+          },
+          {
+            "nid": 2602161,
+            "values": [
+              225
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1882770,
+            "values": [
+              26
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2528870,
+            "values": [
+              1
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ]
+      },
+      "4": {
+        "id": "Pants_Unique_Generic_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829574,
+            "values": [
+              242
+            ],
+            "uniquePriority": 0,
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2534762,
+            "values": [
+              4
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578775,
+            "values": [
+              130
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Bomb",
+          "S15_Rune_Effect_Ber"
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ]
+      },
+      "5": {
+        "id": "Boots_Unique_Warlock_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2534850,
+            "values": [
+              3
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2559904,
+            "values": [
+              1.3
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.5
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ]
+      },
+      "6": {
+        "id": "2HAxe_Unique_Warlock_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829586,
+            "values": [
+              1
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2625642,
+            "values": [
+              2370
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2602161,
+            "values": [
+              450
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1928751,
+            "values": [
+              6
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2559890,
+            "values": [
+              0.013000000000000001
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "sockets": [
+          "Gem_Amethyst_09",
+          "Gem_Amethyst_09"
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "7": {
+        "id": "Amulet_Unique_Warlock_003",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2602164,
+            "values": [
+              1
+            ],
+            "uniquePriority": 0,
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2602161,
+            "values": [
+              225
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2534854,
+            "values": [
+              3
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2559900,
+            "values": [
+              15.600000000000001
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_BlackSoulStone_04"
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "greater": true,
+            "values": [
+              18
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2547945,
+            "values": [
+              9
+            ]
+          }
+        ]
+      },
+      "8": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Chaos Salvation",
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04"
+        ],
+        "aspects": [
+          {
+            "nid": 2547909,
+            "values": [
+              20
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1829584,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.5
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "greater": true,
+            "values": [
+              0.09
+            ]
+          }
+        ]
+      },
+      "9": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "upgrade": 25,
+        "name": "Bloody Mayhem",
+        "sockets": [
+          "S15_SoulSplinter_Skarn_04"
+        ],
+        "explicits": [
+          {
+            "nid": 1829586,
+            "values": [
+              0.5
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2558713,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.075
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2547917,
+            "values": [
+              7
+            ]
+          }
+        ]
+      },
+      "10": {
+        "id": "S15_Charm_Unique_Annihilus",
+        "power": 900,
+        "mythic": false,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684371,
+            "values": [
+              10
+            ]
+          },
+          {
+            "nid": 2684356,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2608789,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2608804,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "11": {
+        "id": "Talisman_Charm_Set_Warlock_03_05",
+        "power": 900,
+        "name": "Bone Wrath",
+        "explicits": [
+          {
+            "nid": 2545968,
+            "greater": true,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2546085,
+            "greater": true,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "12": {
+        "id": "Talisman_Charm_Set_Warlock_03_02",
+        "power": 900,
+        "name": "Viper Vow",
+        "explicits": [
+          {
+            "nid": 2545968,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2546091,
+            "greater": true,
+            "values": [
+              3500
+            ]
+          }
+        ]
+      },
+      "13": {
+        "id": "Talisman_Charm_Set_Warlock_03_04",
+        "power": 900,
+        "name": "Heroic Coup",
+        "explicits": [
+          {
+            "nid": 2545968,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              3500
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "14": {
+        "id": "Talisman_Charm_Set_Warlock_03_03",
+        "power": 900,
+        "name": "Agony Passage",
+        "explicits": [
+          {
+            "nid": 2545968,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              3500
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "15": {
+        "id": "S15_Charm_Unique_HellfireTorch",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684322,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2684336,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "16": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Warlock_004",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2559902,
+            "values": [
+              0.52,
+              2,
+              0.52
+            ]
+          },
+          {
+            "nid": 2545968,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2546093,
+            "values": [
+              3500
+            ],
+            "greater": true
+          }
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15
+  },
+  "userId": 1083091,
+  "public": true,
+  "folder": 0,
+  "accessed": 1793472884,
+  "mainset": "",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"2469892\",\"2218204:73\",\"2218213:76\",\"2215258:52\",\"2218209:41\",\"2215096:52\"]}",
+  "search_metadata": {
+    "skills": [
+      "Command Valloch",
+      "Doom",
+      "Sigil of Chaos",
+      "Molten Bomb",
+      "Sigil of Subversion",
+      "Metamorphosis"
+    ],
+    "items": [
+      "Cowl of Malefic Torment",
+      "Fleshwrit Carapace",
+      "Dirge of Odium",
+      "Endurant Faith",
+      "Temerity",
+      "Footfalls of the Waning World",
+      "Overwhelming Soulwatch Hoop",
+      "Soulwatch Hoop of Calamity",
+      "Night Terror",
+      "Annihilus",
+      "The Hemat Stone",
+      "Hellfire Torch"
+    ],
+    "specializations": []
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1083091,
+    "username": "Dziadymir",
+    "active": 1
+  }
+}

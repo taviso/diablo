@@ -1,0 +1,1274 @@
+{
+  "id": "0h6gow0u",
+  "date": "2026-10-31 15:17:12",
+  "name": "No button blizzard sorc",
+  "class": "Sorcerer",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "0 Button Blizzard Sorcerer",
+        "class": 0,
+        "level": 70,
+        "worldTier": 16,
+        "items": {
+          "4": 1,
+          "5": 2,
+          "7": 6,
+          "13": 3,
+          "14": 4,
+          "15": 5,
+          "16": 9,
+          "17": 8,
+          "18": 7,
+          "20": 10,
+          "26": 11
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "603": 2,
+                "604": 15,
+                "605": 15,
+                "606": 1,
+                "610": 15,
+                "613": 1,
+                "661": 15,
+                "970": 1,
+                "975": 1,
+                "998": 1,
+                "1000": 1,
+                "1002": 1,
+                "1005": 1,
+                "1008": 1,
+                "1013": 1,
+                "1015": 1,
+                "1020": 1,
+                "1024": 1,
+                "1028": 1,
+                "1033": 1,
+                "1036": 1,
+                "1037": 1,
+                "1039": 1,
+                "1090": 1,
+                "1093": 1,
+                "1097": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Paragon 300",
+              "data": [
+                {
+                  "id": "Paragon_Sorc_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "74": 1,
+                    "93": 1,
+                    "95": 1,
+                    "114": 1,
+                    "116": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "159": 1,
+                    "180": 1,
+                    "201": 1,
+                    "218": 1,
+                    "222": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "260": 1,
+                    "264": 1,
+                    "281": 1,
+                    "282": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_Int_Generic",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Sorc_08",
+                  "nodes": {
+                    "5": 1,
+                    "10": 1,
+                    "26": 1,
+                    "31": 1,
+                    "47": 1,
+                    "52": 1,
+                    "65": 1,
+                    "68": 1,
+                    "69": 1,
+                    "70": 1,
+                    "73": 1,
+                    "74": 1,
+                    "85": 1,
+                    "86": 1,
+                    "87": 1,
+                    "89": 1,
+                    "91": 1,
+                    "95": 1,
+                    "105": 1,
+                    "106": 1,
+                    "108": 1,
+                    "110": 1,
+                    "112": 1,
+                    "113": 1,
+                    "114": 1,
+                    "115": 1,
+                    "116": 1,
+                    "117": 1,
+                    "129": 1,
+                    "131": 1,
+                    "133": 1,
+                    "138": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "158": 1,
+                    "159": 1,
+                    "173": 1,
+                    "174": 1,
+                    "175": 1,
+                    "179": 1,
+                    "180": 1,
+                    "181": 1,
+                    "182": 1,
+                    "194": 1,
+                    "203": 1,
+                    "204": 1,
+                    "205": 1,
+                    "215": 1,
+                    "226": 1,
+                    "229": 1,
+                    "230": 1,
+                    "246": 1,
+                    "247": 1,
+                    "249": 1,
+                    "250": 1,
+                    "264": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "268": 1,
+                    "269": 1,
+                    "270": 1,
+                    "285": 1,
+                    "306": 1,
+                    "326": 1,
+                    "327": 1,
+                    "328": 1,
+                    "329": 1,
+                    "346": 1,
+                    "347": 1,
+                    "348": 1,
+                    "350": 1,
+                    "351": 1,
+                    "369": 1,
+                    "372": 1,
+                    "373": 1,
+                    "374": 1,
+                    "388": 1,
+                    "389": 1,
+                    "390": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_084_Intelligence_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Sorc_02",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "52": 1,
+                    "56": 1,
+                    "73": 1,
+                    "74": 1,
+                    "75": 1,
+                    "76": 1,
+                    "77": 1,
+                    "78": 1,
+                    "90": 1,
+                    "96": 1,
+                    "97": 1,
+                    "98": 1,
+                    "109": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "117": 1,
+                    "130": 1,
+                    "131": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "155": 1,
+                    "159": 1,
+                    "176": 1,
+                    "177": 1,
+                    "180": 1,
+                    "198": 1,
+                    "201": 1,
+                    "202": 1,
+                    "203": 1,
+                    "210": 1,
+                    "211": 1,
+                    "220": 1,
+                    "222": 1,
+                    "223": 1,
+                    "232": 1,
+                    "233": 1,
+                    "240": 1,
+                    "241": 1,
+                    "243": 1,
+                    "246": 1,
+                    "254": 1,
+                    "255": 1,
+                    "257": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "261": 1,
+                    "262": 1,
+                    "264": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "276": 1,
+                    "277": 1,
+                    "278": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "287": 1,
+                    "288": 1,
+                    "296": 1,
+                    "297": 1,
+                    "298": 1,
+                    "303": 1,
+                    "304": 1,
+                    "309": 1,
+                    "318": 1,
+                    "328": 1,
+                    "329": 1,
+                    "330": 1,
+                    "331": 1,
+                    "332": 1,
+                    "348": 1,
+                    "349": 1,
+                    "352": 1,
+                    "353": 1,
+                    "372": 1,
+                    "373": 1,
+                    "374": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_004_Intelligence_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Sorc_06",
+                  "nodes": {
+                    "47": 1,
+                    "48": 1,
+                    "56": 1,
+                    "57": 1,
+                    "68": 1,
+                    "69": 1,
+                    "77": 1,
+                    "78": 1,
+                    "89": 1,
+                    "90": 1,
+                    "98": 1,
+                    "99": 1,
+                    "111": 1,
+                    "112": 1,
+                    "118": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "143": 1,
+                    "152": 1,
+                    "162": 1,
+                    "163": 1,
+                    "164": 1,
+                    "173": 1,
+                    "174": 1,
+                    "175": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "196": 1,
+                    "197": 1,
+                    "202": 1,
+                    "203": 1,
+                    "217": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "244": 1,
+                    "258": 1,
+                    "259": 1,
+                    "262": 1,
+                    "263": 1,
+                    "265": 1,
+                    "266": 1,
+                    "280": 1,
+                    "281": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1,
+                    "287": 1,
+                    "301": 1,
+                    "306": 1,
+                    "326": 1,
+                    "327": 1,
+                    "347": 1,
+                    "367": 1,
+                    "368": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -2
+                  },
+                  "glyph": "Rare_019_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Sorc_07",
+                  "nodes": {
+                    "96": 1,
+                    "116": 1,
+                    "117": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "134": 1,
+                    "137": 1,
+                    "138": 1,
+                    "152": 1,
+                    "153": 1,
+                    "155": 1,
+                    "156": 1,
+                    "157": 1,
+                    "158": 1,
+                    "178": 1,
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "199": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "235": 1,
+                    "236": 1,
+                    "239": 1,
+                    "240": 1,
+                    "244": 1,
+                    "245": 1,
+                    "257": 1,
+                    "258": 1,
+                    "260": 1,
+                    "266": 1,
+                    "277": 1,
+                    "278": 1,
+                    "287": 1,
+                    "295": 1,
+                    "299": 1,
+                    "301": 1,
+                    "307": 1,
+                    "308": 1,
+                    "315": 1,
+                    "316": 1,
+                    "317": 1,
+                    "318": 1,
+                    "319": 1,
+                    "320": 1,
+                    "322": 1,
+                    "328": 1,
+                    "329": 1,
+                    "338": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "348": 1,
+                    "349": 1,
+                    "350": 1,
+                    "362": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "368": 1,
+                    "369": 1,
+                    "383": 1,
+                    "388": 1,
+                    "403": 1,
+                    "404": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "glyph": "Rare_079_Dexterity_Side",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {
+            "551": 1,
+            "560": 1,
+            "562": 1,
+            "692": 1,
+            "712": 1,
+            "734": 1,
+            "736": 1
+          },
+          {
+            "551": 1,
+            "563": 1,
+            "688": 1,
+            "705": 1,
+            "727": 1,
+            "728": 1
+          },
+          {
+            "550": 1,
+            "551": 1,
+            "562": 1,
+            "563": 1,
+            "690": 1,
+            "736": 1,
+            "737": 1
+          },
+          {
+            "560": 1,
+            "562": 1,
+            "563": 1,
+            "688": 1,
+            "690": 1,
+            "692": 1,
+            "705": 1
+          },
+          {
+            "549": 1,
+            "562": 1,
+            "692": 1,
+            "726": 1,
+            "750": 1,
+            "751": 1,
+            "752": 1
+          },
+          {
+            "714": 1,
+            "715": 1,
+            "716": 1,
+            "719": 1,
+            "720": 1,
+            "721": 1,
+            "723": 1
+          },
+          {
+            "729": 1,
+            "731": 1,
+            "732": 1,
+            "733": 1,
+            "739": 1,
+            "741": 1,
+            "743": 1
+          }
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {
+          "equipment": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Splinter of Hatred is going to be the best in general for Pit Pushing and Glyph leveling, other than that feel free to use the Splinter that suits the activities you're most interested in farming. In order to maximize your damage, you need to reach 85% Critical Strike Chance (shown in town), your Stalagmite Glyph will provide the remaining 15% to reach the 100% cap!",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        "enchants": [
+          "Sorcerer_Enchantment_Blizzard",
+          "Sorcerer_Enchantment_IceShards"
+        ],
+        "mercenary": {
+          "id": "MercenaryClass_ShieldBearer",
+          "tree": {
+            "483": 1,
+            "567": 1,
+            "569": 1,
+            "570": 1
+          },
+          "support": "MercenaryClass_CursedChild",
+          "supportSkills": [
+            "Mercenary_CursedChild_Wither",
+            "trigger_injured"
+          ]
+        }
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Unique_Generic_005",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829566,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2517794,
+            "values": [
+              0.2625
+            ],
+            "upgrade": 1,
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              0.375
+            ],
+            "upgrade": 0,
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2662414,
+            "values": [
+              65,
+              0.65
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_NaKrul_04",
+          "S15_SoulSplinter_Andariel_04"
+        ]
+      },
+      "2": {
+        "id": "Runeword_Enigma",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2676293,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2676294,
+            "values": [
+              0.5625
+            ]
+          },
+          {
+            "nid": 2686419,
+            "values": [
+              0.24
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2676297,
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 2676305,
+            "values": []
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnAvoidDamage",
+          "Rune_Effect_Sorcerer_FrostNova"
+        ]
+      },
+      "3": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Corruption Mayhem",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602157,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602172,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574550,
+            "values": [
+              100
+            ]
+          }
+        ]
+      },
+      "4": {
+        "id": "Pants_Unique_Generic_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829566,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1834175,
+            "values": [
+              0.3
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578775,
+            "values": [
+              130
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_Rune_Condition_Mal",
+          "Rune_Effect_Druid_Petrify"
+        ]
+      },
+      "5": {
+        "id": "Boots_Unique_Sorc_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829566,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.48
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1926998,
+            "values": [
+              4
+            ],
+            "upgrade": 0,
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1215923,
+            "values": [
+              52
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862261,
+            "values": [
+              0.1875
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ]
+      },
+      "6": {
+        "id": "Runeword_Insight_2HStaff",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2620595,
+            "values": [
+              535
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2604528,
+            "values": [
+              558
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2625642,
+            "values": [
+              2938.8
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2678945,
+            "values": [
+              46.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2661983,
+            "values": [
+              0.7130000000000001
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2686526,
+            "values": [
+              4.6
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 5
+          },
+          {
+            "nid": 2516946,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              1.8
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Sapphire_09",
+          "Gem_Sapphire_09"
+        ]
+      },
+      "7": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Visceral Blitz",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829582,
+            "values": [
+              0.1275
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.49000000000000005
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602172,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575303,
+            "values": [
+              60
+            ]
+          },
+          {
+            "nid": 2574644,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Azmodan_04"
+        ]
+      },
+      "8": {
+        "id": "Ring_Unique_Sorc_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1618097,
+            "values": [
+              130
+            ]
+          },
+          {
+            "nid": 2624425,
+            "values": [
+              3
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558709,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Lilith_04"
+        ]
+      },
+      "9": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829566,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558709,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497324,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574575,
+            "values": [
+              15
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "10": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546422,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2590235,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2590239,
+            "values": [
+              0.15
+            ]
+          }
+        ]
+      },
+      "11": {
+        "id": "Talisman_Charm_Set_Sorc_02_05",
+        "power": 900,
+        "name": "Loath Exile",
+        "explicits": [
+          {
+            "nid": 2619814,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2546083,
+            "values": [
+              2800
+            ]
+          }
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15,
+    "strAndWeak": {
+      "strengths": [
+        "Walking simulator"
+      ],
+      "weaknesses": [
+        "Damage ramp up"
+      ]
+    }
+  },
+  "userId": 1121996,
+  "public": true,
+  "folder": 0,
+  "accessed": 1793464802,
+  "mainset": "",
+  "category": "",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[],\"enchants\":[\"511317\",\"515786\"]}",
+  "search_metadata": {
+    "skills": [],
+    "items": [
+      "Leoric's Crown",
+      "Enigma",
+      "Insight",
+      "Blasting Runic Gloves",
+      "Temerity",
+      "Esu's Heirloom",
+      "Soulwatch Hoop of Merciless Cold",
+      "Blue Rose",
+      "Lingering Ocelot's Eye",
+      "Seal of the Diamond Mind"
+    ],
+    "specializations": [
+      "Blizzard Enchantment",
+      "Ice Shards Enchantment"
+    ]
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1121996,
+    "username": "cal1x_.",
+    "active": 1
+  }
+}

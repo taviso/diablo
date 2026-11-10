@@ -1,0 +1,509 @@
+{
+  "id": "8i6moh0u",
+  "date": "2026-10-31 19:07:33",
+  "name": "Season 16 Blood Lance",
+  "class": "Necromancer",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 4,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "5": 10,
+          "6": 12,
+          "7": 5,
+          "13": 2,
+          "14": 9,
+          "15": 4,
+          "17": 11,
+          "18": 3,
+          "20": 1,
+          "26": 8
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "22": 1,
+                "43": 1,
+                "53": 1,
+                "60": 15,
+                "216": 15,
+                "625": 1,
+                "627": 1,
+                "629": 0,
+                "630": 1,
+                "665": 1,
+                "667": 1,
+                "669": 1,
+                "681": 15,
+                "688": 1,
+                "691": 1,
+                "692": 1,
+                "698": 1,
+                "699": 1,
+                "702": 1,
+                "708": 1,
+                "711": 1,
+                "713": 1,
+                "750": 1,
+                "751": 1,
+                "755": 1,
+                "988": 1,
+                "1006": 1,
+                "1008": 1,
+                "1010": 1,
+                "1013": 10,
+                "1018": 1,
+                "1020": 1,
+                "1023": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Necro_00",
+                  "nodes": {
+                    "10": 1,
+                    "136": 1,
+                    "137": 1,
+                    "157": 1,
+                    "158": 1,
+                    "159": 1,
+                    "178": 1,
+                    "180": 1,
+                    "181": 1,
+                    "201": 1,
+                    "222": 1,
+                    "243": 1,
+                    "244": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_075_Willpower_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Necro_02",
+                  "nodes": {
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  }
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "minionUpgrades": [
+          "Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice",
+          "Necromancer_Golem_Bone_Passive_UpgradeA",
+          "Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice"
+        ],
+        "minionSpec": [
+          2,
+          2,
+          0
+        ]
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "2": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Blood Downfall"
+      },
+      "3": {
+        "id": "Amulet_Unique_Generic_101",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1559733,
+            "values": [
+              130.00065
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.28
+            ]
+          },
+          {
+            "nid": 2602182,
+            "values": [
+              0.24
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2620659,
+            "values": [
+              112.5
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              15
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "4": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Doom Work"
+      },
+      "5": {
+        "id": "S05_BSK_1HDagger_Unique_Necro_001",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1947475,
+            "values": [
+              182
+            ]
+          },
+          {
+            "nid": 1928753,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2620571,
+            "values": [
+              143
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2200
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ]
+      },
+      "6": {
+        "id": "Talisman_Charm_Set_Necro_05_05",
+        "power": 900,
+        "name": "Cruel Salvation"
+      },
+      "7": {
+        "id": "Talisman_Charm_Set_Necro_05_05",
+        "power": 900,
+        "name": "Wraith Form"
+      },
+      "8": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Necro_100_x2",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2589357,
+            "values": [
+              130
+            ]
+          }
+        ]
+      },
+      "9": {
+        "id": "Pants_Unique_Necro_100",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1612622,
+            "values": [
+              39
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 1829566,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              2500
+            ]
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ]
+      },
+      "10": {
+        "id": "Chest_Unique_Necro_100",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1713421,
+            "values": [
+              11.700000000000001,
+              6.5
+            ]
+          },
+          {
+            "nid": 1924666,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 1829566,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              2500
+            ]
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ]
+      },
+      "11": {
+        "id": "S14_Ring_Unique_Generic_104",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2630062,
+            "values": [
+              10
+            ]
+          },
+          {
+            "nid": 1829556,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 1829566,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.14
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ]
+      },
+      "12": {
+        "id": "1HShield_Unique_Necro_100",
+        "power": 900,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 577278,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 1036913,
+            "values": [
+              1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1439779,
+            "values": [
+              58.5,
+              25
+            ]
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.085
+            ]
+          },
+          {
+            "nid": 1928803,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2602157,
+            "values": [
+              180
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              2500
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 16
+  },
+  "userId": 847980,
+  "public": true,
+  "folder": 0,
+  "accessed": 0,
+  "mainset": "",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[]}",
+  "search_metadata": {
+    "skills": [],
+    "items": [
+      "Mutilator Plate",
+      "Lidless Wall",
+      "The Mortacrux",
+      "Blood Moon Breeches",
+      "Ring of Starless Skies",
+      "Banished Lord's Talisman",
+      "Seal of the Diamond Mind",
+      "Red Blessing"
+    ],
+    "specializations": [
+      "Reaper Sacrifice",
+      "Sacrifice Sacrifice"
+    ]
+  },
+  "season": "16",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 847980,
+    "username": "skyward08",
+    "active": 1
+  }
+}

@@ -1,0 +1,9388 @@
+{
+  "id": "54bdlk0x",
+  "date": "2026-07-18 05:41:52",
+  "name": "[S14] Charge Barb - HC Push Variant",
+  "class": "Barbarian",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Push",
+        "class": 2,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 150,
+          "5": 151,
+          "8": 155,
+          "9": 188,
+          "11": 180,
+          "12": 181,
+          "13": 71,
+          "14": 153,
+          "15": 154,
+          "16": 183,
+          "17": 184,
+          "18": 185,
+          "20": 47,
+          "21": 48,
+          "22": 49,
+          "23": 50,
+          "24": 51,
+          "25": 53,
+          "26": 70
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Push Skill Tree",
+              "data": {
+                "399": 1,
+                "405": 0,
+                "407": 1,
+                "409": 1,
+                "434": 1,
+                "471": 15,
+                "472": 15,
+                "474": 15,
+                "475": 0,
+                "478": 0,
+                "479": 1,
+                "482": 12,
+                "483": 0,
+                "484": 1,
+                "485": 5,
+                "624": 0,
+                "689": 0,
+                "690": 0,
+                "692": 0,
+                "703": 1,
+                "705": 1,
+                "707": 1,
+                "711": 1,
+                "713": 1,
+                "721": 0,
+                "724": 0,
+                "726": 0,
+                "728": 0,
+                "729": 0,
+                "735": 1,
+                "737": 1,
+                "739": 0,
+                "741": 1,
+                "742": 0,
+                "745": 1,
+                "747": 1,
+                "748": 0,
+                "772": 1,
+                "775": 1,
+                "793": 1,
+                "796": 0,
+                "797": 1,
+                "798": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Barbarian_SteelGrasp",
+          "Barbarian_Charge",
+          "Barbarian_RallyingCry",
+          "Barbarian_WarCry",
+          "Barbarian_IronSkin",
+          "Barbarian_WrathoftheBerserker"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Level 150 Glyphs / All Points",
+              "data": [
+                {
+                  "id": "Paragon_Barb_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "72": 1,
+                    "74": 1,
+                    "75": 1,
+                    "93": 1,
+                    "95": 1,
+                    "96": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "117": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "156": 1,
+                    "159": 1,
+                    "177": 1,
+                    "180": 1,
+                    "198": 1,
+                    "201": 1,
+                    "218": 1,
+                    "219": 1,
+                    "222": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_037_Willpower_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_07",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "52": 1,
+                    "72": 1,
+                    "73": 1,
+                    "93": 1,
+                    "94": 1,
+                    "95": 1,
+                    "96": 1,
+                    "112": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "117": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "134": 1,
+                    "137": 1,
+                    "138": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "153": 1,
+                    "156": 1,
+                    "157": 1,
+                    "158": 1,
+                    "171": 1,
+                    "178": 1,
+                    "182": 1,
+                    "184": 1,
+                    "192": 1,
+                    "199": 1,
+                    "203": 1,
+                    "204": 1,
+                    "205": 1,
+                    "208": 1,
+                    "210": 1,
+                    "211": 1,
+                    "212": 1,
+                    "213": 1,
+                    "215": 1,
+                    "219": 1,
+                    "220": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "233": 1,
+                    "234": 1,
+                    "235": 1,
+                    "236": 1,
+                    "237": 1,
+                    "239": 1,
+                    "240": 1,
+                    "246": 1,
+                    "247": 1,
+                    "250": 1,
+                    "254": 1,
+                    "257": 1,
+                    "260": 1,
+                    "266": 1,
+                    "267": 1,
+                    "276": 1,
+                    "277": 1,
+                    "278": 1,
+                    "279": 1,
+                    "280": 1,
+                    "287": 1,
+                    "288": 1,
+                    "296": 1,
+                    "299": 1,
+                    "301": 1,
+                    "303": 1,
+                    "307": 1,
+                    "308": 1,
+                    "316": 1,
+                    "317": 1,
+                    "318": 1,
+                    "319": 1,
+                    "320": 1,
+                    "321": 1,
+                    "322": 1,
+                    "323": 1,
+                    "324": 1,
+                    "328": 1,
+                    "329": 1,
+                    "337": 1,
+                    "339": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "348": 1,
+                    "349": 1,
+                    "350": 1,
+                    "359": 1,
+                    "360": 1,
+                    "361": 1,
+                    "362": 1,
+                    "364": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "368": 1,
+                    "369": 1,
+                    "381": 1,
+                    "383": 1,
+                    "384": 1,
+                    "387": 1,
+                    "388": 1,
+                    "404": 1,
+                    "408": 1,
+                    "409": 1,
+                    "425": 1,
+                    "430": 1
+                  },
+                  "rotation": 3,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_Str_Generic",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_01",
+                  "nodes": {
+                    "35": 1,
+                    "36": 1,
+                    "56": 1,
+                    "57": 1,
+                    "58": 1,
+                    "78": 1,
+                    "99": 1,
+                    "102": 1,
+                    "112": 1,
+                    "113": 1,
+                    "114": 1,
+                    "115": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "123": 1,
+                    "124": 1,
+                    "132": 1,
+                    "133": 1,
+                    "141": 1,
+                    "144": 1,
+                    "145": 1,
+                    "151": 1,
+                    "152": 1,
+                    "153": 1,
+                    "162": 1,
+                    "173": 1,
+                    "174": 1,
+                    "175": 1,
+                    "180": 1,
+                    "181": 1,
+                    "182": 1,
+                    "183": 1,
+                    "196": 1,
+                    "197": 1,
+                    "198": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "204": 1,
+                    "218": 1,
+                    "225": 1,
+                    "226": 1,
+                    "227": 1,
+                    "228": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "239": 1,
+                    "258": 1,
+                    "259": 1,
+                    "279": 1,
+                    "299": 1,
+                    "300": 1,
+                    "320": 1,
+                    "339": 1,
+                    "340": 1,
+                    "341": 1,
+                    "359": 1,
+                    "360": 1,
+                    "379": 1,
+                    "380": 1,
+                    "381": 1,
+                    "401": 1
+                  },
+                  "rotation": 2,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_022_Strength_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_02",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "52": 1,
+                    "73": 1,
+                    "74": 1,
+                    "75": 1,
+                    "76": 1,
+                    "77": 1,
+                    "78": 1,
+                    "96": 1,
+                    "97": 1,
+                    "110": 1,
+                    "111": 1,
+                    "112": 1,
+                    "117": 1,
+                    "133": 1,
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "155": 1,
+                    "159": 1,
+                    "175": 1,
+                    "176": 1,
+                    "177": 1,
+                    "179": 1,
+                    "180": 1,
+                    "198": 1,
+                    "200": 1,
+                    "201": 1,
+                    "202": 1,
+                    "222": 1,
+                    "223": 1,
+                    "224": 1,
+                    "243": 1,
+                    "244": 1,
+                    "245": 1,
+                    "256": 1,
+                    "257": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "261": 1,
+                    "264": 1,
+                    "276": 1,
+                    "277": 1,
+                    "282": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "296": 1,
+                    "297": 1,
+                    "298": 1,
+                    "318": 1
+                  },
+                  "rotation": 2,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "glyph": "Rare_036_Willpower_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Barb_03",
+                  "nodes": {
+                    "56": 1,
+                    "57": 1,
+                    "77": 1,
+                    "78": 1,
+                    "98": 1,
+                    "99": 1,
+                    "119": 1,
+                    "130": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "139": 1,
+                    "140": 1,
+                    "154": 1,
+                    "159": 1,
+                    "160": 1,
+                    "175": 1,
+                    "177": 1,
+                    "178": 1,
+                    "180": 1,
+                    "182": 1,
+                    "183": 1,
+                    "196": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "203": 1,
+                    "204": 1,
+                    "208": 1,
+                    "216": 1,
+                    "217": 1,
+                    "222": 1,
+                    "223": 1,
+                    "224": 1,
+                    "227": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "241": 1,
+                    "243": 1,
+                    "246": 1,
+                    "247": 1,
+                    "248": 1,
+                    "249": 1,
+                    "250": 1,
+                    "256": 1,
+                    "259": 1,
+                    "262": 1,
+                    "263": 1,
+                    "264": 1,
+                    "266": 1,
+                    "267": 1,
+                    "277": 1,
+                    "280": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1,
+                    "287": 1,
+                    "298": 1,
+                    "299": 1,
+                    "300": 1,
+                    "301": 1,
+                    "302": 1,
+                    "303": 1,
+                    "304": 1,
+                    "308": 1,
+                    "329": 1,
+                    "350": 1,
+                    "371": 1,
+                    "372": 1,
+                    "392": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_026_Strength_Main",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "season": 14,
+        "widgetNotes": {
+          "skills": {
+            "root": {
+              "children": [
+                {
+                  "children": [],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "equipment": {
+            "root": {
+              "children": [
+                {
+                  "children": [],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "mercenary": {
+            "root": {
+              "children": [
+                {
+                  "children": [],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          },
+          "paragon": {
+            "root": {
+              "children": [
+                {
+                  "children": [],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        "weaponSlot": 9,
+        "arsenal": {
+          "Barbarian_Charge": "slash",
+          "Barbarian_Rend": "dual"
+        },
+        "expertise": {},
+        "technique": "Barbarian_WeaponExpertise_2HAxe",
+        "mercenary": {
+          "id": "MercenaryClass_ShieldBearer",
+          "tree": {
+            "481": 1,
+            "489": 1,
+            "552": 1,
+            "557": 1
+          },
+          "support": "MercenaryClass_CursedChild",
+          "supportSkills": [
+            "Mercenary_CursedChild_Wither",
+            "trigger_skill"
+          ]
+        }
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Unique_Generic_004",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2105794,
+            "values": [
+              80
+            ]
+          },
+          {
+            "nid": 2113453,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2113457,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2113455,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2113449,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "2": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445175,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_SummonSpiritWolf"
+        ]
+      },
+      "3": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575266,
+            "values": [
+              100
+            ]
+          }
+        ]
+      },
+      "4": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "5": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2622376,
+            "values": [
+              2
+            ]
+          }
+        ]
+      },
+      "6": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578755,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "7": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2620567,
+            "values": [
+              196
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "8": {
+        "id": "Talisman_Seal_Legendary",
+        "power": 900,
+        "name": "Entropy Arbiter",
+        "explicits": [
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2609197,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "9": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "10": {
+        "id": "2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2106301,
+            "values": []
+          },
+          {
+            "nid": 2113391,
+            "values": [
+              0.555
+            ]
+          },
+          {
+            "nid": 2113395,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2113414,
+            "values": [
+              6500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "11": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_07"
+        ]
+      },
+      "12": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "13": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2624389,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1223790,
+            "values": [
+              6
+            ]
+          },
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "14": {
+        "id": "Talisman_Charm_Set_Barb_02_05",
+        "power": 900,
+        "name": "Brimstone Reaver",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "15": {
+        "id": "Talisman_Charm_Set_Barb_02_02",
+        "power": 900,
+        "name": "Dire Salvation",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "16": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Proven Spine",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "17": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Doom Guardian",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "18": {
+        "id": "Talisman_Charm_Set_Barb_02_01",
+        "power": 900,
+        "name": "Cruel Tormentor",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "19": {
+        "id": "Talisman_Charm_Unique_Helm_Unique_Generic_003",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1555204,
+            "values": [
+              40
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "20": {
+        "id": "Talisman_Charm_Unique_S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "21": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "22": {
+        "id": "Talisman_Charm_Unique_1HSword_Unique_Barb_101",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ]
+          }
+        ]
+      },
+      "23": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "24": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578755,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06",
+          "Gem_Ruby_06"
+        ]
+      },
+      "25": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2620567,
+            "values": [
+              196
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "26": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "27": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_06"
+        ]
+      },
+      "28": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_06"
+        ]
+      },
+      "29": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2624389,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575266,
+            "values": [
+              150
+            ]
+          },
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "30": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2622376,
+            "values": [
+              2
+            ]
+          }
+        ]
+      },
+      "31": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2620618,
+            "values": [
+              20
+            ]
+          }
+        ]
+      },
+      "32": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445175,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_SummonSpiritWolf"
+        ]
+      },
+      "33": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "34": {
+        "id": "2HPolearm_Legendary_Generic_001",
+        "power": 900,
+        "name": "Hailstone Offer",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2620599,
+            "values": [
+              575
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.05
+            ],
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1223790,
+            "values": [
+              8
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06",
+          "Gem_Ruby_06"
+        ]
+      },
+      "35": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "36": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445175,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Bomb",
+          "Rune_Effect_SummonSpiritWolf"
+        ]
+      },
+      "37": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              2.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578755,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "38": {
+        "id": "2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2106301,
+            "values": []
+          },
+          {
+            "nid": 2113391,
+            "values": [
+              0.555
+            ]
+          },
+          {
+            "nid": 2113395,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2113414,
+            "values": [
+              6500
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              2.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "39": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2620567,
+            "values": [
+              196
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "40": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "41": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575266,
+            "values": [
+              100
+            ]
+          }
+        ]
+      },
+      "42": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "43": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2622376,
+            "values": [
+              2
+            ]
+          }
+        ]
+      },
+      "44": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_07"
+        ]
+      },
+      "45": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "46": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2624389,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1223790,
+            "values": [
+              6
+            ]
+          },
+          {
+            "nid": 2582877,
+            "values": [
+              30.75
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "47": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2609197,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "48": {
+        "id": "Talisman_Charm_Set_Barb_01_01",
+        "power": 900,
+        "name": "Dire Salvation",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "49": {
+        "id": "Talisman_Charm_Set_Barb_01_02",
+        "power": 900,
+        "name": "Proven Spine",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "50": {
+        "id": "Talisman_Charm_Set_Barb_02_05",
+        "power": 900,
+        "name": "Brimstone Reaver",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "51": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Doom Guardian",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "52": {
+        "id": "Talisman_Charm_Set_Barb_02_01",
+        "power": 900,
+        "name": "Cruel Tormentor",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "53": {
+        "id": "Talisman_Charm_Set_Barb_01_05",
+        "power": 900,
+        "name": "Doom Gear",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "54": {
+        "id": "Helm_Unique_Generic_004",
+        "power": 900,
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2105794,
+            "values": [
+              80
+            ]
+          },
+          {
+            "nid": 2113453,
+            "values": [
+              0.12
+            ]
+          },
+          {
+            "nid": 2113457,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2113455,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2113449,
+            "values": [
+              2
+            ]
+          }
+        ],
+        "sockets": [
+          null,
+          null
+        ]
+      },
+      "55": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "56": {
+        "id": "Talisman_Charm_Unique_1HSword_Unique_Barb_101",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "57": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Obscure Blitz",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574579,
+            "values": [
+              12.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "58": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "59": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 800,
+        "name": "Awful Reaper",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              83
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              15
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              740
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              1560
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              3
+            ],
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578792,
+            "values": [
+              1.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_CastRepeatSkill",
+          "Rune_Effect_MobilityBuff"
+        ]
+      },
+      "60": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 800,
+        "name": "Corruption Legacy",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              248
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2220
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              1.3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05",
+          "Gem_Ruby_05"
+        ]
+      },
+      "61": {
+        "id": "2HPolearm_Legendary_Generic_001",
+        "power": 800,
+        "name": "Hailstone Offer",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2620599,
+            "values": [
+              228
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              248
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2220
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "upgrade": 0
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              59
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05",
+          "Gem_Ruby_05"
+        ]
+      },
+      "62": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2620567,
+            "values": [
+              196
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "63": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 800,
+        "name": "Night Legacy",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              124
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              1110
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.3
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05"
+        ]
+      },
+      "64": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 800,
+        "name": "Awful Ire",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.275
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.6
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              124
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578875,
+            "values": [
+              60
+            ]
+          }
+        ]
+      },
+      "65": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 800,
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              83
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              740
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              1560
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              3
+            ],
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05",
+          "Gem_Ruby_05"
+        ]
+      },
+      "66": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 800,
+        "name": "Chaos Dawn",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              83
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              3
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              740
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2569782,
+            "values": [
+              15
+            ]
+          }
+        ]
+      },
+      "67": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 800,
+        "name": "Odd Ruin",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              83
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.11
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              12
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 667442,
+            "values": [
+              10
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_05"
+        ]
+      },
+      "68": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 800,
+        "name": "Proven Guardian",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              83
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.11
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              12
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578845,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_05"
+        ]
+      },
+      "69": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 800,
+        "name": "Night End",
+        "upgrade": 0,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.22
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.6
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2624389,
+            "values": [
+              2
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2484503,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05"
+        ]
+      },
+      "70": {
+        "id": "Talisman_Charm_Set_Barb_01_04",
+        "power": 900,
+        "name": "Carrion Reaper",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "71": {
+        "id": "S05_BSK_Gloves_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1882770,
+            "values": [
+              26
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "77": {
+        "id": "Helm_Legendary_Generic_053",
+        "power": 800,
+        "name": "Corruption Symbol",
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              83
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              740
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              779
+            ]
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              259
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574616,
+            "values": [
+              20
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "78": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Spirit Aim",
+        "aspects": [
+          {
+            "nid": 1215769,
+            "values": [
+              90
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_05"
+        ]
+      },
+      "79": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_CastRepeatSkill",
+          "Rune_Effect_BonusToAllSkills"
+        ]
+      },
+      "80": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1915409,
+            "values": [
+              0.08750000000000001
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2571947,
+            "values": [
+              6.495
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_SummonSpiritWolf"
+        ]
+      },
+      "81": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 1915409,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              2.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578755,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "82": {
+        "id": "2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2106301,
+            "values": []
+          },
+          {
+            "nid": 2113391,
+            "values": [
+              0.555
+            ]
+          },
+          {
+            "nid": 2113395,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2113414,
+            "values": [
+              6500
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              2.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "83": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Obscure Blitz",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578875,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "84": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2380415,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "85": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575266,
+            "values": [
+              100
+            ]
+          }
+        ]
+      },
+      "86": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "87": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574616,
+            "values": [
+              20
+            ]
+          }
+        ]
+      },
+      "88": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_07"
+        ]
+      },
+      "89": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "90": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2624389,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1223790,
+            "values": [
+              6
+            ]
+          },
+          {
+            "nid": 2582877,
+            "values": [
+              30.75
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "91": {
+        "id": "Talisman_Seal_Legendary",
+        "power": 900,
+        "name": "Entropy Arbiter",
+        "explicits": [
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2609197,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "92": {
+        "id": "Talisman_Charm_Set_Barb_02_02",
+        "power": 900,
+        "name": "Dire Salvation",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "93": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Proven Spine",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "94": {
+        "id": "Talisman_Charm_Set_Barb_02_05",
+        "power": 900,
+        "name": "Brimstone Reaver",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "95": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Doom Guardian",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "96": {
+        "id": "Talisman_Charm_Set_Barb_02_01",
+        "power": 900,
+        "name": "Cruel Tormentor",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "97": {
+        "id": "Talisman_Charm_Unique_1HSword_Unique_Barb_101",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "98": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Generic_102",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1719182,
+            "values": [
+              100
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "99": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ]
+          },
+          {
+            "nid": 2620567,
+            "values": [
+              196
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "100": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "101": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              40
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              490
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578792,
+            "values": [
+              1.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "102": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              1.3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "103": {
+        "id": "2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2106301,
+            "values": []
+          },
+          {
+            "nid": 2113391,
+            "values": [
+              0.555
+            ]
+          },
+          {
+            "nid": 2113395,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2.4
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2113414,
+            "values": [
+              6500
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "104": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.44999999999999996
+            ],
+            "greater": true,
+            "upgrade": 0,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.006500000000000001
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "105": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578845,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "106": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575266,
+            "values": [
+              100
+            ]
+          }
+        ]
+      },
+      "107": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1928741,
+            "values": [
+              4
+            ],
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2478856,
+            "values": [
+              1.3
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "108": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2517794,
+            "values": [
+              0.1875
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2569782,
+            "values": [
+              15
+            ]
+          }
+        ]
+      },
+      "109": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_07"
+        ]
+      },
+      "110": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "111": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1928741,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2484503,
+            "values": [
+              60
+            ]
+          },
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "112": {
+        "id": "Talisman_Seal_Legendary",
+        "power": 900,
+        "name": "Entropy Arbiter",
+        "explicits": [
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2609197,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "113": {
+        "id": "Talisman_Charm_Set_Barb_02_02",
+        "power": 900,
+        "name": "Dire Salvation",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "114": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Proven Spine",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "115": {
+        "id": "Talisman_Charm_Set_Barb_02_05",
+        "power": 900,
+        "name": "Brimstone Reaver",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "116": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Doom Guardian",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "117": {
+        "id": "Talisman_Charm_Set_Barb_02_01",
+        "power": 900,
+        "name": "Cruel Tormentor",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "118": {
+        "id": "Talisman_Charm_Unique_Helm_Unique_Generic_003",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1555204,
+            "values": [
+              40
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "119": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "120": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445175,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Bomb",
+          "Rune_Effect_SummonSpiritWolf"
+        ]
+      },
+      "121": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              2.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578755,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "122": {
+        "id": "2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2106301,
+            "values": []
+          },
+          {
+            "nid": 2113391,
+            "values": [
+              0.555
+            ]
+          },
+          {
+            "nid": 2113395,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2113414,
+            "values": [
+              6500
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              2.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "123": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Obscure Blitz",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574579,
+            "values": [
+              12.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "124": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2482409,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "125": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2575266,
+            "values": [
+              100
+            ]
+          }
+        ]
+      },
+      "126": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "127": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2622376,
+            "values": [
+              2
+            ]
+          }
+        ]
+      },
+      "128": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_07"
+        ]
+      },
+      "129": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "130": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2624389,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1223790,
+            "values": [
+              6
+            ]
+          },
+          {
+            "nid": 2582877,
+            "values": [
+              30.75
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "131": {
+        "id": "Talisman_Seal_Legendary",
+        "power": 900,
+        "name": "Entropy Arbiter",
+        "explicits": [
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2568380,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2609197,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "132": {
+        "id": "Talisman_Charm_Set_Barb_02_02",
+        "power": 900,
+        "name": "Dire Salvation",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "133": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Proven Spine",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "134": {
+        "id": "Talisman_Charm_Set_Barb_02_05",
+        "power": 900,
+        "name": "Brimstone Reaver",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "135": {
+        "id": "Talisman_Charm_Set_Barb_02_03",
+        "power": 900,
+        "name": "Doom Guardian",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546085,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "136": {
+        "id": "Talisman_Charm_Set_Barb_02_01",
+        "power": 900,
+        "name": "Cruel Tormentor",
+        "explicits": [
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546087,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "137": {
+        "id": "Talisman_Charm_Unique_1HSword_Unique_Barb_101",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "138": {
+        "id": "S05_BSK_Helm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1904963,
+            "values": [
+              30,
+              15
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "139": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              30
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445175,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_SummonSpiritWolf"
+        ]
+      },
+      "140": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578755,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06",
+          "Gem_Ruby_06"
+        ]
+      },
+      "141": {
+        "id": "2HPolearm_Legendary_Generic_001",
+        "power": 900,
+        "name": "Hailstone Offer",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2620599,
+            "values": [
+              479
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.75
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              59
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06",
+          "Gem_Ruby_06"
+        ]
+      },
+      "142": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2620567,
+            "values": [
+              196
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "143": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.625
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578845,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "144": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2620618,
+            "values": [
+              20
+            ]
+          }
+        ]
+      },
+      "145": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              0.8
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              12
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "146": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2622376,
+            "values": [
+              2
+            ]
+          }
+        ]
+      },
+      "147": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              18
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_06"
+        ]
+      },
+      "148": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_06"
+        ]
+      },
+      "149": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1928741,
+            "values": [
+              3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.075
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2484503,
+            "values": [
+              60
+            ]
+          },
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "150": {
+        "id": "Helm_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.12
+            ],
+            "greater": true,
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1489569,
+            "values": [
+              6.5,
+              65
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_AllSkillsOnCD",
+          "Rune_Effect_Barbarian_ChallengingShout"
+        ]
+      },
+      "151": {
+        "id": "Chest_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2602168,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              25
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1199202,
+            "values": [
+              78
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "152": {
+        "id": "Gloves_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              390,
+              1
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "153": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1928741,
+            "values": [
+              4
+            ],
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              181.5
+            ],
+            "greater": true,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 2478856,
+            "values": [
+              1.3
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "154": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1928741,
+            "values": [
+              4
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2517794,
+            "values": [
+              0.22499999999999998
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2483368,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862261,
+            "values": [
+              0.1875
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2614308,
+            "values": [
+              20
+            ]
+          }
+        ]
+      },
+      "155": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2574579,
+            "values": [
+              25
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "156": {
+        "id": "Talisman_Charm_Unique_Helm_Unique_Generic_003",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1555204,
+            "values": [
+              40
+            ]
+          },
+          {
+            "nid": 2619776,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "157": {
+        "id": "Helm_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1489569,
+            "values": [
+              6.5,
+              65
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              35
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.12
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnAvoidDamage",
+          "Rune_Effect_Sorcerer_Teleport"
+        ]
+      },
+      "158": {
+        "id": "Gloves_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578831,
+            "values": [
+              390,
+              1
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "159": {
+        "id": "Amulet_Unique_Barb_103_x2",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2582124,
+            "values": [
+              0.2
+            ]
+          }
+        ],
+        "sockets": [
+          null
+        ]
+      },
+      "160": {
+        "id": "Talisman_Charm_Unique_Amulet_Unique_Barb_103_x2",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2582124,
+            "values": [
+              0.2
+            ]
+          }
+        ]
+      },
+      "161": {
+        "id": "Talisman_Charm_Unique_Helm_Unique_Generic_003",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1555204,
+            "values": [
+              40
+            ]
+          }
+        ]
+      },
+      "162": {
+        "id": "Helm_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1489569,
+            "values": [
+              5,
+              50
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              40
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              490
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnStutterStep",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "163": {
+        "id": "Chest_Legendary_Generic_053",
+        "power": 900,
+        "name": "Awful Reaper",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              40
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              490
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              7
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578792,
+            "values": [
+              1.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Barbarian_WarCry"
+        ]
+      },
+      "164": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2569782,
+            "values": [
+              15
+            ]
+          }
+        ]
+      },
+      "165": {
+        "id": "Gloves_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              300,
+              1
+            ]
+          },
+          {
+            "nid": 1829596,
+            "values": [
+              0.11249999999999999
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.8999999999999999
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "166": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              1.3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "167": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2613697,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578875,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "168": {
+        "id": "Talisman_Charm_Unique_Helm_Unique_Generic_003",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 1555204,
+            "values": [
+              10
+            ]
+          },
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "169": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Rumbling Agent",
+        "sockets": [
+          null
+        ]
+      },
+      "170": {
+        "id": "Chest_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2602168,
+            "values": [
+              1.2
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              25
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1199202,
+            "values": [
+              78
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              2250
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "171": {
+        "id": "Chest_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ],
+            "upgrade": 0,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              25
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 1199202,
+            "values": [
+              60
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              1875
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnMove",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "172": {
+        "id": "Helm_Unique_Barb_100",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1489569,
+            "values": [
+              5,
+              50
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1834105,
+            "values": [
+              25
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              1875
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnAvoidDamage",
+          "Rune_Effect_Sorcerer_Teleport"
+        ]
+      },
+      "173": {
+        "id": "Gloves_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              300,
+              1
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2602174,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.625
+            ]
+          }
+        ]
+      },
+      "174": {
+        "id": "Pants_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2478856,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3062
+            ]
+          },
+          {
+            "nid": 1924664,
+            "values": [
+              5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              1875
+            ],
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06",
+          "Gem_Ruby_06"
+        ]
+      },
+      "175": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Chaos Dawn",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1861932,
+            "values": [
+              4
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2517794,
+            "values": [
+              0.1875
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.3125
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2569782,
+            "values": [
+              15
+            ]
+          }
+        ]
+      },
+      "176": {
+        "id": "2HMace_Legendary_Generic_006",
+        "power": 900,
+        "name": "Corruption Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.75
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 1829588,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.25
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              1.3
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06",
+          "Gem_Ruby_06"
+        ]
+      },
+      "177": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ],
+            "upgrade": 0,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2052950,
+            "values": [
+              32.5
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.005
+            ],
+            "uniquePriority": 4
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.625
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_06"
+        ]
+      },
+      "178": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.075
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_06"
+        ]
+      },
+      "179": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862350,
+            "values": [
+              15
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 578875,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_06"
+        ]
+      },
+      "180": {
+        "id": "1HSword_Unique_Barb_101",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ],
+            "upgrade": 0,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2052950,
+            "values": [
+              52
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ],
+            "uniquePriority": 3
+          },
+          {
+            "nid": 578742,
+            "values": [
+              0.006500000000000001
+            ],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ],
+            "uniquePriority": 5
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "181": {
+        "id": "1HAxe_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night Legacy",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829590,
+            "values": [
+              0.6
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2750
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.65
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "182": {
+        "id": "2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2106301,
+            "values": []
+          },
+          {
+            "nid": 2113391,
+            "values": [
+              0.555
+            ]
+          },
+          {
+            "nid": 2113395,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2.4
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2113414,
+            "values": [
+              6500
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "183": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Odd Ruin",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1829556,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1603698,
+            "values": [
+              29.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Skull_07"
+        ]
+      },
+      "184": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Proven Guardian",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829590,
+            "values": [
+              0.375
+            ]
+          },
+          {
+            "nid": 1829556,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2556906,
+            "values": [
+              60
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_07"
+        ]
+      },
+      "185": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Night End",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2602168,
+            "values": [
+              0.75
+            ]
+          },
+          {
+            "nid": 2571274,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 1928741,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2481661,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611706,
+            "values": [
+              0.09
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2484503,
+            "values": [
+              60
+            ]
+          },
+          {
+            "nid": 2574616,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "186": {
+        "id": "Talisman_Charm_Unique_Gloves_Unique_Generic_005",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2538886,
+            "values": [
+              40
+            ]
+          },
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      },
+      "187": {
+        "id": "S14_2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2646301,
+            "values": []
+          },
+          {
+            "nid": 2157904,
+            "values": [
+              2.4
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2620599,
+            "values": [
+              479
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "188": {
+        "id": "S14_2HPolearm_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2157904,
+            "values": [
+              2.4
+            ],
+            "greater": true,
+            "upgrade": 1,
+            "uniquePriority": 0
+          },
+          {
+            "nid": 2620599,
+            "values": [
+              479
+            ],
+            "uniquePriority": 1
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              450
+            ],
+            "uniquePriority": 2
+          },
+          {
+            "nid": 2646301,
+            "values": [],
+            "uniquePriority": 4
+          },
+          {
+            "nid": 2497312,
+            "values": [
+              0.25
+            ],
+            "uniquePriority": 5
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2614079,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07",
+          "Gem_Ruby_07"
+        ]
+      },
+      "189": {
+        "id": "Talisman_Charm_Set_Barb_02_04",
+        "power": 900,
+        "name": "Dread Tormentor",
+        "explicits": [
+          {
+            "nid": 2545597,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2546089,
+            "values": [
+              630
+            ]
+          }
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {
+      "shared": {
+        "enemy_vulnerable": true,
+        "fortify": 100
+      },
+      "Helm_Unique_Barb_100": {
+        "active": true
+      },
+      "Overpower_Power": {
+        "params": [
+          "min"
+        ]
+      },
+      "Barbarian_Charge": {
+        "params": [
+          22,
+          1
+        ]
+      },
+      "legendary_generic_134_x2": {
+        "params": [
+          10
+        ]
+      },
+      "Pants_Unique_Barb_101": {
+        "params": [
+          "max"
+        ]
+      },
+      "Barbarian_RallyingCry": {
+        "active": true
+      },
+      "Barbarian_WarCry": {
+        "active": true
+      },
+      "Barbarian_WrathoftheBerserker": {
+        "active": true
+      },
+      "Power_Rune_Effect_Barbarian_ChallengingShout": {
+        "active": true
+      },
+      "Barbarian_ChallengingShout": {
+        "active": true
+      },
+      "Barbarian_IronSkin": {
+        "active": true
+      }
+    },
+    "pinnedStats": {
+      "Barbarian_Charge": [
+        "Trail Damage"
+      ]
+    },
+    "globalNotes": {
+      "intro": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "changelog": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "summary": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": null,
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "faqs": {
+        "root": {
+          "children": [
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "lootFilters": [],
+    "strAndWeak": {
+      "strengths": [],
+      "weaknesses": []
+    },
+    "buildGuide": {
+      "levelingRelatedPosts": []
+    }
+  },
+  "userId": 154355,
+  "public": true,
+  "folder": 29,
+  "accessed": 1789601298,
+  "mainset": "204662",
+  "category": "push",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"964631:82\",\"204662:84\",\"211938:146\",\"184600:82\",\"512222:128\",\"211871:52\"],\"technique\":687648,\"maxrollId\":\"kondyss\",\"showcaseVideo\":\"https://www.youtube.com/watch?v=dNqDNwEdjPA\"}",
+  "search_metadata": {
+    "skills": [
+      "Steel Grasp",
+      "Charge",
+      "Rallying Cry",
+      "War Cry",
+      "Iron Skin",
+      "Wrath of the Berserker"
+    ],
+    "items": [
+      "Tuskhelm of Joritz the Mighty",
+      "Rage of Harrogath",
+      "Writhing Bonebreaker",
+      "Shattered Vow",
+      "Ramaladni's Magnum Opus",
+      "Crushing Bearded Axe",
+      "Endurant Faith",
+      "Chainscourged Mail",
+      "Battle-Mad Runic Cleats",
+      "Wanton Rupture Soulwatch Hoop",
+      "Cut to the Bone Soulwatch Hoop",
+      "Ocelot's Eye of Heavenly Strength",
+      "Seal of the Diamond Mind"
+    ],
+    "specializations": [
+      "Two-Handed Axe Expertise"
+    ]
+  },
+  "season": "14",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 154355,
+    "username": "Kondyss",
+    "active": 3
+  }
+}

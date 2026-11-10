@@ -1,0 +1,1605 @@
+{
+  "id": "l6619x0g",
+  "date": "2026-11-08 22:15:32",
+  "name": "Lightning Storm Druid S15",
+  "class": "Druid",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 1,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 2,
+          "5": 3,
+          "7": 1,
+          "13": 4,
+          "14": 5,
+          "15": 6,
+          "16": 9,
+          "17": 8,
+          "18": 7,
+          "20": 10,
+          "21": 11,
+          "22": 13,
+          "23": 16,
+          "24": 15,
+          "25": 12,
+          "26": 14
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "413": 1,
+                "414": 0,
+                "416": 15,
+                "452": 15,
+                "459": 0,
+                "460": 1,
+                "461": 0,
+                "465": 15,
+                "477": 5,
+                "478": 0,
+                "486": 10,
+                "559": 0,
+                "773": 1,
+                "776": 1,
+                "779": 1,
+                "809": 0,
+                "810": 1,
+                "812": 0,
+                "813": 1,
+                "814": 1,
+                "820": 1,
+                "821": 0,
+                "822": 1,
+                "836": 0,
+                "838": 0,
+                "841": 0,
+                "845": 0,
+                "852": 0,
+                "856": 0,
+                "857": 0,
+                "859": 0,
+                "860": 0,
+                "864": 0,
+                "865": 0,
+                "882": 1,
+                "884": 0,
+                "886": 1,
+                "888": 1,
+                "889": 1,
+                "894": 1,
+                "895": 1,
+                "897": 0,
+                "898": 0,
+                "899": 1,
+                "900": 1,
+                "901": 0,
+                "904": 1,
+                "907": 0,
+                "909": 1,
+                "911": 1,
+                "912": 0,
+                "914": 1,
+                "920": 0,
+                "922": 0,
+                "923": 0,
+                "925": 0,
+                "927": 0,
+                "931": 1,
+                "934": 1,
+                "935": 1,
+                "936": 0,
+                "938": 1,
+                "987": 1,
+                "989": 1,
+                "992": 1,
+                "993": 0,
+                "995": 1,
+                "1114": 0
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Druid_LightningStorm",
+          "Druid_Hurricane",
+          "Druid_Cataclysm",
+          "Druid_DebilitatingRoar",
+          "Druid_Tornado",
+          "Druid_EarthenBulwark"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Druid_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "71": 1,
+                    "72": 1,
+                    "74": 1,
+                    "75": 1,
+                    "92": 1,
+                    "93": 1,
+                    "95": 1,
+                    "96": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "117": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "157": 1,
+                    "159": 1,
+                    "180": 1,
+                    "201": 1,
+                    "218": 1,
+                    "222": 1,
+                    "239": 1,
+                    "240": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "260": 1,
+                    "264": 1,
+                    "281": 1,
+                    "282": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_040_Willpower_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Druid_01",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "35": 1,
+                    "36": 1,
+                    "52": 1,
+                    "56": 1,
+                    "57": 1,
+                    "58": 1,
+                    "73": 1,
+                    "78": 1,
+                    "94": 1,
+                    "95": 1,
+                    "99": 1,
+                    "102": 1,
+                    "116": 1,
+                    "117": 1,
+                    "118": 1,
+                    "119": 1,
+                    "120": 1,
+                    "121": 1,
+                    "122": 1,
+                    "123": 1,
+                    "124": 1,
+                    "138": 1,
+                    "144": 1,
+                    "145": 1,
+                    "152": 1,
+                    "153": 1,
+                    "159": 1,
+                    "166": 1,
+                    "174": 1,
+                    "175": 1,
+                    "179": 1,
+                    "180": 1,
+                    "187": 1,
+                    "196": 1,
+                    "197": 1,
+                    "198": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "208": 1,
+                    "218": 1,
+                    "221": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "239": 1,
+                    "258": 1,
+                    "259": 1,
+                    "279": 1,
+                    "299": 1,
+                    "300": 1,
+                    "320": 1,
+                    "340": 1,
+                    "341": 1,
+                    "359": 1,
+                    "360": 1,
+                    "361": 1,
+                    "379": 1,
+                    "380": 1,
+                    "381": 1,
+                    "401": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_039_Willpower_Main",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Druid_03",
+                  "nodes": {
+                    "56": 1,
+                    "77": 1,
+                    "78": 1,
+                    "98": 1,
+                    "118": 1,
+                    "119": 1,
+                    "130": 1,
+                    "131": 1,
+                    "132": 1,
+                    "133": 1,
+                    "137": 1,
+                    "138": 1,
+                    "139": 1,
+                    "151": 1,
+                    "152": 1,
+                    "154": 1,
+                    "158": 1,
+                    "172": 1,
+                    "175": 1,
+                    "178": 1,
+                    "179": 1,
+                    "196": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "216": 1,
+                    "217": 1,
+                    "221": 1,
+                    "222": 1,
+                    "225": 1,
+                    "229": 1,
+                    "230": 1,
+                    "238": 1,
+                    "240": 1,
+                    "241": 1,
+                    "242": 1,
+                    "246": 1,
+                    "247": 1,
+                    "248": 1,
+                    "249": 1,
+                    "250": 1,
+                    "256": 1,
+                    "259": 1,
+                    "262": 1,
+                    "263": 1,
+                    "277": 1,
+                    "280": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1,
+                    "286": 1,
+                    "298": 1,
+                    "299": 1,
+                    "300": 1,
+                    "301": 1,
+                    "302": 1,
+                    "303": 1,
+                    "304": 1,
+                    "306": 1,
+                    "307": 1,
+                    "325": 1,
+                    "328": 1,
+                    "329": 1,
+                    "346": 1,
+                    "350": 1,
+                    "351": 1,
+                    "367": 1,
+                    "372": 1,
+                    "388": 1,
+                    "393": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": 1,
+                    "y": -2
+                  },
+                  "glyph": "Rare_047_Dexterity_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Druid_08",
+                  "nodes": {
+                    "68": 1,
+                    "69": 1,
+                    "70": 1,
+                    "87": 1,
+                    "89": 1,
+                    "91": 1,
+                    "92": 1,
+                    "108": 1,
+                    "109": 1,
+                    "110": 1,
+                    "111": 1,
+                    "129": 1,
+                    "150": 1,
+                    "151": 1,
+                    "152": 1,
+                    "153": 1,
+                    "158": 1,
+                    "159": 1,
+                    "172": 1,
+                    "173": 1,
+                    "179": 1,
+                    "180": 1,
+                    "181": 1,
+                    "194": 1,
+                    "200": 1,
+                    "210": 1,
+                    "211": 1,
+                    "215": 1,
+                    "221": 1,
+                    "222": 1,
+                    "226": 1,
+                    "232": 1,
+                    "233": 1,
+                    "234": 1,
+                    "235": 1,
+                    "236": 1,
+                    "238": 1,
+                    "239": 1,
+                    "240": 1,
+                    "241": 1,
+                    "243": 1,
+                    "246": 1,
+                    "247": 1,
+                    "257": 1,
+                    "258": 1,
+                    "259": 1,
+                    "260": 1,
+                    "262": 1,
+                    "263": 1,
+                    "264": 1,
+                    "265": 1,
+                    "266": 1,
+                    "267": 1,
+                    "268": 1,
+                    "281": 1,
+                    "285": 1,
+                    "306": 1,
+                    "326": 1,
+                    "327": 1,
+                    "328": 1,
+                    "329": 1,
+                    "347": 1,
+                    "348": 1,
+                    "350": 1,
+                    "351": 1,
+                    "369": 1,
+                    "372": 1,
+                    "373": 1,
+                    "374": 1,
+                    "388": 1,
+                    "389": 1,
+                    "390": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 1,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "glyph": "Rare_012_Intelligence_Side",
+                  "glyphLevel": 150
+                },
+                {
+                  "id": "Paragon_Druid_07",
+                  "nodes": {
+                    "182": 1,
+                    "183": 1,
+                    "184": 1,
+                    "202": 1,
+                    "203": 1,
+                    "204": 1,
+                    "219": 1,
+                    "220": 1,
+                    "221": 1,
+                    "222": 1,
+                    "223": 1,
+                    "235": 1,
+                    "236": 1,
+                    "239": 1,
+                    "240": 1,
+                    "244": 1,
+                    "257": 1,
+                    "258": 1,
+                    "260": 1,
+                    "265": 1,
+                    "266": 1,
+                    "277": 1,
+                    "278": 1,
+                    "287": 1,
+                    "296": 1,
+                    "299": 1,
+                    "301": 1,
+                    "307": 1,
+                    "308": 1,
+                    "315": 1,
+                    "316": 1,
+                    "317": 1,
+                    "318": 1,
+                    "319": 1,
+                    "320": 1,
+                    "322": 1,
+                    "328": 1,
+                    "329": 1,
+                    "339": 1,
+                    "341": 1,
+                    "342": 1,
+                    "343": 1,
+                    "344": 1,
+                    "348": 1,
+                    "349": 1,
+                    "361": 1,
+                    "362": 1,
+                    "365": 1,
+                    "366": 1,
+                    "367": 1,
+                    "368": 1,
+                    "369": 1,
+                    "382": 1,
+                    "383": 1,
+                    "384": 1,
+                    "388": 1,
+                    "403": 1,
+                    "404": 1,
+                    "405": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 3,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "glyph": "Rare_050_Dexterity_Side",
+                  "glyphLevel": 150
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {
+            "549": 1,
+            "551": 1,
+            "560": 1,
+            "562": 1,
+            "692": 1,
+            "728": 1,
+            "736": 1
+          },
+          {
+            "550": 1,
+            "551": 1,
+            "562": 1,
+            "563": 1,
+            "688": 1,
+            "705": 1,
+            "712": 1
+          },
+          {
+            "551": 1,
+            "562": 1,
+            "563": 1,
+            "692": 1,
+            "712": 1,
+            "726": 1,
+            "737": 1
+          },
+          {
+            "549": 1,
+            "551": 1,
+            "560": 1,
+            "562": 1,
+            "563": 1,
+            "692": 1,
+            "712": 1
+          },
+          {
+            "562": 1,
+            "563": 1,
+            "692": 1,
+            "750": 1,
+            "751": 1,
+            "752": 1,
+            "754": 1
+          },
+          {
+            "719": 1,
+            "720": 0,
+            "721": 1,
+            "723": 1,
+            "724": 1,
+            "726": 1,
+            "727": 1,
+            "728": 1
+          },
+          {
+            "729": 1,
+            "730": 1,
+            "731": 1,
+            "732": 1,
+            "733": 1,
+            "739": 1,
+            "743": 0
+          }
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {
+          "equipment": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "- Toggle on Lightning Storm",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "- Toggle on Hurricane",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "--------------------------------------",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "1. Use Cataclysm",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "2. Use Debilitating Roar immediately after Cataclysm > That way you will stay in Werebear form during the duration of Cataclysm and after it, This is very important so our Might of the Ursine effect will stay active and its 351% damage multiplier trough our 30 stacks of Revolve (30x11,7%) ",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Keep rinse and repeat steps 1 and 2.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                },
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "- Earthen Bulwark, Tornado, Cyclone Armor and Tectonic Spikes can proc by themselves.",
+                      "type": "text",
+                      "version": 1
+                    },
+                    {
+                      "type": "linebreak",
+                      "version": 1
+                    },
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "You can easely crush all content with this build.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": "ltr",
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        "spiritBoons": [
+          "Druid_Passive_Wolf_04",
+          "Druid_Passive_Snake_04",
+          "Druid_Passive_Deer_02",
+          "Druid_Passive_Eagle_01",
+          "Druid_Passive_Eagle_04"
+        ]
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Runeword_Insight_2HStaff",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2678981,
+            "values": [
+              0.6124999999999999
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2661983,
+            "values": [
+              0.5750000000000001
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              5500
+            ]
+          },
+          {
+            "nid": 2604528,
+            "values": [
+              450
+            ]
+          },
+          {
+            "nid": 2686526,
+            "values": [
+              2.5
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2678947,
+            "values": [
+              37.5
+            ]
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              1.5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Topaz_09",
+          "Gem_Topaz_09"
+        ]
+      },
+      "2": {
+        "id": "Helm_Legendary_Generic_053",
+        "power": 900,
+        "name": "Death Slayer",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829592,
+            "values": [
+              2175
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              242
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              500
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2620618,
+            "values": [
+              20
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnAvoidDamage",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "3": {
+        "id": "Runeword_Rain",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2683387,
+            "values": [
+              39,
+              19.5
+            ]
+          },
+          {
+            "nid": 2683391,
+            "values": [
+              50
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 2683394,
+            "values": [
+              10
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2678595,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2686497,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "sockets": [
+          "S15_Rune_Condition_Mal",
+          "Rune_Effect_Druid_Petrify"
+        ]
+      },
+      "4": {
+        "id": "Gloves_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              390,
+              1
+            ]
+          },
+          {
+            "nid": 1884264,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.75
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2602180,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "5": {
+        "id": "Pants_Legendary_Generic_053",
+        "power": 900,
+        "name": "Plague Passage",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 1829592,
+            "values": [
+              2175
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              181.5
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              500
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2445175,
+            "values": [
+              4
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Sapphire_09",
+          "Gem_Sapphire_09"
+        ]
+      },
+      "6": {
+        "id": "Boots_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578824,
+            "values": [
+              19.5
+            ]
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              2175
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              242
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1834296,
+            "values": [
+              500
+            ]
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.375
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "7": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Imp Ire",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602180,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              0.75
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.56
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true,
+            "upgrade": 0
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2542658,
+            "values": [
+              0.9750000000000001
+            ]
+          },
+          {
+            "nid": 2620614,
+            "values": [
+              30
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Diamond_09"
+        ]
+      },
+      "8": {
+        "id": "Ring_Unique_Generic_104_x2",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2584897,
+            "values": [
+              390
+            ]
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.15000000000000002
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.375
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1829556,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04"
+        ]
+      },
+      "9": {
+        "id": "Ring_Unique_Druid_07_x2",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2574430,
+            "values": [
+              0.11699999999999999
+            ]
+          },
+          {
+            "nid": 2558717,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.28
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.375
+            ],
+            "greater": true,
+            "upgrade": 0
+          },
+          {
+            "nid": 2497326,
+            "values": [
+              0.125
+            ],
+            "upgrade": 0
+          },
+          {
+            "nid": 1829560,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Azmodan_04"
+        ]
+      },
+      "10": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546422,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2581754,
+            "values": [
+              0.1
+            ]
+          }
+        ]
+      },
+      "11": {
+        "id": "Talisman_Charm_Set_Druid_03_05",
+        "power": 900,
+        "name": "Terrible Ward",
+        "explicits": [
+          {
+            "nid": 2402968,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2619784,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "12": {
+        "id": "Talisman_Charm_Set_Druid_03_02",
+        "power": 900,
+        "name": "Terrible Vow",
+        "explicits": [
+          {
+            "nid": 2402968,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2619784,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "13": {
+        "id": "Talisman_Charm_Set_Druid_03_04",
+        "power": 900,
+        "name": "Soul Cage",
+        "explicits": [
+          {
+            "nid": 2402968,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2619784,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "14": {
+        "id": "Talisman_Charm_Set_Druid_03_01",
+        "power": 900,
+        "name": "Evoker's Style",
+        "explicits": [
+          {
+            "nid": 2402968,
+            "values": [
+              0.15
+            ]
+          },
+          {
+            "nid": 2619784,
+            "values": [
+              4
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "15": {
+        "id": "Talisman_Charm_Unique_2HMace_Unique_Generic_001",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578836,
+            "values": [
+              130,
+              1.3
+            ]
+          },
+          {
+            "nid": 2619784,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2402968,
+            "values": [
+              0.15
+            ]
+          }
+        ]
+      },
+      "16": {
+        "id": "Talisman_Charm_Unique_1HDagger_Unique_Generic_001",
+        "power": 900,
+        "upgrade": 0,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2538879,
+            "values": [
+              156
+            ]
+          },
+          {
+            "nid": 2619784,
+            "values": [
+              4
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2402968,
+            "values": [
+              0.15
+            ]
+          }
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {
+      "shared": {
+        "shapeshift_form": 1,
+        "fortify": 100,
+        "enemy_near": true,
+        "enemy_far": false,
+        "enemy_vulnerable": true,
+        "enemy_weakened": false,
+        "enemy_stun": false,
+        "enemy_knockdown": false,
+        "enemy_tethered": false,
+        "enemy_chill": true,
+        "enemy_frozen": false,
+        "enemy_slow": false,
+        "enemy_immobilize": false,
+        "enemy_charm": false,
+        "enemy_confused": false,
+        "primary_resource": 98.67452135493373,
+        "health": 100,
+        "paragon_level": 300,
+        "enemy_unstoppable": true,
+        "enemy_fear": false,
+        "enemy_type": 3,
+        "enemy_knockback": false,
+        "enemy_disabled": false,
+        "enemy_poisoned": true
+      },
+      "Druid_DebilitatingRoar": {
+        "active": true
+      },
+      "Druid_EarthenBulwark": {
+        "active": true
+      },
+      "Druid_Cataclysm": {
+        "active": true
+      },
+      "Barbarian_Proc_Berserk": {
+        "active": false
+      },
+      "Overpower_Power": {
+        "params": [
+          4
+        ]
+      },
+      "Spiritborn_Gorilla_Passive": {
+        "params": [
+          "max"
+        ]
+      },
+      "Spiritborn_Plains_Passive": {
+        "params": [
+          "min"
+        ]
+      },
+      "Power_Rune_Effect_Rogue_DarkShroud": {
+        "params": [
+          0
+        ]
+      },
+      "Ring_Unique_Generic_101": {
+        "params": [
+          5
+        ]
+      },
+      "1HDagger_Unique_Generic_001": {
+        "active": true
+      },
+      "Paragon_Druid_Legendary_018": {
+        "active": true
+      },
+      "ParagonGlyph_050": {
+        "params": [
+          4
+        ]
+      },
+      "legendary_druid_109_x2": {
+        "flags": [
+          false
+        ]
+      },
+      "Druid_Hurricane": {},
+      "Druid_Tornado": {
+        "params": [
+          "max"
+        ]
+      },
+      "Amulet_Unique_Generic_101": {
+        "active": true
+      },
+      "Power_Rune_Effect_Druid_Petrify": {
+        "active": true
+      }
+    },
+    "pinnedStats": {
+      "Druid_LightningStorm": [
+        "Damage"
+      ],
+      "Druid_Hurricane": [
+        "Tick Damage"
+      ],
+      "Druid_Cataclysm": [
+        "Lightning Damage",
+        "Twister Damage"
+      ],
+      "Druid_Tornado": [
+        "Damage"
+      ]
+    },
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15
+  },
+  "userId": 451756,
+  "public": true,
+  "folder": 0,
+  "accessed": 1793666283,
+  "mainset": "548399",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"548399:300\",\"258990:180\",\"266570:1186\",\"336238:204\",\"304065:337\",\"333421:180\"]}",
+  "search_metadata": {
+    "skills": [
+      "Lightning Storm",
+      "Hurricane",
+      "Cataclysm",
+      "Debilitating Roar",
+      "Tornado",
+      "Earthen Bulwark"
+    ],
+    "items": [
+      "Runic Skullcap of Anger Management",
+      "Rain",
+      "Insight",
+      "Fists of Fate",
+      "Runic Leggings of Glynn's Anvil",
+      "Penitent Greaves",
+      "Might of the Ursine",
+      "Thundergod's Blessing",
+      "Crushing Ocelot's Eye",
+      "Seal of the Diamond Mind",
+      "Rustbitten Dirk",
+      "The Furnace"
+    ],
+    "specializations": [
+      "Calamity",
+      "Calm Before the Storm",
+      "Gift of the Stag",
+      "Scythe Talons",
+      "Avian Wrath"
+    ]
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 451756,
+    "username": "lightningshattr",
+    "active": 1
+  }
+}

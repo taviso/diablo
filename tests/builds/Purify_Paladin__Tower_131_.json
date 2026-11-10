@@ -1,0 +1,1708 @@
+{
+  "id": "454tc80u",
+  "date": "2026-11-03 15:07:45",
+  "name": "Purify Paladin (Tower 131)",
+  "class": "Paladin",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Push",
+        "class": 6,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 1,
+          "5": 2,
+          "7": 6,
+          "13": 3,
+          "14": 4,
+          "15": 5,
+          "16": 9,
+          "17": 8,
+          "18": 7,
+          "20": 10,
+          "21": 12,
+          "22": 16,
+          "23": 15,
+          "24": 11,
+          "25": 13,
+          "26": 14
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "1660": 1,
+                "1663": 1,
+                "1664": 1,
+                "1679": 15,
+                "1684": 1,
+                "1723": 1,
+                "1727": 1,
+                "1782": 1,
+                "1786": 1,
+                "1788": 1,
+                "1792": 1,
+                "1795": 1,
+                "1797": 1,
+                "1849": 1,
+                "1854": 15,
+                "1856": 2,
+                "1858": 15,
+                "1862": 1,
+                "1876": 1,
+                "1878": 1,
+                "1905": 1,
+                "1908": 1,
+                "1922": 1,
+                "1925": 1,
+                "1932": 1,
+                "1951": 15
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Paladin_Defensive_Aura",
+          "Paladin_Fortress",
+          "Paladin_StormBolt",
+          "Paladin_Smite_FalconPunch_Recast_1",
+          "Paladin_HolyShock_Aura",
+          "Paladin_Offensive_Aura"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Paladin_00",
+                  "nodes": {},
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "oath": "Paladin_Oath_Judgement",
+        "mercenary": {
+          "id": "MercenaryClass_CursedChild",
+          "tree": {
+            "549": 1,
+            "552": 1,
+            "559": 1,
+            "561": 1
+          }
+        }
+      },
+      {
+        "name": "Speedfarm",
+        "class": 6,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 17,
+          "5": 18,
+          "6": 33,
+          "7": 19,
+          "13": 20,
+          "14": 21,
+          "15": 22,
+          "16": 23,
+          "17": 24,
+          "18": 25,
+          "20": 26,
+          "21": 27,
+          "22": 28,
+          "23": 29,
+          "24": 30,
+          "25": 31,
+          "26": 32
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "1660": 1,
+                "1663": 1,
+                "1664": 1,
+                "1679": 15,
+                "1684": 1,
+                "1723": 1,
+                "1727": 1,
+                "1782": 1,
+                "1786": 1,
+                "1788": 1,
+                "1792": 1,
+                "1795": 1,
+                "1797": 1,
+                "1849": 1,
+                "1854": 15,
+                "1856": 2,
+                "1858": 15,
+                "1862": 1,
+                "1876": 1,
+                "1878": 1,
+                "1905": 1,
+                "1908": 1,
+                "1922": 1,
+                "1925": 1,
+                "1932": 1,
+                "1951": 15
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Paladin_Defensive_Aura",
+          "Paladin_Fortress",
+          "Paladin_StormBolt",
+          "Paladin_Smite_FalconPunch_Recast_1",
+          "Paladin_HolyShock_Aura",
+          "Paladin_Offensive_Aura"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Paladin_00",
+                  "nodes": {},
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "oath": "Paladin_Oath_Judgement",
+        "mercenary": {
+          "id": "MercenaryClass_CursedChild",
+          "tree": {
+            "549": 1,
+            "552": 1,
+            "559": 1,
+            "561": 1
+          }
+        }
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Helm_Unique_Generic_005",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 583206,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2662414,
+            "values": [
+              65,
+              0.65
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829596,
+            "values": [
+              0.11249999999999999
+            ]
+          },
+          {
+            "nid": 2497316,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04",
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "2": {
+        "id": "Runeword_Enigma",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2676293,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2676294,
+            "values": [
+              0.5625
+            ]
+          },
+          {
+            "nid": 2686419,
+            "values": [
+              0.24
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2676297,
+            "values": [
+              0.6000000000000001
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 2676305,
+            "values": []
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Bomb",
+          "Rune_Effect_Spiritborn_Vortex"
+        ]
+      },
+      "3": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Cruel Anvil",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602166,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              1
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2227829,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2420751,
+            "values": [
+              80
+            ]
+          }
+        ]
+      },
+      "4": {
+        "id": "Pants_Unique_Generic_102",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1559366,
+            "values": [
+              26
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 2517790,
+            "values": [
+              0.1875
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnEvade",
+          "Rune_Effect_Druid_Petrify"
+        ]
+      },
+      "5": {
+        "id": "Boots_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 579708,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2497254,
+            "values": [
+              5
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2227829,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "6": {
+        "id": "Runeword_Infinity_Sword2H",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 2679489,
+            "values": [
+              0.4
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 2677866,
+            "values": [
+              28.6,
+              26
+            ]
+          },
+          {
+            "nid": 2678366,
+            "values": [
+              0.5075
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              6380
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.975
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2686447,
+            "values": [
+              0.7975
+            ]
+          },
+          {
+            "nid": 2620597,
+            "values": [
+              500
+            ]
+          },
+          {
+            "nid": 2573055,
+            "values": [
+              20
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.17
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_09",
+          "Gem_Ruby_08"
+        ]
+      },
+      "7": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Spirit Flesh",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              270
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2602177,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1858284,
+            "values": [
+              0.9000000000000001
+            ]
+          },
+          {
+            "nid": 2620643,
+            "values": [
+              0.045
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_BlackSoulStone_04"
+        ]
+      },
+      "8": {
+        "id": "Ring_Unique_Paladin_003",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2512054,
+            "values": [
+              71.5
+            ]
+          },
+          {
+            "nid": 1829556,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829584,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08"
+        ]
+      },
+      "9": {
+        "id": "Ring_Unique_Generic_108",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2672415,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2571274,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 2558719,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08"
+        ]
+      },
+      "10": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          }
+        ]
+      },
+      "11": {
+        "id": "Talisman_Charm_Set_Pala_03_05",
+        "power": 900,
+        "name": "Plague Tormentor",
+        "explicits": [
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "12": {
+        "id": "Talisman_Charm_Set_Pala_03_02",
+        "power": 900,
+        "name": "Storm Omen",
+        "explicits": [
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "13": {
+        "id": "Talisman_Charm_Set_Pala_03_03",
+        "power": 900,
+        "name": "Bramble Vow",
+        "explicits": [
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "14": {
+        "id": "S15_Charm_Unique_HellfireTorch",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684322,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2684336,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "15": {
+        "id": "Talisman_Charm_Unique_Gloves_Unique_Generic_002",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              390,
+              1
+            ]
+          },
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "16": {
+        "id": "Talisman_Charm_Unique_1HSword_Unique_Paladin_002",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2476979,
+            "values": [
+              1,
+              150
+            ]
+          },
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "17": {
+        "id": "Helm_Unique_Generic_005",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 583206,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 2662414,
+            "values": [
+              65,
+              0.65
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829596,
+            "values": [
+              0.11249999999999999
+            ]
+          },
+          {
+            "nid": 2497316,
+            "values": [
+              0.1
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Andariel_04",
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "18": {
+        "id": "Runeword_Enigma",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2676293,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2676294,
+            "values": [
+              0.5625
+            ]
+          },
+          {
+            "nid": 2686419,
+            "values": [
+              0.24
+            ],
+            "greater": true,
+            "upgrade": 1
+          },
+          {
+            "nid": 2676297,
+            "values": [
+              0.6000000000000001
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1531
+            ]
+          },
+          {
+            "nid": 2676305,
+            "values": []
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Bomb",
+          "Rune_Effect_Spiritborn_Vortex"
+        ]
+      },
+      "19": {
+        "id": "Runeword_KingsGrace_Flail",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2676555,
+            "values": [
+              1.25
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 2625642,
+            "values": [
+              1422
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2683383,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2679496,
+            "values": [
+              0.9375
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_09"
+        ]
+      },
+      "20": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Cruel Anvil",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602159,
+            "values": [
+              225
+            ]
+          },
+          {
+            "nid": 2602166,
+            "values": [
+              0.30000000000000004
+            ],
+            "greater": true
+          },
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          },
+          {
+            "nid": 2602164,
+            "values": [
+              1
+            ],
+            "greater": true,
+            "upgrade": 1
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2227829,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2420751,
+            "values": [
+              80
+            ]
+          }
+        ]
+      },
+      "21": {
+        "id": "Pants_Unique_Generic_102",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 1559366,
+            "values": [
+              26
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              3125
+            ]
+          },
+          {
+            "nid": 2517790,
+            "values": [
+              0.1875
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnEvade",
+          "Rune_Effect_Druid_Petrify"
+        ]
+      },
+      "22": {
+        "id": "Boots_Unique_Generic_002",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 579708,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.3
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1812.5
+            ]
+          },
+          {
+            "nid": 2497254,
+            "values": [
+              5
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2227829,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ]
+      },
+      "23": {
+        "id": "Ring_Unique_Generic_108",
+        "power": 900,
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2672415,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2571274,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.17500000000000002
+            ]
+          },
+          {
+            "nid": 2558719,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08"
+        ]
+      },
+      "24": {
+        "id": "Ring_Unique_Paladin_003",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 2512054,
+            "values": [
+              71.5
+            ]
+          },
+          {
+            "nid": 1829556,
+            "values": [
+              0.125
+            ]
+          },
+          {
+            "nid": 1829584,
+            "values": [
+              0.0625
+            ]
+          },
+          {
+            "nid": 1829586,
+            "values": [
+              0.3125
+            ]
+          },
+          {
+            "nid": 1829570,
+            "values": [
+              151.25
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1959112,
+            "values": [
+              0.75
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08"
+        ]
+      },
+      "25": {
+        "id": "Amulet_Legendary_Generic_001",
+        "power": 900,
+        "name": "Spirit Flesh",
+        "upgrade": 25,
+        "explicits": [
+          {
+            "nid": 2602164,
+            "values": [
+              0.625
+            ]
+          },
+          {
+            "nid": 2602170,
+            "values": [
+              0.35000000000000003
+            ]
+          },
+          {
+            "nid": 2602159,
+            "values": [
+              270
+            ],
+            "greater": true
+          },
+          {
+            "nid": 2602177,
+            "values": [
+              0.3
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611719,
+            "values": [
+              5
+            ],
+            "greater": true
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1858284,
+            "values": [
+              0.9000000000000001
+            ]
+          },
+          {
+            "nid": 2620643,
+            "values": [
+              0.045
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_BlackSoulStone_04"
+        ]
+      },
+      "26": {
+        "id": "Talisman_Seal_MythicUnique_03",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2437380,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2546431,
+            "values": [
+              0.2
+            ]
+          }
+        ]
+      },
+      "27": {
+        "id": "Talisman_Charm_Set_Pala_03_02",
+        "power": 900,
+        "name": "Storm Omen",
+        "explicits": [
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "28": {
+        "id": "Talisman_Charm_Unique_1HSword_Unique_Paladin_002",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2476979,
+            "values": [
+              1,
+              150
+            ]
+          },
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "29": {
+        "id": "Talisman_Charm_Unique_Gloves_Unique_Generic_002",
+        "power": 900,
+        "mythic": true,
+        "explicits": [
+          {
+            "nid": 578831,
+            "values": [
+              390,
+              1
+            ]
+          },
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "30": {
+        "id": "Talisman_Charm_Set_Pala_03_05",
+        "power": 900,
+        "name": "Plague Tormentor",
+        "explicits": [
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "31": {
+        "id": "Talisman_Charm_Set_Pala_03_03",
+        "power": 900,
+        "name": "Bramble Vow",
+        "explicits": [
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "32": {
+        "id": "S15_Charm_Unique_HellfireTorch",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2684206,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684209,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2684322,
+            "values": [
+              4
+            ]
+          },
+          {
+            "nid": 2684336,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2619800,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "33": {
+        "id": "Runeword_Phoenix_1HShield",
+        "power": 900,
+        "upgrade": 25,
+        "mythic": true,
+        "implicits": [
+          {
+            "nid": 577278,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 1036913,
+            "values": [
+              1
+            ]
+          }
+        ],
+        "explicits": [
+          {
+            "nid": 1829582,
+            "values": [
+              0.10625000000000001
+            ]
+          },
+          {
+            "nid": 2678610,
+            "values": [
+              0.4375
+            ]
+          },
+          {
+            "nid": 2675623,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2679492,
+            "values": [
+              0.875
+            ],
+            "upgrade": 1
+          },
+          {
+            "nid": 2675635,
+            "values": [
+              39
+            ]
+          },
+          {
+            "nid": 2678595,
+            "values": [
+              0.125
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 2611712,
+            "values": [
+              0.07500000000000001
+            ],
+            "greater": true
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_08"
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 1,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {
+      "summary": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "This is a build I created that achieved Tower 131 in season 15. Once fully built, I had 100% crit chance and attack speed as well as 60% lucky hit on holy bolt (the only way we proc purify via wreath of auric laurel). In effect holding down holy bolt (with the richochet node) causes a LOT of rapid fire purify (with the echo node) explosions everywhere. We also use flickerstep evades (which works with enigma's teleport evade) to rapidly cooldown fortress, making is basically always available - this gives us the huge damage buff, unstoppable and very helpful immunity windows. Our mythic infinity has huge multis on it as well as free permanent vulnerability and a very high crushing blow chance (I transfigured 20 item quality onto it, meaning 58% lucky hit chance to proc crushing blow).  We throw in aegis and holy light (with the node that makes the active generate fortify) for survivability. ",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Note: I added a speedfarm variant. This one has also cleared tower 131. Surprisingly, phoenix is actually pretty amazing here - solid all damage multi, the fire resistance works with our SOJ for holy damage, and the fire spear on lucky hit procs constantly and does hundreds of billions by itself. This variant has 102% lucky hit chance on holy bolt, so it's truly an overwhelming amount of purify and fire spear procs everywhere.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "I note this planner reflects my actual gear, not the perfect/idealized version. Hence it's missing some things I never found that would've helped push higher: mythic griswold or furnace charm, flawless horadric gems, useful GAs on infinity, multi GA jewelry",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Too lazy to rebuild the paragon, but used these glyphs and boards: Honed, Sentinel, Judicator, Spirit, Canny /// Beacon, Castle, Relentless, Shield Bearer (IE, pretty standard stuff)",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      }
+    },
+    "lootFilters": [],
+    "season": 15
+  },
+  "userId": 1121821,
+  "public": true,
+  "folder": 0,
+  "accessed": 1793659495,
+  "mainset": "",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"2187578:25\",\"2301078:52\",\"2174078:81\",\"2292204:98\",\"2297097:4\",\"2187741:49\"],\"oath\":2264962}",
+  "search_metadata": {
+    "skills": [
+      "Defiance Aura",
+      "Fortress",
+      "Holy Bolt",
+      "Aegis",
+      "Holy Light Aura",
+      "Fanaticism Aura"
+    ],
+    "items": [
+      "Leoric's Crown",
+      "Enigma",
+      "Phoenix",
+      "King's Grace",
+      "Runic Gloves of the Valintyr",
+      "Tibault's Will",
+      "Flickerstep",
+      "Stone of Jordan",
+      "Wreath of Auric Laurel",
+      "Ocelot's Eye of Redirected Force",
+      "Seal of the Diamond Mind",
+      "Griswold's Opus",
+      "Fists of Fate",
+      "Hellfire Torch"
+    ],
+    "specializations": [
+      "Judicator"
+    ]
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1121821,
+    "username": "corrosivecomplex",
+    "active": 1
+  }
+}

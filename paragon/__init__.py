@@ -1,0 +1,126 @@
+"""
+Diablo 4 Paragon Board Optimization package (`paragon`).
+
+Submodules:
+  - `paragon.game_data`: Enums, grid constants, class stat priorities, and official d4data metadata.
+  - `paragon.board`: `ParagonBoard` model, rotation transforms, stat grants, and node priority weighting.
+  - `paragon.solver`: Exact Node-Weighted Steiner Tree solvers (C++ / Python Dreyfus-Wagner & HiGHS MILP) and 2D layout search.
+  - `paragon.visualize`: Unicode and ASCII terminal board/layout visualizations and summary tables.
+  - `paragon.hints`: Generic, extensible post-optimization marginal cost & stat-swap hints engine (`--hints`).
+"""
+
+from .board import (
+    GLYPH_STRATEGY_ALIASES,
+    PRIORITY_SCALE,
+    ParagonBoard,
+    grid_components,
+    is_grid_connected,
+    neighbors4,
+    parse_glyph_strategy,
+    resolve_glyph_strategy,
+    unwrap_all_paragon_configs,
+    unwrap_paragon_boards,
+)
+from .game_data import (
+    BOARD_NAMES,
+    BOARD_SPECIAL_NODES,
+    D4_CLASS,
+    DEFAULT_CLASS_NODE_PRIORITY,
+    DEFAULT_META_DATA_PATH,
+    DIR_DELTA,
+    EXIT_COORDS,
+    GLYPH_DATA,
+    MAGIC_STAT_GRANT,
+    MAX_PARAGON_POINTS,
+    NODE_TYPE,
+    NORMAL_STAT_GRANT,
+    OPPOSITE_EXIT,
+    PARAGON_EXIT,
+    RARE_STAT_GRANT,
+    STARTER_START_COORD,
+    STAT_ALIASES,
+    get_glyph_radius,
+    get_glyph_stat_types,
+    load_meta_data,
+)
+from .hints import (
+    HINT_PASSES,
+    Hint,
+    HintContext,
+    enforce_budget,
+    format_board_hints,
+    print_budget_report,
+    print_hints,
+    register_hint_pass,
+    run_optimization_hints,
+)
+from .solver import (
+    NATIVE_LIB,
+    find_z3_bin,
+    load_native_solver,
+    optimize_layout_and_paths,
+    solve_board_exact,
+    solve_glyph_threshold_repair,
+    solve_layout_without,
+)
+from .visualize import (
+    format_board_ascii,
+    format_board_unicode,
+    format_layout_map_unicode,
+    format_legend_unicode,
+    print_summary,
+)
+
+__all__ = [
+    "BOARD_NAMES",
+    "BOARD_SPECIAL_NODES",
+    "D4_CLASS",
+    "DEFAULT_CLASS_NODE_PRIORITY",
+    "DEFAULT_META_DATA_PATH",
+    "DIR_DELTA",
+    "EXIT_COORDS",
+    "GLYPH_DATA",
+    "GLYPH_STRATEGY_ALIASES",
+    "HINT_PASSES",
+    "Hint",
+    "HintContext",
+    "MAGIC_STAT_GRANT",
+    "MAX_PARAGON_POINTS",
+    "NATIVE_LIB",
+    "NODE_TYPE",
+    "NORMAL_STAT_GRANT",
+    "OPPOSITE_EXIT",
+    "PARAGON_EXIT",
+    "PRIORITY_SCALE",
+    "ParagonBoard",
+    "RARE_STAT_GRANT",
+    "STARTER_START_COORD",
+    "STAT_ALIASES",
+    "enforce_budget",
+    "find_z3_bin",
+    "format_board_ascii",
+    "format_board_hints",
+    "format_board_unicode",
+    "format_layout_map_unicode",
+    "format_legend_unicode",
+    "get_glyph_radius",
+    "get_glyph_stat_types",
+    "grid_components",
+    "is_grid_connected",
+    "load_meta_data",
+    "load_native_solver",
+    "neighbors4",
+    "optimize_layout_and_paths",
+    "parse_glyph_strategy",
+    "print_budget_report",
+    "print_hints",
+    "print_summary",
+    "register_hint_pass",
+    "resolve_glyph_strategy",
+    "run_optimization_hints",
+    "solve_board_exact",
+    "solve_glyph_threshold_repair",
+    "solve_layout_without",
+    "unwrap_all_paragon_configs",
+    "unwrap_paragon_boards",
+]

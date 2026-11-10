@@ -1,0 +1,833 @@
+{
+  "id": "zy4qvi0q",
+  "date": "2026-09-16 21:39:01",
+  "name": "Blazing Scream Endgame Warlock",
+  "class": "Warlock",
+  "data": {
+    "embeds": [],
+    "profiles": [
+      {
+        "name": "Variant 1",
+        "class": 7,
+        "level": 70,
+        "worldTier": 8,
+        "items": {
+          "4": 8,
+          "5": 12,
+          "6": 17,
+          "7": 16,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 9,
+          "17": 10,
+          "18": 11,
+          "20": 1,
+          "21": 2,
+          "22": 3,
+          "23": 4,
+          "24": 5,
+          "25": 6,
+          "26": 7
+        },
+        "skillTree": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": {
+                "619": 1,
+                "622": 1,
+                "650": 1,
+                "651": 1,
+                "685": 1,
+                "687": 1,
+                "697": 1,
+                "700": 1,
+                "750": 1,
+                "807": 15,
+                "814": 1,
+                "819": 15,
+                "820": 1,
+                "821": 8,
+                "826": 15,
+                "850": 1,
+                "857": 1,
+                "858": 1,
+                "891": 15,
+                "896": 1
+              }
+            }
+          ],
+          "position": 0
+        },
+        "skillBar": [
+          "Warlock_DemonicBombard",
+          "Warlock_BurningSkull",
+          "Warlock_ArchDemon",
+          "Warlock_Command_Vanguard_Demon",
+          "Warlock_ChainTotem",
+          "Warlock_SigilOfFlames"
+        ],
+        "paragon": {
+          "steps": [
+            {
+              "name": "Variant 1",
+              "data": [
+                {
+                  "id": "Paragon_Warlock_00",
+                  "nodes": {
+                    "10": 1,
+                    "31": 1,
+                    "32": 1,
+                    "53": 1,
+                    "71": 1,
+                    "72": 1,
+                    "74": 1,
+                    "92": 1,
+                    "93": 1,
+                    "95": 1,
+                    "113": 1,
+                    "114": 1,
+                    "116": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "156": 1,
+                    "159": 1,
+                    "176": 1,
+                    "177": 1,
+                    "180": 1,
+                    "197": 1,
+                    "201": 1,
+                    "218": 1,
+                    "222": 1,
+                    "239": 1,
+                    "242": 1,
+                    "243": 1,
+                    "244": 1,
+                    "264": 1,
+                    "282": 1,
+                    "283": 1,
+                    "284": 1,
+                    "285": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "glyph": "Rare_133_Intelligence_Side",
+                  "glyphLevel": 50
+                },
+                {
+                  "id": "Paragon_Warlock_03",
+                  "nodes": {
+                    "134": 1,
+                    "135": 1,
+                    "136": 1,
+                    "137": 1,
+                    "138": 1,
+                    "154": 1,
+                    "157": 1,
+                    "158": 1,
+                    "175": 1,
+                    "178": 1,
+                    "196": 1,
+                    "199": 1,
+                    "200": 1,
+                    "201": 1,
+                    "216": 1,
+                    "217": 1,
+                    "222": 1,
+                    "241": 1,
+                    "243": 1,
+                    "262": 1,
+                    "263": 1,
+                    "264": 1,
+                    "283": 1,
+                    "284": 1,
+                    "304": 1,
+                    "325": 1,
+                    "346": 1,
+                    "367": 1,
+                    "388": 1,
+                    "409": 1,
+                    "430": 1
+                  },
+                  "rotation": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "glyph": "Rare_127_Intelligence_Side",
+                  "glyphLevel": 50
+                }
+              ]
+            }
+          ],
+          "position": 0
+        },
+        "rotations": [],
+        "warPlans": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "world": {
+          "renownSkills": 14,
+          "renownParagon": 42
+        },
+        "elixirs": [],
+        "widgetNotes": {},
+        "warlockShard": "Warlock_ClassMechanic_Vanguard",
+        "warlockFragment": "Warlock_ClassMechanic_Vanguard_B"
+      }
+    ],
+    "items": {
+      "1": {
+        "id": "Talisman_Seal_Legendary",
+        "power": 900,
+        "name": "Bramble Agent",
+        "explicits": [
+          {
+            "nid": 2609197,
+            "values": [
+              1
+            ]
+          }
+        ]
+      },
+      "2": {
+        "id": "Talisman_Charm_Set_Warlock_02_01",
+        "power": 900,
+        "name": "Vicious Ward",
+        "explicits": [
+          {
+            "nid": 2545972,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "3": {
+        "id": "Talisman_Charm_Set_Warlock_02_02",
+        "power": 900,
+        "name": "Bitter Gear",
+        "explicits": [
+          {
+            "nid": 2545972,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "4": {
+        "id": "Talisman_Charm_Set_Warlock_02_03",
+        "power": 900,
+        "name": "Distinguished Rival",
+        "explicits": [
+          {
+            "nid": 2545972,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "5": {
+        "id": "Talisman_Charm_Set_Warlock_02_04",
+        "power": 900,
+        "name": "Plague Downfall",
+        "explicits": [
+          {
+            "nid": 2545972,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "6": {
+        "id": "Talisman_Charm_Set_Warlock_02_05",
+        "power": 900,
+        "name": "Shadow Sin",
+        "explicits": [
+          {
+            "nid": 2545972,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "7": {
+        "id": "Talisman_Charm_Unique_2HSword_Unique_Warlock_001",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2559894,
+            "values": [
+              0.2
+            ]
+          },
+          {
+            "nid": 2545972,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "8": {
+        "id": "Helm_Legendary_Generic_053",
+        "power": 900,
+        "name": "Visceral Tormentor",
+        "explicits": [
+          {
+            "nid": 1829574,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1225
+            ]
+          },
+          {
+            "nid": 2534856,
+            "values": [
+              2
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              1500
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2547940,
+            "values": [
+              1.5
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_OnCastCoreSkill",
+          "Rune_Effect_Barbarian_ChallengingShout"
+        ]
+      },
+      "9": {
+        "id": "Ring_Unique_Generic_108",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2672415,
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "nid": 2571274,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.14
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862348,
+            "values": [
+              0.08
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Azmodan_04"
+        ]
+      },
+      "10": {
+        "id": "Ring_Legendary_Generic_027",
+        "power": 900,
+        "name": "Night Blast",
+        "explicits": [
+          {
+            "nid": 1829614,
+            "values": [
+              2800
+            ]
+          },
+          {
+            "nid": 1834112,
+            "values": [
+              0.14
+            ]
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862348,
+            "values": [
+              0.08
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2547932,
+            "values": [
+              70,
+              0.6
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_Duriel_04"
+        ]
+      },
+      "11": {
+        "id": "Amulet_Unique_Warlock_002",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2559898,
+            "values": [
+              0.30000000000000004
+            ]
+          },
+          {
+            "nid": 2534852,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2602161,
+            "values": [
+              180
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2200
+            ]
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.24
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862348,
+            "values": [
+              0.08
+            ]
+          }
+        ],
+        "sockets": [
+          "S15_SoulSplinter_NaKrul_04"
+        ]
+      },
+      "12": {
+        "id": "Runeword_Enigma",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2676293,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2676294,
+            "values": [
+              0.45
+            ]
+          },
+          {
+            "nid": 2686419,
+            "values": [
+              0.12
+            ]
+          },
+          {
+            "nid": 2676297,
+            "values": [
+              0.4
+            ]
+          },
+          {
+            "nid": 1829554,
+            "values": [
+              1225
+            ]
+          },
+          {
+            "nid": 2676305,
+            "values": []
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862242,
+            "values": [
+              2300
+            ]
+          }
+        ],
+        "sockets": [
+          "Rune_Condition_Summons",
+          "Rune_Effect_Druid_EarthenBulwark"
+        ]
+      },
+      "13": {
+        "id": "Gloves_Legendary_Generic_053",
+        "power": 900,
+        "name": "Rift Blast",
+        "explicits": [
+          {
+            "nid": 2605602,
+            "values": [
+              2200
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              2800
+            ]
+          },
+          {
+            "nid": 1928753,
+            "values": [
+              2
+            ]
+          },
+          {
+            "nid": 2602161,
+            "values": [
+              180
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862327,
+            "values": [
+              0.4
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 2547920,
+            "values": [
+              3.25
+            ]
+          }
+        ]
+      },
+      "14": {
+        "id": "Pants_Unique_Generic_100",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 578775,
+            "values": [
+              100
+            ]
+          },
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 1829614,
+            "values": [
+              2800
+            ]
+          },
+          {
+            "nid": 2615143,
+            "values": [
+              2500
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862295,
+            "values": [
+              1500
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Sapphire_07",
+          "Gem_Sapphire_07"
+        ]
+      },
+      "15": {
+        "id": "Boots_Legendary_Generic_053",
+        "power": 900,
+        "name": "Soul Sin",
+        "explicits": [
+          {
+            "nid": 1829592,
+            "values": [
+              1450
+            ]
+          },
+          {
+            "nid": 1829598,
+            "values": [
+              0.24
+            ]
+          },
+          {
+            "nid": 1829574,
+            "values": [
+              121
+            ]
+          },
+          {
+            "nid": 2534852,
+            "values": [
+              2
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862314,
+            "values": [
+              0.25
+            ]
+          }
+        ],
+        "aspects": [
+          {
+            "nid": 1859813,
+            "values": [
+              3
+            ]
+          }
+        ]
+      },
+      "16": {
+        "id": "1HSword_Unique_Warlock_001",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2559885,
+            "values": [
+              0.5,
+              1,
+              0.5
+            ]
+          },
+          {
+            "nid": 2534726,
+            "values": [
+              3
+            ]
+          },
+          {
+            "nid": 2558711,
+            "values": [
+              0.1
+            ]
+          },
+          {
+            "nid": 2605602,
+            "values": [
+              2200
+            ]
+          },
+          {
+            "nid": 2602161,
+            "values": [
+              180
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862327,
+            "values": [
+              0.4
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      },
+      "17": {
+        "id": "Runeword_CalltoArms_Focus",
+        "power": 900,
+        "explicits": [
+          {
+            "nid": 2686504,
+            "values": [
+              250
+            ]
+          },
+          {
+            "nid": 2679500,
+            "values": [
+              1
+            ]
+          },
+          {
+            "nid": 2687512,
+            "values": [
+              0.4
+            ]
+          },
+          {
+            "nid": 2683405,
+            "values": [
+              5
+            ]
+          },
+          {
+            "nid": 2679502,
+            "values": [
+              0.4
+            ]
+          },
+          {
+            "nid": 2683401,
+            "values": [
+              5,
+              0.15
+            ]
+          }
+        ],
+        "tempered": [
+          {
+            "nid": 1862327,
+            "values": [
+              0.4
+            ]
+          }
+        ],
+        "sockets": [
+          "Gem_Ruby_07"
+        ]
+      }
+    },
+    "activeEmbed": -1,
+    "activeProfile": 0,
+    "options": {},
+    "pinnedStats": {},
+    "globalNotes": {},
+    "lootFilters": [],
+    "season": 15
+  },
+  "userId": 1113549,
+  "public": false,
+  "folder": 0,
+  "accessed": 1789610444,
+  "mainset": "2213860",
+  "category": "endgame",
+  "game": "d4",
+  "average_rating": 0,
+  "total_ratings": 0,
+  "metadata": "{\"skills\":[\"2245719:44\",\"2213860:26\",\"2215096:74\",\"2424438\",\"2418214:84\",\"2218213:42\"]}",
+  "search_metadata": {
+    "skills": [
+      "Bombardment",
+      "Blazing Scream",
+      "Metamorphosis",
+      "Command Abodian",
+      "Dark Prison",
+      "Sigil of Chaos"
+    ],
+    "items": [
+      "Runic Skullcap of Diabolical Armor",
+      "Enigma",
+      "Call to Arms",
+      "Elegy",
+      "Demonic Runic Gloves",
+      "Temerity",
+      "Undying Runic Cleats",
+      "Stone of Jordan",
+      "Soulwatch Hoop of Ignition",
+      "Moloch's Beating Flame",
+      "Anathema of the Primes"
+    ],
+    "specializations": []
+  },
+  "season": "15",
+  "shared": false,
+  "type": "",
+  "tags": null,
+  "user": {
+    "id": 1113549,
+    "username": "misago_rahl",
+    "active": 1
+  }
+}

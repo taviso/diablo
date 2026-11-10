@@ -1,29 +1,37 @@
 # Diablo 4 Paragon Board Optimizer
 
 The game Diablo 4 has a complex stat system called Paragon. You choose a
-selection of up to 5 "Paragon Boards" from your class's set of 9–10 boards,
+selection of up to 5 "Paragon Boards" from your class's set of 9-10 boards,
 which can be rotated and connected in a mostly arbitrary arrangement.
+
+<img width="30%" src="https://github.com/user-attachments/assets/0310f16b-0bc7-42eb-bd47-c6dae249b748" />
 
 The board is effectively a set of 150 or so nodes arranged in a non-uniform
 grid. Each node provides some benefits, but you need to find a path through
 the connected boards from the origin point to enable them.
 
-The main challenge is connecting the most desirable nodes with the shortest
-path. It's more complicated than that, but that's the gist of it.
+The main challenge is connecting the most desirable nodes with the shortest path.
 
 Instead of just playing the game, I was nerdsniped into thinking about
 optimization strategies. It turns out I'm not the first, other players have
-tried to solve this problem. There is even an existing online solver [here](https://www.d4-paragon.com/).
+tried to solve this problem (e.g. [this one](https://www.d4-paragon.com/))
 
-However, I tried it out and could see just with my puny human brain that it
-missed a lower cost path. Thinking about it, I recalled **Steiner Trees** and
+However, I tried those solvers out and could see with my own eyes it missed a lower cost path.
+Thinking about it, I recalled **[Steiner Trees](https://en.wikipedia.org/wiki/Steiner_tree_problem)** and
 wondered if that applied here and could improve the results.
 
 I asked an AI to test this theory, and after some iterations it did produce
 a working solution using Dreyfus-Wagner, and the results do seem far better,
-often finding improved solutions.
+often finding improved paths.
+
+This repo contains the resulting solution, which appears to work well.
+
+Please note, I haven't validated the algorithm beyond examining the output.
 
 ## Features
+
+<img width="50%" src="https://github.com/user-attachments/assets/93ebcf43-2dde-4c47-8a27-5504abd8509a" />
+<img width="50%" src="https://github.com/user-attachments/assets/c54925c0-b1cd-4c99-a697-65e5674126ea" />
 
 - **Minimum Paragon Points**: Solves each board's Node-Weighted Steiner Tree.
 - **Fast**: Native C++ Dreyfus–Wagner core.
@@ -34,20 +42,16 @@ often finding improved solutions.
 
 ## Usage
 
-This script reads the JSON format used by the
-[maxroll.gg](https://maxroll.gg/d4/planner/) online Paragon planner tool.
+This script reads the JSON format used by the [maxroll](https://maxroll.gg/d4/planner/) online Paragon planner tool.
 
-Create a new build, then:
+Create a new build, and select all the boards, nodes and glyphs you want to use.
 
-- Select all the boards, nodes and glyphs you want to use.
-    - No need to worry about normal nodes, rotation or arrangement - this script
-      will figure out how to connect them.
-    - If you already have a complete build with normal nodes selected, that's
-      fine too - this script can optimize it.
-- Click the "Variant" menu, then the export icon. That will copy some JSON to the clipboard.
+- No need to worry about normal nodes, rotation or arrangement - this script will figure out how to connect them.
+- If you already have a complete build with normal nodes selected, that's fine too - this script can optimize it.
+- Click the "Variant" menu, then the export icon. That will copy the JSON to the clipboard.
 - Save that JSON to a file, and pass the resulting file to this tool and examine the result.
-    - If you like it, use `-o optimized.json`, that output can be imported back
-      into the planner tool.
+
+If you like it, use `-o optimized.json`, that output can be imported back into the planner tool.
 
 ### Quick Start
 
@@ -78,21 +82,19 @@ could improve your build.
 
 #### Examples
 
-I tested this script across all public community builds from Maxroll, this
-script found strictly cheaper paths on **57 out of 73 builds**, often freeing
-enough paragon points to reach multiple rare/magic cluters.
+I tested this script across all public community builds from Maxroll, this script found strictly cheaper paths on **57 out of 73 builds**, often freeing enough paragon points to reach multiple rare/magic clusters.
 
 Here is a closer look at a couple of examples:
 
-1. **Rerouting a complete Maxroll build "Paladin Arbiter Endgame Eternal Non Seasonal"**:
-   - Exported from a complete Maxroll guide with **323 Paragon points** allocated (taking 26 of the 28 Rare clusters across its 5 boards, and skipping the last 2, presumably because it ran out of points).
+1. **Rerouting a complete Maxroll build "Paladin Arbiter Endgame Eternal Non Seasonal"** ([link](https://maxroll.gg/d4/planner/iptae0vj):
+   - Originally 323 Paragon points allocated (taking 26 of the 28 Rare clusters across its 5 boards, and skipping the last 2, presumably because it ran out of points).
    - Running `./paragon_optimize.py --relax-path-nodes tests/builds/Paladin_Arbiter_Endgame__Eternal_Non_Seasonal.json` reroutes the connecting corridors without reducing any Glyph's in-radius stat, saving **11 Paragon points**:
 
 ```text
 Relaxed 144 plain stat path node(s) not feeding a Glyph: 323 -> 312 Paragon points (-11 vs. without --relax-path-nodes); Core Stat change: -30 DEX, -11 INT, +30 STR, -38 WILL.
 ```
 
-   - Those **11 freed points** are enough to grab one of the two skipped Rare nodes **and its entire 6-node Magic cluster**.
+   - Those 11 freed points are enough to grab one of the two skipped Rare nodes and its entire 6-node Magic cluster.
 
 #### Advanced
 

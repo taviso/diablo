@@ -135,7 +135,7 @@ You can customize how those surrounding nodes are considered when pathing.
 ###### Maximize Glyph Stat
 
 Some glyphs can take advantage of a specific stat, for example all `STR` nodes
-in the glyph's manhattan circle radius become valuable.
+in the glyph's [manhattan circle radius](https://en.wikipedia.org/wiki/Taxicab_geometry) become valuable.
 
 In that case you want the script to find the minimum path to enable all the
 applicable nodes, you can do that automatically like this:

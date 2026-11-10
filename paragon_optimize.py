@@ -7,7 +7,7 @@ exit gate combinations (using exact graph reduction rules + Dreyfus-Wagner
 dynamic programming) and finds the globally optimal 2D board arrangement,
 rotation, and pathing.
 
-Accepts and produces the exact JSON format used by https://www.d4-paragon.com/.
+Accepts and produces the exact JSON format used by the maxroll d4 planner.
 """
 
 import argparse
@@ -77,7 +77,7 @@ def print_relax_report(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Optimal Diablo 4 Paragon Board Optimizer (compatible with d4-paragon.com JSON)."
+        description="Optimal Diablo 4 Paragon Board Optimizer."
     )
     parser.add_argument(
         "input",

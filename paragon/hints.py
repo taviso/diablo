@@ -1277,7 +1277,6 @@ def _hint_pass_manual_path_targets(ctx: HintContext) -> list[Hint]:
     """
     Check normal +5 stat nodes (DEX, INT, STR, WILL) marked as required targets that do not feed
     the socketed Glyph (outside the Glyph radius, or non-governed inside a non-normal Glyph's radius).
-    Users often leave manual path nodes checked as targets in d4-paragon.com builds.
     """
     b = ctx.board
     manual_nodes = {

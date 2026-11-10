@@ -85,9 +85,6 @@ class D4_CLASS(StrEnum):
 
 # Class node priorities aligned with each class's Primary Stat, two Secondary Stats
 # (which have MAGIC_<STAT> clusters and unlock Rare node bonus thresholds), and Off-Stat (0.0).
-# Note: d4-paragon.com's bytecode had a bug on ROGUE (setting STR=0, WILL=0.025 despite Rogue
-# boards having 20 MAGIC_STR nodes and 0 MAGIC_WILL nodes) and copy-pasted BARB/DRUID onto
-# PALADIN/WARLOCK (setting INT=0 on Paladin and STR=0 on Warlock).
 def _build_class_priority(prim: NODE_TYPE, sec1: NODE_TYPE, sec2: NODE_TYPE) -> dict[NODE_TYPE, float]:
     d = {nt: 0.0 for nt in NODE_TYPE}
     d.update({NODE_TYPE.MAGIC: 0.6, NODE_TYPE.RARE: 1.0, prim: 0.5, sec1: 0.03, sec2: 0.025})

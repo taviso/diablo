@@ -74,6 +74,8 @@ Connecting a set of terminal nodes on a grid graph with the minimum number of in
 - [`HINTS.md`](file:///workspace/diablo/HINTS.md): Detailed reference for the `--hints` optimization passes, `d4data` mechanics, and hybrid marginal cost analysis.
 
 ### Algorithmic Pipeline
+> **Note on Combinatorial State Explosion & Timeouts**: Because Steiner tree solving ($O(3^k V)$), threshold subset search, and 2D board tree/rotation enumeration are combinatorial problems, unguarded parameter combinations (such as high terminal counts $k$ or large subset branch-and-bound trees) can cause exponential state explosion and unexpectedly huge runtimes. Always enforce strict work/iteration bounds in search algorithms and always wrap shell commands/tasks in a reasonable timeout (e.g., `timeout 10s ...`).
+
 1. **Exact Optimality-Preserving Graph Reductions (`solve_board_exact`)**:
    - Before running Dreyfus–Wagner on a board, non-terminal vertices (excluding protected exit coordinates) are iteratively reduced without changing the optimal Steiner tree:
      - **Dead-End Pruning**: Removes non-terminals touching $\le 1$ neighbor/component.

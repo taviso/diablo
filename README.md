@@ -84,14 +84,9 @@ I tested this script across all public community builds from Maxroll, this scrip
 
 Here is a closer look at a couple of examples:
 
-1. **Rerouting a complete Maxroll build "Paladin Arbiter Endgame Eternal Non Seasonal"** ([link](https://maxroll.gg/d4/planner/iptae0vj):
+1. **Rerouting a complete Maxroll build [Paladin Arbiter](https://maxroll.gg/d4/planner/iptae0vj)**:
    - Originally 323 Paragon points allocated (taking 26 of the 28 Rare clusters across its 5 boards, and skipping the last 2, presumably because it ran out of points).
-   - Running `./paragon_optimize.py --relax-path-nodes tests/builds/Paladin_Arbiter_Endgame__Eternal_Non_Seasonal.json` reroutes the connecting corridors without reducing any Glyph's in-radius stat, saving **11 Paragon points**:
-
-```text
-Relaxed 144 plain stat path node(s) not feeding a Glyph: 323 -> 312 Paragon points (-11 vs. without --relax-path-nodes); Core Stat change: -30 DEX, -11 INT, +30 STR, -38 WILL.
-```
-
+   - Running `./paragon_optimize.py --relax-path-nodes build.json` reroutes the connecting corridors without reducing any Glyph's in-radius stat, saving **11 Paragon points**:
    - Those 11 freed points are enough to grab one of the two skipped Rare nodes and its entire 6-node Magic cluster.
 
 #### Advanced
@@ -104,8 +99,8 @@ video game stat system, get ready, we can go deeper!
 If there are multiple paths that solve your board with equal cost, a tie
 breaker strategy has to be used.
 
-The default strategy is class-stat priority, whichever path maximizes the
-stat your class prefers, i.e. `DEX`, `INT`, `STR`, `WILL`, wins.
+By default, the script prefers rare nodes first, followed by whichever path
+maximizes the stats your class prefers.
 
 The default will probably work, but you can tweak this if you need to.
 
@@ -123,7 +118,11 @@ but `WILL` might not be.
 $ ./paragon_optimize.py --prioritize-stat DEX,STR,INT your_d4_build.json
 ```
 
-There are even more prioritization options available, see the `--help` for more.
+> Note that `--prioritize-stat` can also consider `RARE` and `MAGIC` nodes, so
+> you should include them at the front of the list if you always want them to
+> win.
+
+See `--help` for all supported options.
 
 ##### Glyph Optimization
 

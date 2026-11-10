@@ -165,41 +165,59 @@ If you do not care about the glyph radius, just tell the script to ignore it.
 $ ./paragon_optimize.py --glyph-strategy=none your_d4_build.json
 ```
 
-There are additional options and strategies, see the `--help` for more.
+###### Preserve Existing Glyph Selection
+
+By default, the script uses the `preserve` strategy: it keeps whichever
+in-radius nodes are already selected in your input JSON (and prefers routing
+equal-length paths through the radius), without forcing unselected in-radius
+stat nodes the way `max` does.
 
 ##### Per-Glyph Strategy
 
 You might want different strategies for each socketed glyph.
 
-Just specify the Glyph name, followed by the strategy to use.
+Just specify the Glyph name, followed by the strategy to use (any glyph you
+don't list uses the default `preserve` strategy):
 
 ```bash
 ./paragon_optimize.py --glyph-strategy=Headhunter=max,Nightstalker=bonus your_d4_build.json
 ```
 
-You can also set a default strategy, and just change it for one glyph
+You can also set a global strategy for all glyphs, and override individual ones:
 
 ```bash
 ./paragon_optimize.py --glyph-strategy=max,Nightstalker=bonus your_d4_build.json
 ```
 
+Or combine a global `bonus` strategy with `preserve` to keep one glyph's manual
+in-radius selection untouched:
+
+```bash
+./paragon_optimize.py --relax-path-nodes --glyph-strategy=bonus,Headhunter=preserve your_d4_build.json
+```
+
 #### Recalculate Path Nodes
 
 When you export a finished build from Maxroll, every normal `+5` stat node along
-your path is marked as selected in the JSON. By default, the solver preserves all
-of them.
+your path is marked as selected in the JSON. Without `--relax-path-nodes`, the
+solver treats all selected nodes in the JSON as mandatory and only adds missing
+connections.
 
-Passing `--relax-path-nodes` tells the script to treat plain `+5` stat nodes outside
-your Glyph radii as optional path nodes so it can search for cheaper connecting
-routes (and prints the net point and Core Stat difference):
+Passing `--relax-path-nodes` tells the script to treat plain `+5` stat nodes as
+optional path nodes so it can reroute your connecting corridors (and prints the
+net point and Core Stat difference):
 
 ```bash
 ./paragon_optimize.py --relax-path-nodes your_d4_build.json
 ```
 
-You can also combine `--relax-path-nodes` with `--glyph-strategy` (for example,
-`--relax-path-nodes --glyph-strategy=bonus,Headhunter=max`) to re-optimize the
-normal stat nodes inside your Glyph radii at the same time.
+How `--relax-path-nodes` treats normal `+5` stat nodes inside a glyph radius
+depends on that glyph's strategy:
+
+- `preserve` (default): Keeps your existing in-radius glyph stat nodes so no glyph loses scaling, and only relaxes path nodes outside the radius.
+- `max`: Forces all matching stat nodes in the glyph radius to be selected.
+- `bonus`: Relaxes in-radius plain `+5` stat nodes too, paring the glyph down to the minimum-point selection needed to hit its `+25`/`+40` bonus threshold.
+- `none`: Relaxes all in-radius plain `+5` stat nodes down to the shortest connecting path.
 
 #### Point Budgets
 

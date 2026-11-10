@@ -494,10 +494,13 @@ class TestParagonOptimizer(unittest.TestCase):
             )
             self.assertEqual(cnt, sum(len(fb.selected_nodes) for fb in fresh), f"Removal mismatch for {b.board_name}")
             self.assertEqual(cnt, sum(len(s) for s in selections.values()))
-        cost_hints = {h.board_name: h for h in self.hints if h.category == "Board Cost"}
-        self.assertEqual(set(cost_hints), {"Exploit Weakness", "Cheap Shot"})
-        self.assertIn("removing it frees 50 Paragon points", cost_hints["Cheap Shot"].message)
-        self.assertIn("removing it only frees 65 net Paragon points", cost_hints["Exploit Weakness"].message)
+        alt_hints = {h.board_name: h for h in self.hints if h.category == "Alternative Board"}
+        self.assertEqual(set(alt_hints), {"Cheap Shot"})
+        self.assertEqual(alt_hints["Cheap Shot"].points_delta, 1)
+        self.assertIn(
+            "Legendary 'Cheap Shot' is unused on this board — switching to unused board 'Deadly Ambush' (Paragon_Rogue_04, rotated 270°)",
+            alt_hints["Cheap Shot"].message,
+        )
         self.assertEqual(total, 246)
         self.assertEqual(sum(len(b.purchased_nodes()) for b in self.boards), 241)
 
@@ -760,6 +763,11 @@ class TestParagonOptimizer(unittest.TestCase):
             h for h in druid_hints if h.category == "0-Pt Glyph Socket Swap" and "unlocks the bonus threshold" in h.message
         ]
         self.assertGreaterEqual(len(unlock_swaps), 2)
+        druid_alt_boards = [h for h in druid_hints if h.category == "Alternative Board"]
+        self.assertEqual(len(druid_alt_boards), 1)
+        self.assertEqual(druid_alt_boards[0].board_name, "Inner Beast")
+        self.assertEqual(druid_alt_boards[0].points_delta, 4)
+        self.assertIn("Earthen Devastation", druid_alt_boards[0].message)
 
     def test_random_builds_and_stat_prioritization_monotonicity(self):
         """

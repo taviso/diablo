@@ -76,7 +76,7 @@ also be cleared automatically with `--relax-path-nodes`).
 
 ---
 
-### Clusters, Spurs & Board Cost
+### Clusters, Spurs & Alternative Boards
 
 #### High-Cost Target Spur
 
@@ -99,16 +99,16 @@ dropping the outer Magic nodes:
 [-8 pts] Rare 'Spearhead' cluster around (3, 5) (6 target nodes) requires 2 dedicated path nodes — disabling this cluster saves 8 Paragon points (-5 DEX, -5 STR); or keep Rare 'Spearhead' and drop 3 leaf Magic nodes ((4, 5), (2, 6), (2, 5)) to save 3 points.
 ```
 
-#### Board Cost
+#### Alternative Board (Unused Legendary Node)
 
-Shows when a non-starter board's true build cost differs from the number of
-nodes on that board:
-
-- **Attachment Overhead**: Neighboring boards had to spend extra points reaching exit gates just to attach this board, so dropping it saves *more* points than the board's own node count.
-- **Transit Hub**: Other boards route through this board; dropping it forces the remaining boards to take a longer detour, saving *fewer* net points than the board holds.
+When a non-starter board has a socketed Glyph but its Legendary node is not
+selected, checks all unused boards for your class (across all 4 rotations) to
+see if a different board can connect the same exit gates and reach your Glyph's
+bonus threshold in fewer Paragon points (or in the same minimum points with a
+higher in-radius stat capacity):
 
 ```text
-[Board Cost] Attaching this 44-point board requires +6 extra gate-path points on neighboring boards (50 points total build cost) — if you drop or defer this board while leveling, removing it frees 50 Paragon points across the build (-140 DEX, -35 INT, -30 STR, -5 WILL).
+[-4 pts] Legendary 'Inner Beast' is unused on this board — switching to unused board 'Earthen Devastation' (Paragon_Druid_02, rotated 0°) connects the RIGHT/BOTTOM exit(s) + Glyph socket in 20 pts instead of 21 (-1 pt) and reaches 'Bane' threshold (25/25 INT) in 22 Paragon points instead of 26 (saving 4 points, max 42 INT in radius) (if you only need this board for its Glyph socket / transit path and not Rare 'Tenacity', Rare 'Impel' (+10 WILL)).
 ```
 
 ---

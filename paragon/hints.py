@@ -11,6 +11,8 @@ import sys
 import time
 from collections import Counter, deque
 from dataclasses import dataclass, field
+from functools import cache
+from heapq import heappop, heappush
 
 from .board import PLAIN_STAT_TYPES, ParagonBoard, grid_components, is_grid_connected, neighbors4
 from .game_data import (
@@ -19,7 +21,9 @@ from .game_data import (
     MAX_PARAGON_POINTS,
     NODE_TYPE,
     NORMAL_STAT_GRANT,
+    PARAGON_EXIT,
     STARTER_START_COORD,
+    load_meta_data,
 )
 from .solver import solve_board_exact, solve_glyph_threshold_repair, solve_layout_without
 
@@ -848,49 +852,284 @@ def _hint_pass_high_cost_single_targets(ctx: HintContext) -> list[Hint]:
     return hints
 
 
-@register_hint_pass("Exact Board Removal Cost")
-def _hint_pass_board_removal_cost(ctx: HintContext) -> list[Hint]:
+@cache
+def _cached_meta_data() -> dict:
+    return load_meta_data()
+
+
+def _eval_board_glyph_cost(
+    bid: str,
+    b_ref: ParagonBoard,
+    s_exits: list[PARAGON_EXIT],
+    meta_data: dict,
+    fixed_rot: int | None = None,
+) -> tuple[tuple[int, int, int, int, int], str, str, int, int, int, int, int] | None:
     """
-    When a non-starter board's true build cost differs from its on-board node count (either because
-    neighboring boards spend extra gate-spur points to attach it, or because it serves as a transit hub
-    that saves pathing points for downstream boards), report the exact net Paragon points freed if the
-    board is dropped, deferred while leveling, or replaced (`solve_layout_without`).
+    Evaluate the minimum Paragon points on board `bid` to connect screen exits `s_exits` + its Glyph socket
+    (`sock_pts`) and to reach `b_ref`'s Glyph bonus threshold (`thresh_pts`), plus its maximum in-radius
+    stat capacity (`max_stat`). Uses fast Dijkstra + in-radius greedy BFS so each board takes < 5ms.
+    """
+    cand = ParagonBoard(
+        {
+            "id": bid,
+            "nodes": {},
+            "rotation": 0,
+            "position": dict(b_ref.position),
+            "glyph": b_ref.glyph,
+            "glyphLevel": b_ref.glyph_level,
+        },
+        meta_data,
+    )
+    if cand.glyph_coord is None:
+        return None
+    all_exits = set(EXIT_COORDS.values())
+
+    def dijkstra(src: tuple[int, int], allow_exits: set[tuple[int, int]]):
+        dist = {src: 0.0}
+        prev: dict[tuple[int, int], tuple[int, int] | None] = {src: None}
+        pq = [(0.0, src)]
+        while pq:
+            d, u = heappop(pq)
+            if d > dist[u]:
+                continue
+            for nb in neighbors4(u):
+                if cand.grid_type.get(nb, NODE_TYPE.DEAD) == NODE_TYPE.DEAD:
+                    continue
+                if nb in all_exits and nb not in allow_exits:
+                    continue
+                w = 0.0 if nb in (cand.glyph_coord, src) or nb in allow_exits else cand.node_weight(nb, set())
+                nd = d + w
+                if nb not in dist or nd < dist[nb]:
+                    dist[nb] = nd
+                    prev[nb] = u
+                    heappush(pq, (nd, nb))
+        return dist, prev
+
+    def trace(prev: dict, target: tuple[int, int]) -> set[tuple[int, int]]:
+        out = set()
+        cur = target
+        while cur is not None:
+            out.add(cur)
+            cur = prev.get(cur)
+        return out
+
+    thresh = cand.glyph_threshold
+    stat = cand.glyph_stat
+    cands = [
+        c
+        for c, nt in cand.grid_type.items()
+        if nt != NODE_TYPE.DEAD
+        and cand.in_glyph_radius(c)
+        and (cand.node_stat_grant_for(c, stat) > 0 if stat else False)
+    ]
+    max_stat = cand.glyph_stat_in_radius({c for c, nt in cand.grid_type.items() if nt != NODE_TYPE.DEAD})
+
+    def greedy_fill(init_sel: set[tuple[int, int]], allow_exits: set[tuple[int, int]]) -> set[tuple[int, int]] | None:
+        if not stat or thresh <= 0:
+            return init_sel
+        tree = set(init_sel)
+        if cand.glyph_stat_in_radius(tree) >= thresh:
+            return tree
+        if cand.glyph_stat_in_radius(tree | set(cands)) < thresh:
+            return None
+        while cand.glyph_stat_in_radius(tree) < thresh:
+            dist = {u: 0 for u in tree}
+            parent: dict[tuple[int, int], tuple[int, int]] = {}
+            q = deque(sorted(tree))
+            while q:
+                u = q.popleft()
+                for nb in neighbors4(u):
+                    if cand.grid_type.get(nb, NODE_TYPE.DEAD) == NODE_TYPE.DEAD or (
+                        nb in all_exits and nb not in allow_exits
+                    ):
+                        continue
+                    if nb not in dist:
+                        dist[nb] = dist[u] + 1
+                        parent[nb] = u
+                        q.append(nb)
+            rem_cands = [c for c in cands if c not in tree and c in dist]
+            if not rem_cands:
+                return None
+            need = thresh - cand.glyph_stat_in_radius(tree)
+
+            def score(c: tuple[int, int]):
+                path = []
+                cur = c
+                while cur not in tree:
+                    path.append(cur)
+                    cur = parent[cur]
+                pts = len(path)
+                st_gain = sum(cand.node_stat_grant_for(x, stat) for x in path if cand.in_glyph_radius(x))
+                eff_gain = min(need, st_gain)
+                return (
+                    1 if st_gain >= need else 0,
+                    -pts if st_gain >= need else eff_gain / pts,
+                    st_gain / pts,
+                    cand.node_priority(c),
+                )
+
+            best_c = max(rem_cands, key=score)
+            cur = best_c
+            while cur not in tree:
+                tree.add(cur)
+                cur = parent[cur]
+        return tree
+
+    rots = [fixed_rot] if fixed_rot is not None else list(range(4))
+    best = None
+    for r in rots:
+        u_exits = [EXIT_COORDS[PARAGON_EXIT((int(sd) - r) % 4)] for sd in s_exits]
+        u_exits_set = set(u_exits)
+        d_g, p_g = dijkstra(cand.glyph_coord, u_exits_set)
+        if any(e not in d_g for e in u_exits):
+            continue
+        if len(u_exits) == 1:
+            base_sel = trace(p_g, u_exits[0])
+        elif len(u_exits) == 2:
+            d_e0, p_e0 = dijkstra(u_exits[0], u_exits_set)
+            d_e1, p_e1 = dijkstra(u_exits[1], u_exits_set)
+            best_v = min(
+                d_g.keys() & d_e0.keys() & d_e1.keys(),
+                key=lambda v: d_g[v]
+                + d_e0[v]
+                + d_e1[v]
+                - (0.0 if v in u_exits_set or v == cand.glyph_coord else 2.0 * cand.node_weight(v, set())),
+            )
+            base_sel = trace(p_g, best_v) | trace(p_e0, best_v) | trace(p_e1, best_v)
+        else:
+            base_sel = set()
+            for e in u_exits:
+                base_sel |= trace(p_g, e)
+        sock_pts = len(base_sel) - 1
+        best_t = greedy_fill(base_sel, u_exits_set)
+        if len(u_exits) == 1 and stat and thresh > 0:
+            d_e0, p_e0 = dijkstra(u_exits[0], u_exits_set)
+            for sc in cands:
+                if cand.node_stat_grant_for(sc, stat) >= 7 and sc not in base_sel:
+                    d_sc, p_sc = dijkstra(sc, u_exits_set)
+                    common = d_g.keys() & d_e0.keys() & d_sc.keys()
+                    if not common:
+                        continue
+                    best_v = min(
+                        common,
+                        key=lambda v: d_g[v]
+                        + d_e0[v]
+                        + d_sc[v]
+                        - (
+                            0.0
+                            if v in u_exits_set or v in (cand.glyph_coord, sc)
+                            else 2.0 * cand.node_weight(v, set())
+                        ),
+                    )
+                    sc_sel = trace(p_g, best_v) | trace(p_e0, best_v) | trace(p_sc, best_v)
+                    t_sc = greedy_fill(sc_sel, u_exits_set)
+                    if t_sc is not None and (
+                        best_t is None
+                        or (len(t_sc), -cand.glyph_stat_in_radius(t_sc))
+                        < (len(best_t), -cand.glyph_stat_in_radius(best_t))
+                    ):
+                        best_t = t_sc
+        thresh_pts = (len(best_t) - 1) if best_t is not None else 999
+        g_stat = cand.glyph_stat_in_radius(best_t) if best_t is not None else 0
+        key = (thresh_pts, sock_pts, -max_stat, -g_stat, r)
+        if best is None or key < best[0]:
+            best = (key, cand.board_name, bid, r, sock_pts, thresh_pts, g_stat, max_stat)
+    return best
+
+
+@register_hint_pass("Unused Legendary Board Replacement")
+def _hint_pass_unused_legendary_board_swap(ctx: HintContext) -> list[Hint]:
+    """
+    When a non-starter board has a socketed Glyph but its Legendary node is not selected,
+    check if any unused board for that class can connect the same active exit gates and
+    reach the socketed Glyph's bonus threshold in fewer Paragon points (or in the same
+    minimum points with higher in-radius stat capacity).
     """
     b = ctx.board
-    if b.is_starter_board() or ctx.is_sole_target_leaf_board():
+    if b.is_starter_board() or not b.glyph or b.glyph_coord is None:
         return []
-    removal = ctx.board_removal()
-    if removal is None:
+    if any(b.grid_type[c] == NODE_TYPE.LEGENDARY for c in b.selected_nodes):
         return []
-    pts_saved, deltas = removal
-    held = len(b.purchased_nodes())
-    if pts_saved == held:
+
+    s_exit_names = b.screen_active_exits()
+    if not s_exit_names:
         return []
-    delta_str = ", ".join(f"{v:+d} {k}" for k, v in deltas.items() if v != 0) or "no core stat change"
-    if pts_saved > held:
-        overhead = pts_saved - held
-        msg = (
-            f"Attaching this {held}-point board requires +{overhead} extra gate-path point"
-            f"{'s' if overhead != 1 else ''} on neighboring boards ({pts_saved} points total build cost) — "
-            f"if you drop or defer this board while leveling, removing it frees {pts_saved} Paragon points "
-            f"across the build ({delta_str})."
-        )
+    s_exits = [PARAGON_EXIT[name] for name in s_exit_names]
+
+    meta_data = _cached_meta_data()
+    cur_eval = _eval_board_glyph_cost(b.board_type_id, b, s_exits, meta_data, fixed_rot=b.rotation)
+    if cur_eval is None:
+        return []
+    _, _, _, _, cur_sock, cur_thresh, _, cur_max = cur_eval
+
+    used_ids = {ob.board_type_id for ob in ctx.all_boards}
+    cls_name = b.d4_class.value
+    unused_ids = sorted(
+        k
+        for k in meta_data.keys()
+        if k.startswith(f"Paragon_{cls_name}_")
+        and not k.endswith("00")
+        and k != "Paragon_Spirit_0"
+        and k not in used_ids
+    )
+    if not unused_ids:
+        return []
+
+    alts = []
+    for uid in unused_ids:
+        ev = _eval_board_glyph_cost(uid, b, s_exits, meta_data)
+        if ev is not None:
+            alts.append(ev)
+    if not alts:
+        return []
+    alts.sort(key=lambda x: x[0])
+    _, bname, uid, r, sock, thresh, g_st, max_st = alts[0]
+
+    thresh_saved = cur_thresh - thresh if (cur_thresh < 999 and thresh < 999) else 0
+    sock_saved = cur_sock - sock
+    pts_saved = max(thresh_saved, sock_saved)
+    if pts_saved <= 0 and not (thresh == cur_thresh and sock == cur_sock and max_st > cur_max):
+        return []
+
+    leg_coords = [c for c, nt in b.grid_type.items() if nt == NODE_TYPE.LEGENDARY]
+    leg_label = b.node_label(leg_coords[0]) if leg_coords else f"Legendary '{b.board_name}'"
+    rares_used = [b.node_label(c) for c in sorted(b.selected_nodes) if b.grid_type[c] == NODE_TYPE.RARE]
+    rare_note = (
+        f" (if you only need this board for its Glyph socket / transit path and not {', '.join(rares_used)})"
+        if rares_used
+        else ""
+    )
+
+    exits_str = "/".join(s_exit_names)
+    if pts_saved > 0:
+        parts = []
+        if sock_saved > 0:
+            parts.append(f"connects the {exits_str} exit(s) + Glyph socket in {sock} pts instead of {cur_sock} (-{sock_saved} pt{'s' if sock_saved != 1 else ''})")
+        if thresh_saved > 0 and b.glyph_stat and b.glyph_threshold > 0:
+            parts.append(
+                f"reaches '{b.glyph_name}' threshold ({g_st}/{b.glyph_threshold} {b.glyph_stat}) in "
+                f"{thresh} Paragon points instead of {cur_thresh} (saving {thresh_saved} point{'s' if thresh_saved != 1 else ''}, "
+                f"max {max_st} {b.glyph_stat} in radius)"
+            )
+        detail = " and ".join(parts) if parts else f"saves {pts_saved} Paragon point{'s' if pts_saved != 1 else ''}"
     else:
-        reroute_cost = held - pts_saved
-        msg = (
-            f"This {held}-point board acts as a transit hub between neighboring boards — "
-            f"if you drop or replace it, the remaining boards must spend +{reroute_cost} extra point"
-            f"{'s' if reroute_cost != 1 else ''} to route around it, so removing it only frees "
-            f"{pts_saved} net Paragon points ({delta_str})."
+        detail = (
+            f"connects the {exits_str} exit(s) and reaches '{b.glyph_name}' threshold in the same {thresh} Paragon points "
+            f"while increasing maximum in-radius {b.glyph_stat} capacity from {cur_max} to {max_st} {b.glyph_stat} (+{max_st - cur_max} {b.glyph_stat})"
         )
+
+    msg = (
+        f"{leg_label} is unused on this board — switching to unused board '{bname}' ({uid}, rotated {r * 90}°) "
+        f"{detail}{rare_note}."
+    )
     return [
         Hint(
             ctx.board_index,
             b,
-            "Board Cost",
+            "Alternative Board",
             msg,
-            points_delta=0,
-            screen_coords=[],
+            points_delta=max(0, pts_saved),
+            screen_coords=[ctx.to_screen(b.glyph_coord)],
         )
     ]
 

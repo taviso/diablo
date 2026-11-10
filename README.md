@@ -12,23 +12,19 @@ the connected boards from the origin point to enable them.
 
 The main challenge is connecting the most desirable nodes with the shortest path.
 
-Instead of just playing the game, I was nerdsniped into thinking about
+Instead of just playing the game one weekend, I was nerdsniped into thinking about
 optimization strategies. It turns out I'm not the first, other players have
 tried to solve this problem (e.g. [this one](https://www.d4-paragon.com/))
 
-However, I tried those solvers out and could see with my own eyes it missed a lower cost path.
+However, I tried the existing solutions and could see with my own eyes they missed a lower cost path.
 Thinking about it, I recalled **[Steiner Trees](https://en.wikipedia.org/wiki/Steiner_tree_problem)** and
-wondered if that applied here and could improve the results.
+wondered if they applied here.
 
-I asked an AI to test this theory, and after some iterations it did produce
+I asked an AI to test some theories, and after some iterations it did produce
 a working solution using Dreyfus-Wagner, and the results do seem far better,
 often finding improved paths.
 
-This repo contains the resulting solution, which appears to work well.
-
-Please note, I haven't validated the algorithm beyond examining the output.
-
-I wrote this README, but the majority of the code was written by AI.
+This repo contains the resulting solution, after some cleanups by me.
 
 ## Features
 

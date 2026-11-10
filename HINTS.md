@@ -25,7 +25,7 @@ for primary-stat glyphs, `+25` for secondary-stat glyphs), this check finds the
 minimum Paragon points needed to activate the bonus:
 
 ```text
-[Glyph Threshold Unmet] Glyph 'Bane' only has 22/25 INT in radius (needs +3 INT to unlock its secondary & legendary bonus). Minimum repair: +2 Paragon points — add INT (+5 INT) at (13, 9), WILL (+5 WILL) at (13, 10) to reach 27/25 INT (+5 INT, +5 WILL) (or use --glyph-strategy=bonus).
+[Glyph Threshold Unmet] Glyph 'Bane' only has 22/25 INT in radius (needs +3 INT to unlock its secondary & legendary bonus). Minimum repair: +2 Paragon points — add INT (+5 INT) at (9, 13), WILL (+5 WILL) at (10, 13) to reach 27/25 INT (+5 INT, +5 WILL) (or use --glyph-strategy=bonus).
 ```
 
 #### Glyph Radius Breakpoint
@@ -62,7 +62,7 @@ nodes to reach (costing 2+ points for a single stat node), checks that the
 glyph threshold stays met if removed, and suggests a 1-point adjacent swap:
 
 ```text
-[-2 pts] Target INT (+5 INT) at (14, 12) costs 2 Paragon points (requires bridge DEX (+5 DEX) at (15, 12)) — disabling it saves 2 points (-5 DEX, -5 INT) ('Nightstalker' stays at 69/25 INT); or swap for 1-pt adjacent DEX (+5 DEX) at (13, 13) to save 1 net point (-5 INT).
+[-2 pts] Target INT (+5 INT) at (12, 14) costs 2 Paragon points (requires bridge DEX (+5 DEX) at (12, 15)) — disabling it saves 2 points (-5 DEX, -5 INT) ('Nightstalker' stays at 69/25 INT); or swap for 1-pt adjacent DEX (+5 DEX) at (13, 13) to save 1 net point (-5 INT).
 ```
 
 If two stat targets share the same bridge node, it also reports the combined
@@ -86,7 +86,7 @@ is the sole target on a leaf board, it also calculates the exact points saved by
 dropping the entire board and re-solving the layout:
 
 ```text
-[-17 pts] Enabling Legendary 'Danse Macabre' at (10, 7) costs 11 Paragon points (1 target + 10 path nodes, -25 DEX, -10 INT, -15 STR) (sole target on this leaf board: removing the whole board saves exactly 17 Paragon points with the layout re-solved [-40 DEX, -20 INT, -30 STR, -5 WILL]) — consider disabling if not build-critical.
+[-17 pts] Enabling Legendary 'Danse Macabre' at (7, 10) costs 11 Paragon points (1 target + 10 path nodes, -25 DEX, -10 INT, -15 STR) (sole target on this leaf board: removing the whole board saves exactly 17 Paragon points with the layout re-solved [-40 DEX, -20 INT, -30 STR, -5 WILL]) — consider disabling if not build-critical.
 ```
 
 #### Cluster Spur & Periphery Cost
@@ -96,7 +96,7 @@ radius, along with how many points you can save by keeping the Rare node and
 dropping the outer Magic nodes:
 
 ```text
-[-8 pts] Rare 'Spearhead' cluster around (3, 5) (6 target nodes) requires 2 dedicated path nodes — disabling this cluster saves 8 Paragon points (-5 DEX, -5 STR); or keep Rare 'Spearhead' and drop 3 leaf Magic nodes ((4, 5), (2, 6), (2, 5)) to save 3 points.
+[-8 pts] Rare 'Spearhead' cluster around (5, 3) (6 target nodes) requires 2 dedicated path nodes — disabling this cluster saves 8 Paragon points (-5 DEX, -5 STR); or keep Rare 'Spearhead' and drop 3 leaf Magic nodes ((5, 4), (6, 2), (5, 2)) to save 3 points.
 ```
 
 #### Alternative Board (Unused Legendary Node)
@@ -122,7 +122,7 @@ for **0–2 additional points**—including nodes 3–4 steps away that can be
 reached for 1 point by shifting your connecting corridor:
 
 ```text
-[Reroute +1-Pt Rare/Legendary] Unselected Rare 'Skulker' at (13, 5) (with 3 adjacent Magic cluster nodes) is 3 steps from your current path, but rerouting 7 path nodes unlocks it for only +1 additional Paragon point (-10 DEX, +5 INT, -5 STR, +10 WILL).
+[Reroute +1-Pt Rare/Legendary] Unselected Rare 'Skulker' at (5, 13) (with 3 adjacent Magic cluster nodes) is 3 steps from your current path, but rerouting 7 path nodes unlocks it for only +1 additional Paragon point (-10 DEX, +5 INT, -5 STR, +10 WILL).
 ```
 
 #### Glyph Socket Swap

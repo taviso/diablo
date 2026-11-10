@@ -244,38 +244,54 @@ class TestParagonOptimizer(unittest.TestCase):
         self.assertEqual(ctx.primary_stat, "DEX")
 
     def test_finding_4_whole_board_removal_and_leaf_guard(self):
-        """Verify whole-board removal reports full child+parent stat loss and requires a 1-exit leaf board."""
+        """Verify Legendary nodes are never flagged by High-Cost Target Spur, while board_removal and Rare spurs work."""
+        # Legendary 'Danse Macabre' on Board #5 should NOT be flagged as a High-Cost Target Spur
         danse_hints = [
             h for h in self.hints if h.board_index == 5 and h.category == "High-Cost Target Spur"
         ]
-        self.assertEqual(len(danse_hints), 1)
-        h = danse_hints[0]
-        self.assertEqual(h.points_delta, 17)
-        self.assertIn(
-            "removing the whole board saves exactly 17 Paragon points with the layout re-solved "
-            "[-40 DEX, -20 INT, -30 STR, -5 WILL]",
-            h.message,
-        )
+        self.assertEqual(danse_hints, [])
 
-        # Verify against full 4-board re-optimization without board #5
+        # Verify HintContext.board_removal() matches full 4-board re-optimization without board #5
+        ctx5 = HintContext(5, self.boards[4], self.boards)
+        removal = ctx5.board_removal()
+        self.assertIsNotNone(removal)
+        effective_saved, full_deltas = removal
+        self.assertEqual(effective_saved, 17)
+        self.assertEqual(dict(full_deltas), {"DEX": -40, "INT": -20, "STR": -30, "WILL": -5})
+
         four_boards = [ParagonBoard(entry, self.meta) for entry in self.sample_raw[:4]]
         four_boards = optimize_layout_and_paths(four_boards, solver="auto")
         self.assertEqual(sum(len(b.purchased_nodes()) for b in four_boards), 241 - 17)
 
-        # Verify a sole-target transit board (2 active exits) does NOT claim whole-board removal
-        # and does not emit a Legendary Spur Cost hint
-        transit_b = copy.deepcopy(self.boards[4])
+        # Verify an isolated Rare target on a leaf board reports whole-board removal,
+        # whereas a transit board (2 active exits) does not claim whole-board removal
+        rare_boards = copy.deepcopy(self.boards)
+        leaf_b = rare_boards[4]
+        sole_u = next(iter(leaf_b.target_nodes))
+        leaf_b.grid_type[sole_u] = NODE_TYPE.RARE
+        r_ctx = HintContext(5, leaf_b, rare_boards)
+        spur_pass = next(
+            fn for name, fn in __import__("paragon.hints", fromlist=["HINT_PASSES"]).HINT_PASSES
+            if "Single Target" in name
+        )
+        r_hints = spur_pass(r_ctx)
+        self.assertEqual(len(r_hints), 1)
+        self.assertEqual(r_hints[0].points_delta, 17)
+        self.assertIn(
+            "removing the whole board saves exactly 17 Paragon points with the layout re-solved "
+            "[-40 DEX, -20 INT, -30 STR, -5 WILL]",
+            r_hints[0].message,
+        )
+
         # Add a 2nd active exit gate to simulate a transit board
         for ec in EXIT_COORDS.values():
-            if ec not in transit_b.selected_nodes:
-                transit_b.selected_nodes.add(ec)
+            if ec not in leaf_b.selected_nodes:
+                leaf_b.selected_nodes.add(ec)
                 break
-        t_ctx = HintContext(5, transit_b, self.boards)
-        t_hints = [
-            th for name, fn in [p for p in __import__("paragon.hints", fromlist=["HINT_PASSES"]).HINT_PASSES if "Single Target" in p[0]]
-            for th in fn(t_ctx)
-        ]
-        self.assertEqual(t_hints, [])
+        t_ctx = HintContext(5, leaf_b, rare_boards)
+        t_hints = spur_pass(t_ctx)
+        self.assertEqual(len(t_hints), 1)
+        self.assertNotIn("removing the whole board", t_hints[0].message)
 
     def test_finding_5_and_6_glyph_swaps_and_barebones_socket(self):
         """Verify barebones glyph board requires socket and cross-board swaps respect incoming radius."""

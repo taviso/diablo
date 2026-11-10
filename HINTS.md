@@ -80,13 +80,13 @@ also be cleared automatically with `--relax-path-nodes`).
 
 #### High-Cost Target Spur
 
-Flags isolated Rare/Magic targets—or a Legendary node that is the only target
-on a leaf board—sitting at the end of a long dedicated spur (3+ points). If it
-is the sole target on a leaf board, it also calculates the exact points saved by
-dropping the entire board and re-solving the layout:
+Flags isolated Rare or Magic targets sitting at the end of a long dedicated spur
+(3+ points). (Legendary nodes are excluded, as they are build-defining.) If the
+node is the sole target on a leaf board, it also calculates the exact points
+saved by dropping the entire board and re-solving the layout:
 
 ```text
-[-17 pts] Enabling Legendary 'Danse Macabre' at (7, 10) costs 11 Paragon points (1 target + 10 path nodes, -25 DEX, -10 INT, -15 STR) (sole target on this leaf board: removing the whole board saves exactly 17 Paragon points with the layout re-solved [-40 DEX, -20 INT, -30 STR, -5 WILL]) — consider disabling if not build-critical.
+[-5 pts] Enabling Rare 'Culler' at (15, 2) costs 5 Paragon points (1 target + 4 path nodes, -15 DEX, -15 STR) — consider disabling if not build-critical.
 ```
 
 #### Cluster Spur & Periphery Cost

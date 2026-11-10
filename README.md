@@ -251,7 +251,7 @@ The checks currently available include (see [HINTS.md](HINTS.md) for full detail
 - **Secondary Glyph Over-Invested**: Points wasted stacking a secondary-stat glyph past its `+25` threshold.
 - **In-Radius 1-Pt Upgrade**: Unselected stat or `+7` Magic nodes in a glyph radius directly adjacent to your path.
 - **Inefficient Stat Target**: Stat nodes requiring 2+ point detours, with cheaper adjacent swap suggestions.
-- **High-Cost Spurs & Clusters**: Point cost of isolated Rare/Legendary spurs and trimmable Magic cluster leaves.
+- **High-Cost Spurs & Clusters**: Point cost of isolated Rare/Magic spurs and trimmable Magic cluster leaves.
 - **Alternative Board**: Cheaper unused boards from your class pool when a board's Legendary node is not used.
 - **Nearby Rare & Legendary Nodes**: Unselected Rare or Legendary nodes reachable for 0–2 points.
 - **Glyph Socket Swap**: Cross-board glyph swaps that give higher scaling for 0 points.

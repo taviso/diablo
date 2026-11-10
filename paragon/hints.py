@@ -796,7 +796,7 @@ def _hint_pass_stat_target_swaps(ctx: HintContext) -> list[Hint]:
 @register_hint_pass("High-Cost Single Target Nodes & Parent Gate Spurs")
 def _hint_pass_high_cost_single_targets(ctx: HintContext) -> list[Hint]:
     """
-    Detect Legendary, Rare, or Magic single target nodes that require long dedicated path spurs,
+    Detect Rare or Magic single target nodes that require long dedicated path spurs,
     including cascading parent-board exit gate spurs when a leaf board has a single target.
     """
     b = ctx.board
@@ -806,9 +806,7 @@ def _hint_pass_high_cost_single_targets(ctx: HintContext) -> list[Hint]:
         if u == b.glyph_coord or u in b.auto_glyph_bonus_nodes or (b.is_starter_board() and u == STARTER_START_COORD):
             continue
         nt = b.grid_type[u]
-        if nt not in (NODE_TYPE.LEGENDARY, NODE_TYPE.RARE, NODE_TYPE.MAGIC):
-            continue
-        if nt == NODE_TYPE.LEGENDARY and not ctx.is_sole_target_leaf_board():
+        if nt not in (NODE_TYPE.RARE, NODE_TYPE.MAGIC):
             continue
         # Only test isolated/leaf targets (not interior nodes of a multi-node Rare/Magic cluster)
         target_nbs = [nb for nb in neighbors4(u) if nb in b.target_nodes]
@@ -836,8 +834,6 @@ def _hint_pass_high_cost_single_targets(ctx: HintContext) -> list[Hint]:
                 f" (sole target on this leaf board: removing the whole board saves exactly "
                 f"{effective_saved} Paragon points with the layout re-solved [{full_delta_str}])"
             )
-        elif nt == NODE_TYPE.LEGENDARY:
-            continue
 
         hints.append(
             Hint(

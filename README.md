@@ -256,6 +256,16 @@ The checks currently available include (see [HINTS.md](HINTS.md) for full detail
 - **Nearby Rare & Legendary Nodes**: Unselected Rare or Legendary nodes reachable for 0–2 points.
 - **Glyph Socket Swap**: Cross-board glyph swaps that give higher scaling for 0 points.
 
+## Web Application (`make web`)
+
+You can also bundle the entire optimizer, hints engine, and interactive SVG board visualizer into a **single self-contained static HTML file** (`dist/index.html`) powered by Pyodide (loaded from CDN in a Web Worker) and a fast TypedArray Dreyfus–Wagner inner loop:
+
+```bash
+make web
+```
+
+This produces `dist/index.html` (~174 KB), which can be dropped onto any static webserver or opened locally (e.g. `python3 -m http.server -d dist 8000`).
+
 ## JSON Format
 
 The tool uses the maxroll planner JSON format, where each element represents a board:

@@ -927,6 +927,73 @@ class TestParagonOptimizer(unittest.TestCase):
         self.assertTrue(any("No solution possible within --budget 180" in n for n in notes_180))
         self.assertTrue(any("Suggested Rare/Magic cluster or leaf-board cuts" in n for n in notes_180))
 
+    def test_web_build_and_js_solver(self):
+        """Verify `make web` bundle generation, JS TypedArray DW solver equivalence, and Pyodide bridge code."""
+        import re
+        import subprocess
+        import paragon.solver as solver_mod
+        from paragon import register_external_solver
+        from scripts import build_web
+
+        # 1. Build single-file webapp and verify embedded zip & HTML output
+        build_web.main()
+        dist_html = (build_web.DIST_DIR / "index.html").read_text(encoding="utf-8")
+        self.assertIn("window.__PARAGON_ZIP_B64__", dist_html)
+        self.assertIn("window.__WORKER_SRC__", dist_html)
+        self.assertIn("window.__SAMPLE_BUILDS_B64__", dist_html)
+
+        # 2. Verify JS solveBoardAllExitsTypedArray via register_external_solver matches C++ libsteiner
+        def node_solver(V, w, deg, adj, k, cs, cf, ne, ev, me):
+            req = json.dumps([V, w, deg, adj, k, cs, cf, ne, ev, me])
+            out = subprocess.check_output(
+                [
+                    "node",
+                    "-e",
+                    'const {solveBoardAllExitsTypedArray} = require("./web/worker.js");'
+                    'const a = JSON.parse(require("fs").readFileSync(0, "utf8"));'
+                    "process.stdout.write(JSON.stringify(solveBoardAllExitsTypedArray(...a)));",
+                ],
+                input=req.encode("utf-8"),
+            )
+            return json.loads(out.decode("utf-8"))
+
+        orig_lib = solver_mod.NATIVE_LIB
+        try:
+            solver_mod.NATIVE_LIB = None
+            register_external_solver(node_solver)
+            js_boards = [ParagonBoard(e, self.meta) for e in self.sample_raw]
+            js_boards = optimize_layout_and_paths(js_boards, solver="dw")
+            self.assertEqual(
+                [b.selected_nodes for b in js_boards],
+                [b.selected_nodes for b in self.boards],
+            )
+        finally:
+            solver_mod.NATIVE_LIB = orig_lib
+            register_external_solver(None)
+
+        # 3. Verify the Python bridge inside web/worker.js runs end-to-end
+        worker_js = (build_web.WEB_DIR / "worker.js").read_text(encoding="utf-8")
+        m = re.search(r"const PYTHON_BRIDGE_CODE = `([\s\S]*?)`;", worker_js)
+        self.assertIsNotNone(m)
+        bridge_ns: dict = {}
+        exec(m.group(1), bridge_ns)
+        raw_str = json.dumps(self.sample_raw)
+        res = json.loads(
+            bridge_ns["web_run_pipeline"](
+                raw_str,
+                json.dumps({
+                    "glyph_strategy": "bonus",
+                    "relax_path_nodes": True,
+                    "budget": 342,
+                    "enable_hints": True,
+                }),
+            )
+        )
+        self.assertEqual(res["original_points"], 241)
+        self.assertEqual(res["optimized_points"], 194)
+        self.assertEqual(res["points_saved"], 47)
+        self.assertEqual(len(res["boards"]), 5)
+
 
 if __name__ == "__main__":
     unittest.main()

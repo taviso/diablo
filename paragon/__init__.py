@@ -55,10 +55,12 @@ from .hints import (
     run_optimization_hints,
 )
 from .solver import (
+    EXTERNAL_SOLVER_FN,
     NATIVE_LIB,
     find_z3_bin,
     load_native_solver,
     optimize_layout_and_paths,
+    register_external_solver,
     solve_board_exact,
     solve_glyph_threshold_repair,
     solve_layout_without,
@@ -79,6 +81,7 @@ __all__ = [
     "DEFAULT_META_DATA_PATH",
     "DIR_DELTA",
     "EXIT_COORDS",
+    "EXTERNAL_SOLVER_FN",
     "GLYPH_DATA",
     "GLYPH_STRATEGY_ALIASES",
     "HINT_PASSES",
@@ -115,6 +118,7 @@ __all__ = [
     "print_budget_report",
     "print_hints",
     "print_summary",
+    "register_external_solver",
     "register_hint_pass",
     "resolve_glyph_strategy",
     "run_optimization_hints",

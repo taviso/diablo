@@ -6,9 +6,12 @@ TARGET   := libsteiner.so
 SRC      := libsteiner.cpp
 OBJ      := $(SRC:.cpp=.o)
 
-.PHONY: all clean check test
+.PHONY: all clean check test web
 
 all: $(TARGET)
+
+web:
+	python3 scripts/build_web.py
 
 $(TARGET): $(OBJ)
 	$(CXX) $(LDFLAGS) -o $@ $^
@@ -21,4 +24,4 @@ check test: $(TARGET)
 	python3 -m unittest discover -s tests -v
 
 clean:
-	$(RM) $(TARGET) $(OBJ)
+	$(RM) $(TARGET) $(OBJ) dist/index.html

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diablo 4 Optimal Paragon Board Planner & Steiner Tree Solver</title>
+  <style>
+/*__INLINE_CSS__*/
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <span>D4 Paragon Optimizer</span>
+      <span class="brand-badge">Exact Steiner Tree + Layout Solver</span>
+    </div>
+    <div class="top-actions">
+      <div class="worker-status" aria-live="polite">
+        <span id="status-dot" class="status-dot"></span>
+        <span id="status-text">Initializing Pyodide...</span>
+      </div>
+      <a href="https://github.com/taviso/diablo" class="btn-link" target="_blank" rel="noopener noreferrer" aria-label="View source on GitHub">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+        </svg>
+        <span>GitHub</span>
+      </a>
+      <button type="button" id="btn-paste-json">Import / Export JSON</button>
+      <button type="button" id="btn-optimize" class="btn-primary">Optimize Build</button>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <aside class="sidebar" aria-label="Optimization Controls">
+      <div class="control-group">
+        <label class="control-label" for="sample-select">Sample / Loaded Build</label>
+        <select id="sample-select"></select>
+        <div id="profile-group" hidden style="margin-top:0.35rem">
+          <label class="control-label" for="profile-select" style="margin-bottom:0.2rem">Maxroll Profile</label>
+          <select id="profile-select" style="width:100%"></select>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="glyph-strategy-select">
+          <span>Glyph Strategy</span>
+          <code style="font-size:0.7rem">--glyph-strategy</code>
+        </label>
+        <select id="glyph-strategy-select">
+          <option value="preserve">Preserve Already Selected (Default)</option>
+          <option value="bonus">Reach Bonus Threshold</option>
+          <option value="max">Maximize Bonus Stat</option>
+          <option value="none">Ignore Glyph Radius</option>
+        </select>
+        <p class="control-help">You can also override individual Glyphs using the dropdown on each board card.</p>
+      </div>
+
+      <div class="control-group">
+        <span class="control-label">
+          <span>Path & Hint Options</span>
+        </span>
+        <label class="checkbox-row">
+          <input type="checkbox" id="relax-checkbox" checked>
+          <span>Allow Repathing (<code>--relax-path-nodes</code>)</span>
+        </label>
+        <p class="control-help">Demotes exported +5 stat corridor nodes outside Glyph requirements so the solver can reroute them.</p>
+        <label class="checkbox-row" style="margin-top:0.25rem">
+          <input type="checkbox" id="hints-checkbox" checked>
+          <span>Generate Build Tips (<code>--hints</code>)</span>
+        </label>
+        <p class="control-help">Suggest changes that could improve build.</p>
+      </div>
+
+      <div class="control-group">
+        <div class="control-label">
+          <span>Tie-Breaker Priority</span>
+          <button type="button" id="btn-clear-stats" style="padding:0.1rem 0.4rem;font-size:0.7rem">Reset</button>
+        </div>
+        <div id="stat-chips" class="stat-stack" role="list"></div>
+        <div id="drag-live-region" class="visually-hidden" aria-live="polite"></div>
+        <p class="control-help">Drag handle (or use ↑/↓) to reorder path tie-breakers (<code>--prioritize-stat</code>).</p>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="budget-input">
+          <span>Point Budget</span>
+          <code style="font-size:0.7rem">--budget</code>
+        </label>
+        <input type="number" id="budget-input" min="0" max="400" step="1" value="342">
+        <p class="control-help">Max Paragon points (342 default; 0 for unlimited).</p>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="view-mode-select">Board View Mode</label>
+        <select id="view-mode-select">
+          <option value="optimized">Optimized Build</option>
+          <option value="diff">Diff View (+Added / -Saved vs. Input)</option>
+          <option value="original">Original Input Build</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <div class="control-label">2D Board Layout (Click to Jump)</div>
+        <div id="layout-minimap" class="layout-minimap"></div>
+      </div>
+    </aside>
+
+    <div class="main-stage">
+      <section id="summary-banner" class="summary-banner" aria-label="Build Optimization Summary"></section>
+      <div id="budget-alert-container"></div>
+
+      <div id="boards-container" class="boards-container"></div>
+    </div>
+  </main>
+
+  <dialog id="json-dialog" aria-labelledby="json-dialog-title">
+    <div class="dialog-header">
+      <h2 id="json-dialog-title">Import / Export Build JSON</h2>
+      <form id="json-dialog-form" method="dialog" class="dialog-header-actions">
+        <button id="btn-cancel-dialog" value="cancel" formnovalidate aria-label="Cancel changes">Cancel</button>
+        <button id="btn-close-dialog" value="close" class="btn-primary" aria-label="Save changes">Save</button>
+      </form>
+    </div>
+    <p id="json-dialog-help" class="control-help" style="margin-bottom:0.5rem">
+    Enter the code provided from the <code>Export / Import JSON</code> feature on the <a href="https://maxroll.gg/d4/planner/">Maxroll D4 Planner</a>.
+    </p>
+    <textarea id="json-textarea" class="json-textarea" aria-labelledby="json-dialog-title" aria-describedby="json-dialog-help dialog-error" autocorrect="off" autocapitalize="none" spellcheck="false" autofocus></textarea>
+    <div id="dialog-error" class="dialog-error" aria-live="polite"></div>
+  </dialog>
+
+  <script>
+/*__INLINE_JS_PAYLOAD__*/
+  </script>
+</body>
+</html>

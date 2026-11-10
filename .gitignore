@@ -2,3 +2,4 @@
 *.so
 .*.sw?
 __pycache__/
+dist/

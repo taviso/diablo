@@ -75,6 +75,19 @@ def load_native_solver():
 
 
 NATIVE_LIB = load_native_solver()
+EXTERNAL_SOLVER_FN = None
+
+
+def register_external_solver(fn):
+    """
+    Register an external flat-array Dreyfus-Wagner solver callback (e.g. TypedArray JS / WASM in Pyodide).
+    Signature:
+        fn(V, weights, deg_list, adj_flat, k_base, comp_sizes, comp_flat, num_exits, exit_v_indices, max_active_exits)
+        -> (out_costs, out_sel)
+    """
+    global EXTERNAL_SOLVER_FN
+    EXTERNAL_SOLVER_FN = fn
+    solve_board_exact.cache_clear() if hasattr(solve_board_exact, "cache_clear") else None
 
 DEFAULT_Z3_TIMEOUT_SEC = 30
 
@@ -810,7 +823,8 @@ def solve_board_exact(
             is_valid_selection,
         )
 
-    max_dw_bits = 17 if NATIVE_LIB is not None else 12
+    has_fast_dw = (NATIVE_LIB is not None) or (EXTERNAL_SOLVER_FN is not None)
+    max_dw_bits = 17 if has_fast_dw else 12
     if solver == "milp" or (solver == "auto" and total_bits > 16):
         try:
             return _solve_board_milp(
@@ -845,33 +859,47 @@ def solve_board_exact(
         raise RuntimeError(
             f"Board '{board.board_type_id}' has too many disconnected target clusters "
             f"({k_base} components / {total_bits} bits after reduction) for "
-            f"{'native C++' if NATIVE_LIB is not None else 'pure-Python'} Dreyfus-Wagner DP; "
+            f"{'native C++' if has_fast_dw else 'pure-Python'} Dreyfus-Wagner DP; "
             f"install 'scipy' (--solver milp) or 'z3' (--solver z3)."
         )
 
-    if NATIVE_LIB is not None:
-        w_arr = (ctypes.c_double * V)(*weights)
+    if NATIVE_LIB is not None or EXTERNAL_SOLVER_FN is not None:
         deg_list = [len(a) for a in adj]
         adj_flat = [x for a in adj for x in a]
-        deg_arr = (ctypes.c_int * V)(*deg_list)
-        adj_arr = (ctypes.c_int * len(adj_flat))(*adj_flat)
-        comp_sizes = (ctypes.c_int * k_base)(*[len(c) for c in comps])
+        comp_sizes_list = [len(c) for c in comps]
         comp_flat = [vert_idx[u] for c in comps for u in sorted(c)]
-        comp_arr = (ctypes.c_int * len(comp_flat))(*comp_flat)
-        exit_arr = (ctypes.c_int * len(exit_v_indices))(*exit_v_indices)
-        out_costs = (ctypes.c_double * num_emasks)()
-        out_sel = (ctypes.c_uint8 * (num_emasks * V))()
 
-        status = NATIVE_LIB.solve_board_all_exits(
-            V, w_arr, deg_arr, adj_arr,
-            k_base, comp_sizes, comp_arr,
-            num_exits, exit_arr, eff_max_exits,
-            out_costs, out_sel,
-        )
-        if status != 0:
-            raise RuntimeError(
-                f"Native Steiner solver failed on board '{board.board_type_id}' (status={status})."
+        if NATIVE_LIB is not None:
+            w_arr = (ctypes.c_double * V)(*weights)
+            deg_arr = (ctypes.c_int * V)(*deg_list)
+            adj_arr = (ctypes.c_int * len(adj_flat))(*adj_flat)
+            comp_sizes = (ctypes.c_int * k_base)(*comp_sizes_list)
+            comp_arr = (ctypes.c_int * len(comp_flat))(*comp_flat)
+            exit_arr = (ctypes.c_int * len(exit_v_indices))(*exit_v_indices)
+            out_costs = (ctypes.c_double * num_emasks)()
+            out_sel = (ctypes.c_uint8 * (num_emasks * V))()
+
+            status = NATIVE_LIB.solve_board_all_exits(
+                V, w_arr, deg_arr, adj_arr,
+                k_base, comp_sizes, comp_arr,
+                num_exits, exit_arr, eff_max_exits,
+                out_costs, out_sel,
             )
+            if status != 0:
+                raise RuntimeError(
+                    f"Native Steiner solver failed on board '{board.board_type_id}' (status={status})."
+                )
+        else:
+            ext_res = EXTERNAL_SOLVER_FN(
+                V, weights, deg_list, adj_flat,
+                k_base, comp_sizes_list, comp_flat,
+                num_exits, exit_v_indices, eff_max_exits,
+            )
+            if ext_res is None:
+                raise RuntimeError(
+                    f"External Steiner solver failed on board '{board.board_type_id}'."
+                )
+            out_costs, out_sel = ext_res
 
         results = {}
         for emask in range(num_emasks):

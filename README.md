@@ -1,5 +1,11 @@
 # Diablo 4 Paragon Board Optimizer
 
+[![Try the Web Version](https://img.shields.io/badge/Try_the_Web_Version-%E2%86%92-d89b3c?style=for-the-badge)](https://taviso.github.io/diablo/#build=Minion_Endgame_Warlock)
+
+*Or read below for a description of how it works and command-line options.*
+
+---
+
 The game Diablo 4 has a complex stat system called Paragon. You choose a
 selection of up to 5 "Paragon Boards" from your class's set of 9-10 boards,
 which can be rotated and connected in a mostly arbitrary arrangement.

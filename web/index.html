@@ -46,13 +46,13 @@
           <span>Glyph Strategy</span>
           <code style="font-size:0.7rem">--glyph-strategy</code>
         </label>
-        <select id="glyph-strategy-select">
-          <option value="preserve">Preserve Already Selected (Default)</option>
-          <option value="bonus">Reach Bonus Threshold</option>
-          <option value="max">Maximize Bonus Stat</option>
-          <option value="none">Ignore Glyph Radius</option>
+        <select id="glyph-strategy-select" aria-describedby="glyph-strategy-help" title="Leaves your selected stat nodes around each Glyph untouched (shown with a white border) and only optimizes the connecting paths between them.">
+          <option value="preserve" title="Leaves your selected stat nodes around each Glyph untouched (shown with a white border) and only optimizes the connecting paths between them.">Keep Existing Glyph Nodes (Default)</option>
+          <option value="bonus" title="Selects only the minimum number of nodes in the Glyph radius needed to activate the Glyph's secondary bonus (e.g., 25 or 40 stat), freeing excess radius points.">Reach Bonus Threshold</option>
+          <option value="max" title="Selects every matching stat node inside the Glyph radius to maximize the Glyph's additive/multiplicative scaling.">Maximize Bonus Stat</option>
+          <option value="none" title="Treats Glyph radius stat nodes like normal path nodes, routing only the shortest path to the Glyph socket without targeting radius bonuses.">Ignore Glyph Radius</option>
         </select>
-        <p class="control-help">You can also override individual Glyphs using the dropdown on each board card.</p>
+        <p id="glyph-strategy-help" class="control-help">Leaves your selected stat nodes around each Glyph untouched (shown with a white border) and only optimizes the connecting paths between them.</p>
       </div>
 
       <div class="control-group">

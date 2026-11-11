@@ -39,9 +39,19 @@
     WILL:  { label: "WILL (Willpower)", color: "#47a8b5" },
   };
 
+  const GLYPH_STRATEGY_DESCRIPTIONS = {
+    default: "Uses the global Glyph Strategy selected in the left sidebar.",
+    preserve:
+      "Leaves your selected stat nodes around each Glyph untouched (shown with a white border) and only optimizes the connecting paths between them.",
+    bonus:
+      "Selects only the minimum number of nodes in the Glyph radius needed to activate the Glyph's secondary bonus (e.g., 25 or 40 stat), freeing excess radius points.",
+    max: "Selects every matching stat node inside the Glyph radius to maximize the Glyph's additive/multiplicative scaling.",
+    none: "Treats Glyph radius stat nodes like normal path nodes, routing only the shortest path to the Glyph socket without targeting radius bonuses.",
+  };
+
   const GLYPH_STRATEGY_OPTIONS = [
     ["default", "Use Global Strategy"],
-    ["preserve", "Preserve Already Selected"],
+    ["preserve", "Keep Existing Glyph Nodes"],
     ["bonus", "Reach Bonus Threshold"],
     ["max", "Maximize Bonus Stat"],
     ["none", "Ignore Glyph Radius"],
@@ -77,6 +87,7 @@
   const btnPasteJson = document.getElementById("btn-paste-json");
   const btnOptimize = document.getElementById("btn-optimize");
   const glyphStrategySelect = document.getElementById("glyph-strategy-select");
+  const glyphStrategyHelp = document.getElementById("glyph-strategy-help");
   const relaxCheckbox = document.getElementById("relax-checkbox");
   const hintsCheckbox = document.getElementById("hints-checkbox");
   const budgetInput = document.getElementById("budget-input");
@@ -382,11 +393,13 @@
         glyphBadge = `<span class="badge ${gStatusCls}" title="Socketed Glyph (Lv.${b.glyph_level}, Radius ${b.glyph_radius})">Glyph: ${escapeHtml(b.glyph_name)} (${gThreshStr.trim()})</span>`;
 
         const curOverride = state.perGlyphOverrides[b.glyph_name] || "default";
+        const curTip = GLYPH_STRATEGY_DESCRIPTIONS[curOverride] || "";
         const optionsHtml = GLYPH_STRATEGY_OPTIONS.map(
-          ([val, label]) => `<option value="${val}" ${curOverride === val ? "selected" : ""}>${label}</option>`
+          ([val, label]) =>
+            `<option value="${val}" title="${escapeHtml(GLYPH_STRATEGY_DESCRIPTIONS[val] || "")}" ${curOverride === val ? "selected" : ""}>${label}</option>`
         ).join("");
         glyphOverrideSelect = `
-          <select class="glyph-override-select" data-glyph="${escapeHtml(b.glyph_name)}" title="Per-Glyph strategy override for ${escapeHtml(b.glyph_name)}" style="padding:0.15rem 0.4rem;font-size:0.74rem">
+          <select class="glyph-override-select" data-glyph="${escapeHtml(b.glyph_name)}" title="${escapeHtml(curTip)}" style="padding:0.15rem 0.4rem;font-size:0.74rem">
             ${optionsHtml}
           </select>
         `;
@@ -415,6 +428,7 @@
         overrideSel.addEventListener("change", (ev) => {
           const gName = ev.target.getAttribute("data-glyph");
           const val = ev.target.value;
+          ev.target.title = GLYPH_STRATEGY_DESCRIPTIONS[val] || "";
           if (val === "default") delete state.perGlyphOverrides[gName];
           else state.perGlyphOverrides[gName] = val;
           markDirty();
@@ -1015,6 +1029,9 @@
 
   glyphStrategySelect.addEventListener("change", (ev) => {
     state.globalGlyphStrategy = ev.target.value;
+    const desc = GLYPH_STRATEGY_DESCRIPTIONS[state.globalGlyphStrategy] || "";
+    glyphStrategySelect.title = desc;
+    if (glyphStrategyHelp) glyphStrategyHelp.textContent = desc;
     markDirty();
   });
 

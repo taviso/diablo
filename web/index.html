@@ -46,13 +46,13 @@
           <span>Glyph Strategy</span>
           <code style="font-size:0.7rem">--glyph-strategy</code>
         </label>
-        <select id="glyph-strategy-select" aria-describedby="glyph-strategy-help" title="Leaves selected nodes (those shown with a white border) inside Glyph radius untouched and only optimizes the connecting paths between them.">
-          <option value="preserve" title="Leaves selected nodes (those shown with a white border) inside Glyph radius untouched and only optimizes the connecting paths between them.">Keep Existing Glyph Nodes (Default)</option>
+        <select id="glyph-strategy-select" aria-describedby="glyph-strategy-help" title="Keeps selected nodes inside Glyph radius untouched, and only optimizes the connecting paths between them.">
+          <option value="preserve" title="Keeps selected nodes inside Glyph radius untouched, and only optimizes the connecting paths between them.">Keep Existing Glyph Nodes (Default)</option>
           <option value="bonus" title="Selects only the minimum number of nodes in the Glyph radius needed to activate the Glyph's secondary bonus (e.g., 25 or 40 stat).">Reach Bonus Threshold</option>
           <option value="max" title="Selects every matching stat node inside the Glyph radius to maximize the Glyph's additive/multiplicative scaling.">Maximize Bonus Stat</option>
           <option value="none" title="Treats Glyph radius stat nodes like normal path nodes, routing only the shortest path to the Glyph socket.">Ignore Glyph Radius</option>
         </select>
-        <p id="glyph-strategy-help" class="control-help">Leaves selected nodes (those shown with a white border) inside Glyph radius untouched and only optimizes the connecting paths between them.</p>
+        <p id="glyph-strategy-help" class="control-help">Keeps <abbr title="Those shown with a white border">selected</abbr> nodes inside Glyph radius untouched, and only optimizes the connecting paths between them.</p>
       </div>
 
       <div class="control-group">
@@ -78,7 +78,7 @@
         </div>
         <div id="stat-chips" class="stat-stack" role="list"></div>
         <div id="drag-live-region" class="visually-hidden" aria-live="polite"></div>
-        <p class="control-help">Drag handle (or use ↑/↓) to reorder path tie-breakers (<code>--prioritize-stat</code>). This tells the solver what nodes to prioritize when it finds multiple equal-length paths.</p>
+        <p class="control-help">This tells the solver what nodes to prioritize when it finds multiple equal-length paths.</p>
       </div>
 
       <div class="control-group">

@@ -525,6 +525,7 @@ button:disabled {
 }
 
 .board-card {
+  scroll-margin-top: 4.5rem;
   background: var(--bg-panel);
   border: 1px solid var(--border-subtle);
   border-radius: 10px;

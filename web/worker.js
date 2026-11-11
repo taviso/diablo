@@ -565,13 +565,13 @@ def web_run_pipeline(raw_json_str, options_json_str):
     if (pyodideReadyPromise) return pyodideReadyPromise;
 
     pyodideReadyPromise = (async () => {
-      self.postMessage({ type: "status", status: "loading", detail: "Loading Pyodide WebAssembly runtime from CDN..." });
+      self.postMessage({ type: "status", status: "loading", detail: "Loading optimizer runtime..." });
       const pyodideModule = await import("https://cdn.jsdelivr.net/pyodide/v0.27.3/full/pyodide.mjs");
       const pyodide = await pyodideModule.loadPyodide({
         indexURL: "https://cdn.jsdelivr.net/pyodide/v0.27.3/full/",
       });
 
-      self.postMessage({ type: "status", status: "loading", detail: "Unpacking Paragon Optimizer engine..." });
+      self.postMessage({ type: "status", status: "loading", detail: "Loading Paragon board data..." });
       const binStr = atob(self.PARAGON_ZIP_B64);
       const bytes = new Uint8Array(binStr.length);
       for (let i = 0; i < binStr.length; i++) {
@@ -590,7 +590,7 @@ def web_run_pipeline(raw_json_str, options_json_str):
       registerFn.destroy();
 
       pyodideInstance = pyodide;
-      self.postMessage({ type: "status", status: "ready", detail: "Optimizer Ready (Pyodide + TypedArray DW)" });
+      self.postMessage({ type: "status", status: "ready", detail: "Ready" });
       return pyodide;
     })();
 

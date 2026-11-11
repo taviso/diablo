@@ -39,14 +39,9 @@
     WILL:  { label: "WILL (Willpower)", color: "#47a8b5" },
   };
 
+  // Populated from #glyph-strategy-select <option title="..."> in index.html so strings live in one place
   const GLYPH_STRATEGY_DESCRIPTIONS = {
     default: "Uses the global Glyph Strategy selected in the left sidebar.",
-    preserve:
-      "Leaves your selected stat nodes around each Glyph untouched (shown with a white border) and only optimizes the connecting paths between them.",
-    bonus:
-      "Selects only the minimum number of nodes in the Glyph radius needed to activate the Glyph's secondary bonus (e.g., 25 or 40 stat), freeing excess radius points.",
-    max: "Selects every matching stat node inside the Glyph radius to maximize the Glyph's additive/multiplicative scaling.",
-    none: "Treats Glyph radius stat nodes like normal path nodes, routing only the shortest path to the Glyph socket without targeting radius bonuses.",
   };
 
   const GLYPH_STRATEGY_OPTIONS = [
@@ -88,6 +83,13 @@
   const btnOptimize = document.getElementById("btn-optimize");
   const glyphStrategySelect = document.getElementById("glyph-strategy-select");
   const glyphStrategyHelp = document.getElementById("glyph-strategy-help");
+  if (glyphStrategySelect) {
+    for (const opt of glyphStrategySelect.options) {
+      if (opt.value && opt.title) {
+        GLYPH_STRATEGY_DESCRIPTIONS[opt.value] = opt.title;
+      }
+    }
+  }
   const relaxCheckbox = document.getElementById("relax-checkbox");
   const hintsCheckbox = document.getElementById("hints-checkbox");
   const budgetInput = document.getElementById("budget-input");
@@ -191,7 +193,7 @@
     boardsContainer.classList.add("is-optimizing");
     boardsContainer.setAttribute("aria-busy", "true");
     layoutMinimap.classList.add("is-optimizing");
-    setStatus("busy", previewOnly ? "Parsing build..." : "Optimizing Steiner trees & 2D layout...");
+    setStatus("busy", previewOnly ? "Loading build..." : "Optimizing board paths & layout...");
 
     try {
       const res = await callWorker("run_pipeline", {
@@ -221,7 +223,7 @@
       state.needsOptimize = previewOnly;
       updateProfileSelector(res.profiles || []);
       renderAll(res);
-      setStatus("ready", previewOnly ? "Build loaded (unoptimized preview)" : `Optimized in ${res.solve_ms} ms`);
+      setStatus("ready", previewOnly ? "Solver Loaded" : `Optimized in ${res.solve_ms} ms`);
     } catch (err) {
       setStatus("error", err.message || String(err));
       alert("Optimization Error:\n" + (err.message || String(err)));
@@ -351,8 +353,8 @@
     layoutMinimap.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 78px))`;
     layoutMinimap.innerHTML = "";
 
-    // Render top-to-bottom (higher y at top, matching in-game screen layout)
-    for (let y = maxY; y >= minY; y--) {
+    // Render top-to-bottom (smaller y at top since TOP exit is dy = -1)
+    for (let y = minY; y <= maxY; y++) {
       for (let x = minX; x <= maxX; x++) {
         const b = byCoord.get(`${x},${y}`);
         const cell = document.createElement("div");
@@ -667,7 +669,7 @@
       board.target_count += 1;
     }
 
-    state.rawJsonStr = JSON.stringify(state.lastResult.raw_boards, null, 2);
+    state.rawJsonStr = JSON.stringify(state.lastResult.raw_boards);
     applyCellVisuals(cell, rect, txt, pal);
     updateInspectorText(cell, inspectorEl);
     markDirty();
@@ -913,7 +915,7 @@
   async function loadSample(sampleKey, updateHash = true) {
     const samples = await ensureSampleBuilds();
     if (!samples[sampleKey]) return;
-    loadBuildJson(JSON.stringify(samples[sampleKey], null, 2), sampleKey, updateHash);
+    loadBuildJson(JSON.stringify(samples[sampleKey]), sampleKey, updateHash);
   }
 
   function escapeHtml(str) {
@@ -974,7 +976,7 @@
 
   btnPasteJson.addEventListener("click", () => {
     if (state.isOptimized && state.lastResult && state.lastResult.output_json) {
-      jsonTextarea.value = JSON.stringify(state.lastResult.output_json, null, 2);
+      jsonTextarea.value = JSON.stringify(state.lastResult.output_json);
     } else {
       jsonTextarea.value = state.rawJsonStr;
     }

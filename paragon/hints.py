@@ -1225,7 +1225,7 @@ def _hint_pass_cluster_marginal_cost(ctx: HintContext) -> list[Hint]:
         pts_saved, removed, added = ctx.marginal_ablation(comp, force_exact=True)
         path_overhead = pts_saved - len(comp)
 
-        if path_overhead >= 1 and pts_saved >= 5:
+        if path_overhead >= 1 and pts_saved >= 4:
             delta_str = ctx.format_stat_deltas(removed, added)
             peel_note = (
                 f"; or keep {b.node_label(anchor_c)} and drop {len(peelable_magic)} leaf Magic nodes "
@@ -1245,8 +1245,8 @@ def _hint_pass_cluster_marginal_cost(ctx: HintContext) -> list[Hint]:
                     screen_coords=[sc],
                 )
             )
-        elif pts_saved >= 3 and pts_saved * 2 >= len(comp):
-            # Semi-transit cluster where only 1-2 nodes carry the highway and 3-5 nodes hang off the side
+        elif path_overhead <= 0 and pts_saved >= 3 and pts_saved * 2 >= len(comp):
+            # Semi-transit or side-attached cluster where 0-2 nodes carry the highway and 3-5 nodes hang off the side
             highway_nodes = len(comp) - pts_saved
             delta_str = ctx.format_stat_deltas(removed, added)
             peel_note = (
@@ -1255,13 +1255,17 @@ def _hint_pass_cluster_marginal_cost(ctx: HintContext) -> list[Hint]:
                 if (peelable_magic and rare_coords)
                 else ""
             )
+            usage_desc = (
+                "is not needed for transit on the main path"
+                if highway_nodes == 0
+                else f"only uses {highway_nodes} node{'s' if highway_nodes != 1 else ''} on the main path"
+            )
             hints.append(
                 Hint(
                     ctx.board_index,
                     b,
                     "Transit Cluster Periphery",
-                    f"{cluster_title} around {sc} ({len(comp)} target nodes) only uses {highway_nodes} "
-                    f"node{'s' if highway_nodes != 1 else ''} on the main path — disabling the cluster "
+                    f"{cluster_title} around {sc} ({len(comp)} target nodes) {usage_desc} — disabling the cluster "
                     f"saves {pts_saved} Paragon points ({delta_str}){peel_note}.",
                     points_delta=pts_saved,
                     screen_coords=[sc],
